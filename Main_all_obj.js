@@ -8,7 +8,7 @@ import { createLights } from './lights.js';
 import {
     createAlleModelle,
     createRing
-} from './objects copy.js';
+} from './objects_all_obj.js';
 
 
 // ========================================

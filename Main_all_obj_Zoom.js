@@ -9,7 +9,7 @@ import {
     createAlleModelle,
     createRing,
     getPartName
-} from './objects copy 2.js';
+} from './objects_all_obj_Zoom.js';
 
 
 // ========================================
