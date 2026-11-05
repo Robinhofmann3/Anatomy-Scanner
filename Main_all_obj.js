@@ -8,7 +8,7 @@ import { createLights } from './lights.js';
 import {
     createAlleModelle,
     createRing
-} from './objects_all_obj.js';
+} from './objects_all_obj_organs.js';
 
 
 // ========================================
@@ -124,7 +124,7 @@ const cutout = {
     center: new THREE.Vector3(0, 10, 5),
     axisX: new THREE.Vector3(1, 0, 0),
     axisY: new THREE.Vector3(0, 1, 0),
-    radius: 0.96,
+    radius: 10.96,
     depth: { value: 0 }
 };
 

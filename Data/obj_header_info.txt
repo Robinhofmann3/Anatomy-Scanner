@@ -1,0 +1,2234 @@
+FJ1252 | BP5633 | Gingiva of upper jaw
+FJ1253 | BP5634 | Gingiva of lower jaw
+FJ1254 | BP5462 | Left lower first secondary molar tooth
+FJ1255 | BP5472 | Left lower first secondary premolar tooth
+FJ1256 | BP5459 | Left lower second secondary molar tooth
+FJ1257 | BP5475 | Left lower second secondary premolar tooth
+FJ1258 | BP5447 | Left lower central secondary incisor tooth
+FJ1259 | BP5444 | Left lower lateral secondary incisor tooth
+FJ1260 | BP5480 | Left lower secondary canine tooth
+FJ1261 | BP5455 | Left upper first secondary molar tooth
+FJ1262 | BP5468 | Left upper first secondary premolar tooth
+FJ1263 | BP5453 | Left upper second secondary molar tooth
+FJ1264 | BP5466 | Left upper second secondary premolar tooth
+FJ1265 | BP5440 | Left upper central secondary incisor tooth
+FJ1266 | BP5438 | Left upper lateral secondary incisor tooth
+FJ1267 | BP5482 | Left upper secondary canine tooth
+FJ1268 | BP5461 | Right lower first secondary molar tooth
+FJ1269 | BP5471 | Right lower first secondary premolar tooth
+FJ1270 | BP5458 | Right lower second secondary molar tooth
+FJ1271 | BP5474 | Right lower second secondary premolar tooth
+FJ1272 | BP5446 | Right lower central secondary incisor tooth
+FJ1273 | BP5443 | Right lower lateral secondary incisor tooth
+FJ1274 | BP5479 | Right lower secondary canine tooth
+FJ1275 | BP5452 | Right upper second secondary molar tooth
+FJ1276 | BP7680 | Right upper first secondary molar tooth
+FJ1277 | BP7681 | Right upper first secondary premolar tooth
+FJ1278 | BP7682 | Right upper second secondary premolar tooth
+FJ1279 | BP7683 | Right upper central secondary incisor tooth
+FJ1280 | BP7747 | Right upper lateral secondary incisor tooth
+FJ1281 | BP7684 | Right upper secondary canine tooth
+FJ1282 | BP6493 | Anterior chamber of left eyeball
+FJ1283 | BP5734 | Left anterior ethmoidal nerve
+FJ1284 | BP6508 | Check ligament of left lateral rectus
+FJ1285 | BP5523 | Left choroid
+FJ1286 | BP5523 | Left choroid
+FJ1287 | BP5505 | Left corona ciliaris
+FJ1288 | BP5704 | Left ciliary ganglion
+FJ1289 | BP6523 | Left cornea
+FJ1290 | BP5717 | Left frontal nerve
+FJ1291 | BP6541 | Left common tendinous ring
+FJ1292 | BP6500 | Check ligament of left medial rectus
+FJ1293 | BP5756 | Inferior branch of left oculomotor nerve
+FJ1294 | BP4948 | Left inferior oblique
+FJ1295 | BP4945 | Left inferior rectus
+FJ1296 | BP5728 | Left infratrochlear nerve
+FJ1297 | BP5520 | Left iris
+FJ1298 | BP5765 | Left lacrimal canaliculus
+FJ1299 | BP4634 | Left lacrimal gland
+FJ1300 | BP5746 | Left lacrimal nerve
+FJ1301 | BP6676 | Left lacrimal lake
+FJ1302 | BP5760 | Left nasolacrimal duct
+FJ1304 | BP4942 | Left lateral rectus
+FJ1305 | BP6529 | Left lens
+FJ1306 | BP4939 | Left levator palpebrae superioris
+FJ1308 | BP4935 | Left medial rectus
+FJ1309 | BP5763 | Left lacrimal sac
+FJ1310 | BP5743 | Left nasociliary nerve
+FJ1311 | BP5731 | Communicating branch of left nasociliary nerve with left ciliary ganglion
+FJ1312 | BP5749 | Left ophthalmic nerve
+FJ1313 | BP5709 | Left optic nerve
+FJ1315 | BP5724 | Left posterior ethmoidal nerve
+FJ1316 | BP5501 | Optic part of left retina
+FJ1317 | BP6520 | Left sclera
+FJ1318 | BP5722 | Left long ciliary nerve
+FJ1319 | BP6623 | Short ciliary nerve
+FJ1320 | BP6487 | Suspensory ligament of left lens
+FJ1321 | BP5753 | Superior branch of left oculomotor nerve
+FJ1322 | BP4933 | Left superior oblique
+FJ1323 | BP4930 | Left superior rectus
+FJ1324 | BP4640 | Tarsal plate of left upper eyelid
+FJ1325 | BP5740 | Left supra-orbital nerve
+FJ1326 | BP5737 | Left supratrochlear nerve
+FJ1328 | BP4643 | Tarsal plate of left lower eyelid
+FJ1329 | BP5096 | Trochlea of left superior oblique
+FJ1330 | BP4696 | Left trochlear nerve
+FJ1331 | BP5491 | Left vitreous body
+FJ1332 | BP6492 | Anterior chamber of right eyeball
+FJ1333 | BP5733 | Right anterior ethmoidal nerve
+FJ1334 | BP6507 | Check ligament of right lateral rectus
+FJ1335 | BP6499 | Check ligament of right medial rectus
+FJ1336 | BP5522 | Right choroid
+FJ1337 | BP5522 | Right choroid
+FJ1338 | BP5504 | Right corona ciliaris
+FJ1339 | BP5703 | Right ciliary ganglion
+FJ1340 | BP6522 | Right cornea
+FJ1341 | BP5716 | Right frontal nerve
+FJ1342 | BP6540 | Right common tendinous ring
+FJ1343 | BP6511 | Tendon of right levator palpebrae superioris
+FJ1344 | BP5755 | Inferior branch of right oculomotor nerve
+FJ1345 | BP4947 | Right inferior oblique
+FJ1346 | BP4944 | Right inferior rectus
+FJ1347 | BP5727 | Right infratrochlear nerve
+FJ1348 | BP5519 | Right iris
+FJ1349 | BP5766 | Right lacrimal canaliculus
+FJ1350 | BP4633 | Right lacrimal gland
+FJ1351 | BP5745 | Right lacrimal nerve
+FJ1352 | BP6675 | Right lacrimal lake
+FJ1353 | BP5759 | Right nasolacrimal duct
+FJ1355 | BP4941 | Right lateral rectus
+FJ1356 | BP6530 | Right lens
+FJ1357 | BP4938 | Right levator palpebrae superioris
+FJ1359 | BP4936 | Right medial rectus
+FJ1360 | BP5762 | Right lacrimal sac
+FJ1361 | BP5742 | Right nasociliary nerve
+FJ1362 | BP5730 | Communicating branch of right nasociliary nerve with right ciliary ganglion
+FJ1363 | BP5748 | Right ophthalmic nerve
+FJ1364 | BP5708 | Right optic nerve
+FJ1366 | BP5725 | Right posterior ethmoidal nerve
+FJ1367 | BP5500 | Optic part of right retina
+FJ1368 | BP6519 | Right sclera
+FJ1369 | BP5721 | Right long ciliary nerve
+FJ1370 | BP6623 | Short ciliary nerve
+FJ1371 | BP6488 | Suspensory ligament of right lens
+FJ1372 | BP5752 | Superior branch of right oculomotor nerve
+FJ1373 | BP4932 | Right superior oblique
+FJ1374 | BP4929 | Right superior rectus
+FJ1375 | BP4639 | Tarsal plate of right upper eyelid
+FJ1376 | BP5739 | Right supra-orbital nerve
+FJ1377 | BP5736 | Right supratrochlear nerve
+FJ1379 | BP4642 | Tarsal plate of right lower eyelid
+FJ1380 | BP5095 | Trochlea of right superior oblique
+FJ1381 | BP4695 | Right trochlear nerve
+FJ1382 | BP5490 | Right vitreous body
+FJ1383 | BP5044 | First lumbrical of right foot
+FJ1383M | BP9161 | First lumbrical of left foot
+FJ1384 | BP5035 | First plantar interosseous of right foot
+FJ1384M | BP9251 | First plantar interosseous of left foot
+FJ1385 | BP5040 | Second lumbrical of right foot
+FJ1385M | BP8179 | Second lumbrical of left foot
+FJ1386 | BP5033 | Second plantar interosseous of right foot
+FJ1386M | BP8916 | Second plantar interosseous of left foot
+FJ1387 | BP5038 | Third lumbrical of right foot
+FJ1387M | BP8902 | Third lumbrical of left foot
+FJ1388 | BP5031 | Third plantar interosseous of right foot
+FJ1388M | BP9175 | Third plantar interosseous of left foot
+FJ1389 | BP5042 | Fourth lumbrical of right foot
+FJ1389M | BP8943 | Fourth lumbrical of left foot
+FJ1390 | BP5056 | Abductor digiti minimi of right foot
+FJ1390M | BP9182 | Abductor digiti minimi of left foot
+FJ1391 | BP5050 | Flexor digiti minimi brevis of right foot
+FJ1391M | BP8065 | Flexor digiti minimi brevis of left foot
+FJ1392 | BP4649 | Interosseous membrane of right leg
+FJ1392M | BP8481 | Interosseous membrane of left leg
+FJ1393 | BP5548 | Lateral head of right flexor hallucis brevis
+FJ1393M | BP8361 | Lateral head of left flexor hallucis brevis
+FJ1394 | BP5541 | Lateral head of right gastrocnemius
+FJ1394M | BP7939 | Lateral head of left gastrocnemius
+FJ1395 | BP5575 | Long head of right biceps femoris
+FJ1395M | BP8331 | Long head of left biceps femoris
+FJ1396 | BP5546 | Medial head of right flexor hallucis brevis
+FJ1396M | BP8945 | Medial head of left flexor hallucis brevis
+FJ1397 | BP5539 | Medial head of right gastrocnemius
+FJ1397M | BP9217 | Medial head of left gastrocnemius
+FJ1398 | BP5578 | Oblique head of right adductor hallucis
+FJ1398M | BP8542 | Oblique head of left adductor hallucis
+FJ1399 | BP5046 | Opponens digiti minimi of right foot
+FJ1399M | BP9018 | Opponens digiti minimi of left foot
+FJ1400 | BP5054 | Right abductor hallucis
+FJ1400M | BP9193 | Left abductor hallucis
+FJ1401 | BP4986 | Right adductor brevis
+FJ1401M | BP9099 | Left adductor brevis
+FJ1402 | BP4984 | Right adductor longus
+FJ1402M | BP8604 | Left adductor longus
+FJ1403 | BP4982 | Right adductor magnus
+FJ1403M | BP8972 | Left adductor magnus
+FJ1404 | BP4980 | Right adductor minimus
+FJ1404M | BP8832 | Left adductor minimus
+FJ1405 | BP5098 | Right calcaneal tendon
+FJ1405M | BP8739 | Left calcaneal tendon
+FJ1406 | BP5024 | Right extensor digitorum longus
+FJ1406M | BP8162 | Left extensor digitorum longus
+FJ1407 | BP5059 | Right extensor hallucis brevis
+FJ1407M | BP8118 | Left extensor hallucis brevis
+FJ1408 | BP5022 | Right extensor hallucis longus
+FJ1408M | BP7858 | Left extensor hallucis longus
+FJ1409 | BP5015 | Right fibularis brevis
+FJ1409M | BP8977 | Left fibularis brevis
+FJ1410 | BP5013 | Right fibularis longus
+FJ1410M | BP8846 | Left fibularis longus
+FJ1411 | BP5020 | Right fibularis tertius
+FJ1411M | BP9228 | Left fibularis tertius
+FJ1412 | BP5052 | Right flexor accessorius
+FJ1412M | BP8992 | Left flexor accessorius
+FJ1413 | BP5048 | Right flexor digitorum brevis
+FJ1413M | BP9215 | Left flexor digitorum brevis
+FJ1414 | BP5010 | Right flexor digitorum longus
+FJ1414M | BP8888 | Left flexor digitorum longus
+FJ1415 | BP5008 | Right flexor hallucis longus
+FJ1415M | BP7949 | Left flexor hallucis longus
+FJ1416 | BP5070 | Right gemellus inferior
+FJ1416M | BP8454 | Left gemellus inferior
+FJ1417 | BP5068 | Right gemellus superior
+FJ1417M | BP8028 | Left gemellus superior
+FJ1418 | BP5065 | Right gluteus maximus
+FJ1418M | BP8401 | Left gluteus maximus
+FJ1419 | BP5063 | Right gluteus medius
+FJ1419M | BP9213 | Left gluteus medius
+FJ1420 | BP5083 | Right gluteus minimus
+FJ1420M | BP8623 | Left gluteus minimus
+FJ1421 | BP4976 | Right gracilis
+FJ1421M | BP8926 | Left gracilis
+FJ1422 | BP5085 | Right iliacus
+FJ1422M | BP8312 | Left iliacus
+FJ1423 | BP5628 | Right iliotibial tract
+FJ1423M | BP8856 | Left iliotibial tract
+FJ1424 | BP5093 | Right long plantar ligament
+FJ1424M | BP9273 | Left long plantar ligament
+FJ1425 | BP5081 | Right obturator externus
+FJ1425M | BP8506 | Left obturator externus
+FJ1426 | BP5079 | Right obturator internus
+FJ1426M | BP7986 | Left obturator internus
+FJ1427 | BP4978 | Right pectineus
+FJ1427M | BP8998 | Left pectineus
+FJ1428 | BP5076 | Right piriformis
+FJ1428M | BP8131 | Left piriformis
+FJ1429 | BP5001 | Right plantaris
+FJ1429M | BP8852 | Left plantaris
+FJ1430 | BP5006 | Right popliteus
+FJ1430M | BP9241 | Left popliteus
+FJ1431 | BP4701 | Right psoas major
+FJ1431M | BP8373 | Left psoas major
+FJ1432 | BP5074 | Right quadratus femoris
+FJ1432M | BP8661 | Left quadratus femoris
+FJ1433 | BP5598 | Right rectus femoris
+FJ1433M | BP8094 | Left rectus femoris
+FJ1434 | BP4994 | Right sartorius
+FJ1434M | BP8876 | Left sartorius
+FJ1435 | BP4989 | Right semimembranosus
+FJ1435M | BP7829 | Left semimembranosus
+FJ1436 | BP4991 | Right semitendinosus
+FJ1436M | BP9066 | Left semitendinosus
+FJ1437 | BP4999 | Right soleus
+FJ1437M | BP8819 | Left soleus
+FJ1438 | BP5072 | Right tensor fasciae latae
+FJ1438M | BP9184 | Left tensor fasciae latae
+FJ1439 | BP5018 | Right tibialis anterior
+FJ1439M | BP8720 | Left tibialis anterior
+FJ1440 | BP5004 | Right tibialis posterior
+FJ1440M | BP9159 | Left tibialis posterior
+FJ1441 | BP5604 | Right vastus intermedius
+FJ1441M | BP9207 | Left vastus intermedius
+FJ1442 | BP5602 | Right vastus lateralis
+FJ1442M | BP8754 | Left vastus lateralis
+FJ1443 | BP5600 | Right vastus medialis
+FJ1443M | BP9128 | Left vastus medialis
+FJ1444 | BP5573 | Short head of right biceps femoris
+FJ1444M | BP8616 | Short head of left biceps femoris
+FJ1445 | BP5580 | Transverse head of right adductor hallucis
+FJ1445M | BP8394 | Transverse head of left adductor hallucis
+FJ1446 | BP5615 | Abdominal part of right pectoralis major
+FJ1446M | BP7862 | Abdominal part of left pectoralis major
+FJ1447 | BP5582 | Clavicular part of right pectoralis major
+FJ1447M | BP9095 | Clavicular part of left pectoralis major
+FJ1448 | BP6616 | Linea alba
+FJ1449M | BP9157 | Left coccygeus
+FJ1450 |  | 
+FJ1450M | BP8934 | External anal sphincter
+FJ1451 |  | 
+FJ1451M | BP8306 | External intercostal muscle
+FJ1452 | BP4967 | Right external oblique
+FJ1452M | BP8154 | Left external oblique
+FJ1453M | BP8007 | Left iliococcygeus
+FJ1454 |  | 
+FJ1454M | BP9146 | Innermost intercostal muscle
+FJ1455 |  | 
+FJ1455M | BP8018 | Internal intercostal muscle
+FJ1456 | BP4775 | Right pectoralis minor
+FJ1456M | BP9038 | Left pectoralis minor
+FJ1457M | BP7791 | Left pubococcygeus
+FJ1458M | BP8228 | Left puborectalis
+FJ1459 | BP4782 | Right serratus anterior
+FJ1459M | BP8760 | Left serratus anterior
+FJ1460 | BP4773 | Right subclavius
+FJ1460M | BP8460 | Left subclavius
+FJ1461 | BP4963 | Right transversus thoracis
+FJ1461M | BP9030 | Left transversus thoracis
+FJ1462 | BP6639 | Set of right levatores costarum breves
+FJ1462M | BP8675 | Set of left levatores costarum breves
+FJ1463 | BP6637 | Set of right levatores costarum longi
+FJ1463M | BP8466 | Set of left levatores costarum longi
+FJ1464 | BP5613 | Sternocostal part of right pectoralis major
+FJ1464M | BP8323 | Sternocostal part of left pectoralis major
+FJ1465 |  | 
+FJ1465M | BP9016 | Tendinous arch of levator ani
+FJ1466 | BP7569 | Abductor digiti minimi of right hand
+FJ1466M | BP8737 | Abductor digiti minimi of left hand
+FJ1467 | BP7571 | Acromial part of right deltoid
+FJ1467M | BP9075 | Acromial part of left deltoid
+FJ1468 | BP7573 | Clavicular part of right deltoid
+FJ1468M | BP8259 | Clavicular part of left deltoid
+FJ1469 | BP7575 | Left flexor pollicis brevis
+FJ1469M | BP8958 | Right flexor pollicis brevis
+FJ1470 | BP4858 | Flexor digiti minimi brevis of right hand
+FJ1470M | BP8516 | Flexor digiti minimi brevis of left hand
+FJ1471 | BP6527 | Flexor retinaculum of right wrist
+FJ1471M | BP8058 | Flexor retinaculum of left wrist
+FJ1472 | BP4829 | Right extensor carpi ulnaris
+FJ1472M | BP7970 | Left extensor carpi ulnaris
+FJ1473 | BP5570 | Humeral head of right flexor carpi ulnaris
+FJ1473M | BP8144 | Humeral head of left flexor carpi ulnaris
+FJ1474 | BP5568 | Humeral head of right pronator teres
+FJ1474M | BP8015 | Humeral head of left pronator teres
+FJ1475 | BP4837 | Right flexor digitorum superficialis
+FJ1475M | BP8284 | Left flexor digitorum superficialis
+FJ1476 | BP4651 | Interosseous membrane of right forearm
+FJ1476M | BP8263 | Interosseous membrane of left forearm
+FJ1477 | BP5550 | Lateral head of right triceps brachii
+FJ1477M | BP8525 | Lateral head of left triceps brachii
+FJ1478 | BP5566 | Long head of right biceps brachii
+FJ1478M | BP8816 | Long head of left biceps brachii
+FJ1479 | BP5564 | Long head of right triceps brachii
+FJ1479M | BP8344 | Long head of left triceps brachii
+FJ1480 | BP5562 | Medial head of right triceps brachii
+FJ1480M | BP8257 | Medial head of left triceps brachii
+FJ1481 | BP5560 | Oblique head of right adductor pollicis
+FJ1481M | BP8248 | Oblique head of left adductor pollicis
+FJ1482 | BP4860 | Opponens digiti minimi of right hand
+FJ1482M | BP8204 | Opponens digiti minimi of left hand
+FJ1483 | BP4855 | Right abductor pollicis brevis
+FJ1483M | BP8706 | Left abductor pollicis brevis
+FJ1484 | BP4820 | Right abductor pollicis longus
+FJ1484M | BP9144 | Left abductor pollicis longus
+FJ1485 | BP4802 | Right anconeus
+FJ1485M | BP8962 | Left anconeus
+FJ1486 | BP4807 | Right brachialis
+FJ1486M | BP8684 | Left brachialis
+FJ1487 | BP4833 | Right brachioradialis
+FJ1487M | BP8244 | Left brachioradialis
+FJ1488 | BP4805 | Right coracobrachialis
+FJ1488M | BP9055 | Left coracobrachialis
+FJ1489 | BP4823 | Right extensor carpi radialis brevis
+FJ1489M | BP9287 | Left extensor carpi radialis brevis
+FJ1490 | BP4831 | Right extensor carpi radialis longus
+FJ1490M | BP9280 | Left extensor carpi radialis longus
+FJ1491 | BP4825 | Right extensor digiti minimi
+FJ1491M | BP8489 | Left extensor digiti minimi
+FJ1492 | BP4827 | Right extensor digitorum
+FJ1492M | BP8560 | Left extensor digitorum
+FJ1493 | BP4812 | Right extensor indicis
+FJ1493M | BP8779 | Left extensor indicis
+FJ1494 | BP4818 | Right extensor pollicis brevis
+FJ1494M | BP9253 | Left extensor pollicis brevis
+FJ1495 | BP4816 | Right extensor pollicis longus
+FJ1495M | BP8191 | Left extensor pollicis longus
+FJ1496 | BP4841 | Right flexor carpi radialis
+FJ1496M | BP8940 | Left flexor carpi radialis
+FJ1497 | BP4848 | Right flexor digitorum profundus
+FJ1497M | BP7826 | Left flexor digitorum profundus
+FJ1498 | BP4844 | Right flexor pollicis longus
+FJ1498M | BP9106 | Left flexor pollicis longus
+FJ1499 | BP4837 | Right flexor digitorum superficialis
+FJ1499M | BP8284 | Left flexor digitorum superficialis
+FJ1500 | BP4797 | Right infraspinatus muscle
+FJ1500M | BP8965 | Left infraspinatus muscle
+FJ1501 | BP4853 | Right opponens pollicis
+FJ1501M | BP8596 | Left opponens pollicis
+FJ1502 | BP4839 | Right palmaris longus
+FJ1502M | BP7781 | Left palmaris longus
+FJ1503 | BP4846 | Right pronator quadratus
+FJ1503M | BP7957 | Left pronator quadratus
+FJ1504 | BP4795 | Right subscapularis
+FJ1504M | BP8214 | Left subscapularis
+FJ1505 | BP4814 | Right supinator
+FJ1505M | BP8499 | Left supinator
+FJ1506 | BP4791 | Right supraspinatus
+FJ1506M | BP8376 | Left supraspinatus
+FJ1507 | BP4789 | Right teres major
+FJ1507M | BP8287 | Left teres major
+FJ1508 | BP4793 | Right teres minor
+FJ1508M | BP9197 | Left teres minor
+FJ1509 | BP6629 | Set of dorsal interossei of right hand
+FJ1509M | BP8036 | Set of dorsal interossei of left hand
+FJ1510 | BP6633 | Set of lumbricals of right hand
+FJ1510M | BP8053 | Set of lumbricals of left hand
+FJ1511 | BP6631 | Set of palmar interossei of right hand
+FJ1511M | BP8246 | Set of palmar interossei of left hand
+FJ1512 | BP5558 | Short head of right biceps brachii
+FJ1512M | BP9153 | Short head of left biceps brachii
+FJ1513 | BP5607 | Spinal part of right deltoid
+FJ1513M | BP8151 | Spinal part of left deltoid
+FJ1514 | BP5556 | Superficial head of right flexor pollicis brevis
+FJ1514M | BP8722 | Superficial head of left flexor pollicis brevis
+FJ1515 | BP5543 | Transverse head of right adductor pollicis
+FJ1515M | BP8885 | Transverse head of left adductor pollicis
+FJ1516 | BP5552 | Ulnar head of right pronator teres
+FJ1516M | BP9043 | Ulnar head of left pronator teres
+FJ1517 | BP4829 | Right extensor carpi ulnaris
+FJ1517M | BP7970 | Left extensor carpi ulnaris
+FJ1518 | BP5554 | Ulnar head of right flexor carpi ulnaris
+FJ1518M | BP8540 | Ulnar head of left flexor carpi ulnaris
+FJ1520 | BP5638 | Ascending part of right trapezius
+FJ1520M | BP8225 | Ascending part of left trapezius
+FJ1521 | BP5636 | Descending part of right trapezius
+FJ1521M | BP8267 | Descending part of left trapezius
+FJ1522 | BP4729 | Right lumbar rotator
+FJ1522M | BP8692 | Left lumbar rotator
+FJ1524 | BP4731 | Right cervical rotator
+FJ1524M | BP9111 | Left cervical rotator
+FJ1525 |  | 
+FJ1525M | BP8398 | Thoracic rotator
+FJ1526 | BP4755 | Right iliocostalis cervicis
+FJ1526M | BP8048 | Left iliocostalis cervicis
+FJ1527 | BP4753 | Right iliocostalis lumborum
+FJ1527M | BP8937 | Left iliocostalis lumborum
+FJ1528 | BP4751 | Right iliocostalis thoracis
+FJ1528M | BP8748 | Left iliocostalis thoracis
+FJ1532 | BP4786 | Right levator scapulae
+FJ1532M | BP8746 | Left levator scapulae
+FJ1533 | BP4748 | Right longissimus capitis
+FJ1533M | BP9081 | Left longissimus capitis
+FJ1534 | BP4746 | Right longissimus cervicis
+FJ1534M | BP9126 | Left longissimus cervicis
+FJ1535 | BP4744 | Right longissimus thoracis
+FJ1535M | BP8985 | Left longissimus thoracis
+FJ1536 | BP4780 | Right rhomboid major
+FJ1536M | BP9245 | Left rhomboid major
+FJ1537 | BP4784 | Right rhomboid minor
+FJ1537M | BP8585 | Left rhomboid minor
+FJ1538 | BP4717 | Right semispinalis capitis
+FJ1538M | BP8700 | Left semispinalis capitis
+FJ1539 | BP4715 | Right semispinalis cervicis
+FJ1539M | BP8930 | Left semispinalis cervicis
+FJ1540 | BP4713 | Right semispinalis thoracis
+FJ1540M | BP8316 | Left semispinalis thoracis
+FJ1541 | BP4768 | Right serratus posterior inferior
+FJ1541M | BP9048 | Left serratus posterior inferior
+FJ1542 | BP4766 | Right serratus posterior superior
+FJ1542M | BP8298 | Left serratus posterior superior
+FJ1543 |  | 
+FJ1543M | BP8423 | Spinalis
+FJ1544 | BP4763 | Right spinalis thoracis
+FJ1544M | BP8979 | Left spinalis thoracis
+FJ1545 | BP4758 | Right splenius capitis
+FJ1545M | BP8022 | Left splenius capitis
+FJ1546 | BP4760 | Right splenius cervicis
+FJ1546M | BP8241 | Left splenius cervicis
+FJ1547 |  | 
+FJ1547M | BP8895 | Lateral lumbar intertransversarius
+FJ1548 |  | 
+FJ1548M | BP8809 | Medial lumbar intertransversarius
+FJ1549 |  | 
+FJ1549M | BP9131 | Set of anterior cervical intertransversarii
+FJ1550 |  | 
+FJ1550M | BP8370 | Set of interspinales lumborum
+FJ1551 | BP4725 | Right interspinalis thoracis
+FJ1551M | BP9137 | Left interspinalis thoracis
+FJ1552 |  | 
+FJ1552M | BP9080 | Set of interspinales cervicis
+FJ1553 |  | 
+FJ1553M | BP8656 | Set of posterior cervical intertransversarii
+FJ1554 | BP5610 | Transverse part of right trapezius
+FJ1554M | BP8252 | Transverse part of left trapezius
+FJ1555 | BP7579 | Left digastric
+FJ1556 | BP7592 | Right digastric
+FJ1557 | BP7685 | Inferior oblique part of left longus colli
+FJ1558 | BP7577 | Left platysma
+FJ1559 | BP7578 | Left geniohyoid
+FJ1560 | BP7579 | Left digastric
+FJ1561 | BP7581 | Left longus capitis
+FJ1562 | BP7582 | Left mylohyoid
+FJ1563 | BP7583 | Left obliquus capitis inferior
+FJ1564 | BP7584 | Left obliquus capitis superior
+FJ1565 | BP7585 | Left omohyoid
+FJ1566 | BP7586 | Left rectus capitis anterior
+FJ1567 | BP7587 | Left rectus capitis posterior major
+FJ1568 | BP7588 | Left rectus capitis posterior minor
+FJ1569 | BP7589 | Left rectus capitis lateralis
+FJ1570 | BP7590 | Left scalenus anterior
+FJ1571 | BP7591 | Left scalenus medius
+FJ1572 | BP4876 | Left scalenus posterior
+FJ1573 | BP4910 | Left sternocleidomastoid
+FJ1574 | BP4918 | Left sternohyoid
+FJ1575 | BP4924 | Left sternothyroid
+FJ1576 | BP4902 | Left stylohyoid
+FJ1577 | BP4921 | Left thyrohyoid
+FJ1578 | BP7579 | Left digastric
+FJ1579 | BP7592 | Right digastric
+FJ1580 | BP4906 | Right geniohyoid
+FJ1581 | BP6514 | Right intermediate tendon
+FJ1582 | BP4703 | Right longus capitis
+FJ1583 | BP4904 | Right mylohyoid
+FJ1584 | BP4740 | Right obliquus capitis inferior
+FJ1585 | BP4738 | Right obliquus capitis superior
+FJ1586 | BP4915 | Right omohyoid
+FJ1587 | BP4912 | Right platysma
+FJ1588 | BP4708 | Right rectus capitis anterior
+FJ1589 | BP4736 | Right rectus capitis posterior major
+FJ1590 | BP4734 | Right rectus capitis posterior minor
+FJ1591 | BP4706 | Right rectus capitis lateralis
+FJ1592 | BP4880 | Right scalenus anterior
+FJ1593 | BP4878 | Right scalenus medius
+FJ1594 | BP4875 | Right scalenus posterior
+FJ1595 | BP4909 | Right sternocleidomastoid
+FJ1596 | BP4917 | Right sternohyoid
+FJ1597 | BP4923 | Right sternothyroid
+FJ1598 | BP4901 | Right stylohyoid
+FJ1599 | BP4920 | Right thyrohyoid
+FJ1600 | BP5595 | Superior oblique part of left longus colli
+FJ1601 | BP5593 | Vertical intermediate part of left longus colli
+FJ1654 | BP7599 | Right anterior cerebral artery
+FJ1654M | BP10236 | Left anterior cerebral artery
+FJ1655 | BP6365 | Anterior communicating artery
+FJ1656 |  | 
+FJ1656M | BP8960 | Anterior inferior cerebellar artery
+FJ1657 | BP7600 | Right anterior spinal artery
+FJ1657M | BP9243 | Left anterior spinal artery
+FJ1658 | BP7601 | Right anterior choroidal artery
+FJ1658M | BP8625 | Left anterior choroidal artery
+FJ1659 | BP7602 | Right anterior temporal artery
+FJ1659M | BP10237 | Left anterior temporal artery
+FJ1660 | BP7603 | Insular part of right middle cerebral artery
+FJ1660M | BP10240 | Insular part of left middle cerebral artery
+FJ1661 | BP7604 | Anterior temporal branch of right lateral occipital artery
+FJ1661M | BP8849 | Anterior temporal branch of left lateral occipital artery
+FJ1662 | BP7605 | Anterolateral central branch of right middle cerebral artery
+FJ1662M | BP10238 | Anterolateral central branch of left middle cerebral artery
+FJ1663 | BP7605 | Anterolateral central branch of right middle cerebral artery
+FJ1663M | BP10238 | Anterolateral central branch of left middle cerebral artery
+FJ1664 |  | 
+FJ1664M | BP8121 | Artery of central sulcus
+FJ1665 |  | 
+FJ1665M | BP8121 | Artery of central sulcus
+FJ1666 | BP7606 | Artery of right postcentral sulcus
+FJ1666M | BP9104 | Artery of left postcentral sulcus
+FJ1667 | BP7607 | Right anterior parietal artery
+FJ1667M | BP8639 | Left anterior parietal artery
+FJ1668 | BP7608 | Artery of right precentral sulcus
+FJ1668M | BP7944 | Artery of left precentral sulcus
+FJ1669 | BP7608 | Artery of right precentral sulcus
+FJ1669M | BP7944 | Artery of left precentral sulcus
+FJ1670 | BP7608 | Artery of right precentral sulcus
+FJ1670M | BP7944 | Artery of left precentral sulcus
+FJ1671 | BP7609 | Precuneal branch of right pericallosal artery
+FJ1671M | BP9052 | Precuneal branch of left pericallosal artery
+FJ1672 | BP6340 | Basilar artery
+FJ1673 | BP7610 | Branch of right middle cerebral artery to right angular gyrus
+FJ1673M | BP8550 | Branch of left middle cerebral artery to left angular gyrus
+FJ1674 | BP7611 | Branch of right anterior choroidal artery to posterior limb of right internal capsule
+FJ1674M | BP9083 | Branch of left anterior choroidal artery to posterior limb of left internal capsule
+FJ1675 | BP7612 | Right thalamogeniculate artery
+FJ1675M | BP8898 | Left thalamogeniculate artery
+FJ1676 | BP7613 | Right callosomarginal artery
+FJ1676M | BP8782 | Left callosomarginal artery
+FJ1677 | BP7614 | Right splenial artery
+FJ1677M | BP8663 | Left splenial artery
+FJ1678 | BP7614 | Right splenial artery
+FJ1678M | BP8663 | Left splenial artery
+FJ1679 | BP7615 | Hypothalamic branch of right posterior communicating artery
+FJ1679M | BP9258 | Hypothalamic branch of left posterior communicating artery
+FJ1680 | BP7616 | Middle temporal branch of right lateral occipital artery
+FJ1680M | BP9027 | Middle temporal branch of left lateral occipital artery
+FJ1681 | BP7617 | Intermediomedial branch of right callosomarginal artery
+FJ1681M | BP8757 | Intermediomedial branch of left callosomarginal artery
+FJ1682 | BP7618 | Right internal carotid artery
+FJ1682M | BP8900 | Left internal carotid artery
+FJ1683 | BP7619 | Lateral branch of right superior cerebellar artery
+FJ1683M | BP8766 | Lateral branch of left superior cerebellar artery
+FJ1684 | BP7620 | Lateral branch of right pontine artery
+FJ1684M | BP8838 | Lateral branch of left pontine artery
+FJ1685 | BP7621 | Right lateral frontobasal artery
+FJ1685M | BP8589 | Left lateral frontobasal artery
+FJ1686 | BP7621 | Right lateral frontobasal artery
+FJ1686M | BP8589 | Left lateral frontobasal artery
+FJ1687 | BP7622 | Right lateral occipital artery
+FJ1687M | BP8301 | Left lateral occipital artery
+FJ1688 | BP7623 | Medial branch of right superior cerebellar artery
+FJ1688M | BP8697 | Medial branch of left superior cerebellar artery
+FJ1689 | BP7624 | Medial branch of right pontine artery
+FJ1689M | BP8320 | Medial branch of left pontine artery
+FJ1690 | BP7625 | Right medial frontobasal artery
+FJ1690M | BP9050 | Left medial frontobasal artery
+FJ1691 | BP7626 | Right medial occipital artery
+FJ1691M | BP8486 | Left medial occipital artery
+FJ1692 | BP7627 | Sphenoid part of right middle cerebral artery
+FJ1692M | BP8591 | Sphenoid part of left middle cerebral artery
+FJ1693 | BP7628 | Middle temporal branch of right middle cerebral artery
+FJ1693M | BP10239 | Middle temporal branch of left middle cerebral artery
+FJ1694 | BP7603 | Insular part of right middle cerebral artery
+FJ1694M | BP10240 | Insular part of left middle cerebral artery
+FJ1695 | BP7629 | Right ophthalmic artery
+FJ1695M | BP9113 | Left ophthalmic artery
+FJ1696 | BP7630 | Paracentral branch of right callosomarginal artery
+FJ1696M | BP7773 | Paracentral branch of left callosomarginal artery
+FJ1697 | BP7630 | Paracentral branch of right callosomarginal artery
+FJ1697M | BP7773 | Paracentral branch of left callosomarginal artery
+FJ1698 | BP7630 | Paracentral branch of right callosomarginal artery
+FJ1698M | BP7773 | Paracentral branch of left callosomarginal artery
+FJ1699 | BP7631 | Right pericallosal artery
+FJ1699M | BP9285 | Left pericallosal artery
+FJ1700 | BP7632 | Right posterior inferior cerebellar artery
+FJ1700M | BP7796 | Left posterior inferior cerebellar artery
+FJ1701 | BP7632 | Right posterior inferior cerebellar artery
+FJ1701M | BP7796 | Left posterior inferior cerebellar artery
+FJ1702 | BP7632 | Right posterior inferior cerebellar artery
+FJ1702M | BP7796 | Left posterior inferior cerebellar artery
+FJ1703 | BP7632 | Right posterior inferior cerebellar artery
+FJ1703M | BP7796 | Left posterior inferior cerebellar artery
+FJ1704 | BP7632 | Right posterior inferior cerebellar artery
+FJ1704M | BP7796 | Left posterior inferior cerebellar artery
+FJ1705 | BP7632 | Right posterior inferior cerebellar artery
+FJ1705M | BP7796 | Left posterior inferior cerebellar artery
+FJ1706 | BP7632 | Right posterior inferior cerebellar artery
+FJ1706M | BP7796 | Left posterior inferior cerebellar artery
+FJ1707 | BP7632 | Right posterior inferior cerebellar artery
+FJ1707M | BP7796 | Left posterior inferior cerebellar artery
+FJ1708 | BP7632 | Right posterior inferior cerebellar artery
+FJ1708M | BP7796 | Left posterior inferior cerebellar artery
+FJ1709 | BP7632 | Right posterior inferior cerebellar artery
+FJ1709M | BP7796 | Left posterior inferior cerebellar artery
+FJ1710 | BP7632 | Right posterior inferior cerebellar artery
+FJ1710M | BP7796 | Left posterior inferior cerebellar artery
+FJ1711 | BP7632 | Right posterior inferior cerebellar artery
+FJ1711M | BP7796 | Left posterior inferior cerebellar artery
+FJ1712 | BP7633 | Right polar temporal artery
+FJ1712M | BP9188 | Left polar temporal artery
+FJ1713 | BP7634 | Right posterior communicating artery
+FJ1713M | BP8194 | Left posterior communicating artery
+FJ1714 | BP7635 | Postcommunicating part of right posterior cerebral artery
+FJ1714M | BP7835 | Postcommunicating part of left posterior cerebral artery
+FJ1715 | BP7632 | Right posterior inferior cerebellar artery
+FJ1715M | BP7796 | Left posterior inferior cerebellar artery
+FJ1716 | BP7636 | Right posterior parietal artery
+FJ1716M | BP8879 | Left posterior parietal artery
+FJ1717 | BP7637 | Posterior temporal branch of right middle cerebral artery
+FJ1717M | BP10242 | Posterior temporal branch of left middle cerebral artery
+FJ1718 | BP7638 | Trunk of inferior terminal branch of right middle cerebral artery
+FJ1718M | BP10241 | Trunk of inferior terminal branch of left middle cerebral artery
+FJ1719 |  | 
+FJ1719M | BP8125 | Set of posterior temporal branches of lateral occipital artery
+FJ1720 | BP7639 | Right thalamoperforating artery
+FJ1720M | BP7893 | Left thalamoperforating artery
+FJ1721 | BP7640 | Posteromedial central branch of right posterior cerebral artery
+FJ1721M | BP9000 | Posteromedial central branch of left posterior cerebral artery
+FJ1722 | BP7641 | Posteromedial branch of right callosomarginal artery
+FJ1722M | BP9124 | Posteromedial branch of left callosomarginal artery
+FJ1723 | BP7642 | Precommunicating part of right posterior cerebral artery
+FJ1723M | BP7976 | Precommunicating part of left posterior cerebral artery
+FJ1724 | BP7643 | Right prefrontal artery
+FJ1724M | BP8807 | Left prefrontal artery
+FJ1725 | BP7644 | Right vertebral artery
+FJ1725M | BP8812 | Left vertebral artery
+FJ1726 | BP7645 | Right superior cerebellar artery
+FJ1726M | BP9290 | Left superior cerebellar artery
+FJ1727 | BP7646 | Right posterior medial choroidal artery
+FJ1727M | BP9134 | Left posterior medial choroidal artery
+FJ1728 | BP7647 | Superior vermian branch of medial branch of right superior cerebellar artery
+FJ1728M | BP9238 | Superior vermian branch of medial branch of left superior cerebellar artery
+FJ1729 | BP7648 | Temporo-occipital branch of right middle cerebral artery
+FJ1729M | BP8854 | Temporo-occipital branch of left middle cerebral artery
+FJ1730 | BP5515 | Third ventricle
+FJ1731 | BP5514 | Fourth ventricle
+FJ1732 | BP10462 | Left angular gyrus
+FJ1733 | BP10465 | Right angular gyrus
+FJ1734 | BP6578 | Anterior commissure
+FJ1735 | BP6569 | Brachium of left superior colliculus
+FJ1736 | BP6570 | Brachium of right superior colliculus
+FJ1737 | BP5511 | Central canal of spinal cord
+FJ1738 | BP5516 | Cerebral aqueduct
+FJ1739 | BP10471 | Left cingulate gyrus
+FJ1740 | BP10488 | Right cingulate gyrus
+FJ1741 | BP6551 | Commissure of fornix of forebrain
+FJ1742 | BP6576 | Corpus callosum
+FJ1743 | BP6549 | Habenula
+FJ1744 | BP10475 | Left inferior frontal gyrus
+FJ1745 | BP10442 | Right inferior frontal gyrus
+FJ1746 | BP10437 | Left inferior temporal gyrus
+FJ1747 | BP10483 | Right inferior temporal gyrus
+FJ1748 | BP10486 | Left insula
+FJ1749 | BP10476 | Right insula
+FJ1750 | BP10456 | Left internal capsule
+FJ1751 | BP10445 | Right internal capsule
+FJ1752 | BP6671 | Interventricular foramen
+FJ1753 | BP10428 | Left amygdala
+FJ1754 | BP10482 | Left caudate nucleus
+FJ1755 | BP5507 | Choroid plexus of cerebral hemisphere
+FJ1756 | BP10472 | Left fornix of forebrain
+FJ1757 | BP10485 | Left globus pallidus
+FJ1758 | BP10423 | White matter of left cerebral hemisphere
+FJ1759 | BP10455 | Left hippocampus
+FJ1760 | BP6496 | Hypothalamus
+FJ1761 | BP10441 | Brachium of left inferior colliculus
+FJ1762 | BP10479 | Left inferior colliculus
+FJ1763 | BP6669 | Interpeduncular fossa
+FJ1764 | BP6558 | Lamina terminalis
+FJ1766 | BP10443 | Left lateral geniculate body
+FJ1767 | BP10468 | Left lateral ventricle
+FJ1768 | BP6596 | Mammillary body
+FJ1769 | BP5693 | Medulla oblongata
+FJ1770 | BP5695 | Midbrain
+FJ1771 | BP5710 | Optic chiasm
+FJ1772 | BP5709 | Left optic nerve
+FJ1773 | BP10451 | Left optic tract
+FJ1774 | BP6560 | Peduncle of midbrain
+FJ1775 | BP6545 | Pons
+FJ1776 | BP10474 | Left putamen
+FJ1777 | BP10435 | Left stria medullaris of thalamus
+FJ1778 | BP10422 | Left stria terminalis
+FJ1779 | BP10424 | Left superior colliculus
+FJ1780 | BP6548 | Tuber cinereum
+FJ1781 | BP5696 | Cerebellum
+FJ1782 | BP10487 | Left thalamus
+FJ1783 | BP10449 | Left fusiform gyrus
+FJ1784 | BP10450 | Right fusiform gyrus
+FJ1785 | BP10439 | Left parahippocampal gyrus
+FJ1786 | BP10447 | Right parahippocampal gyrus
+FJ1787 | BP10463 | Left middle frontal gyrus
+FJ1788 | BP10461 | Right middle frontal gyrus
+FJ1789 | BP10446 | Left middle temporal gyrus
+FJ1790 | BP10448 | Right middle temporal gyrus
+FJ1791 | BP10477 | Left occipital lobe
+FJ1792 | BP10440 | Right occipital lobe
+FJ1793 | BP5675 | Orbital gyrus
+FJ1794 | BP5675 | Orbital gyrus
+FJ1795 | BP5525 | Pineal body
+FJ1796 | BP4630 | Pituitary gland
+FJ1797 | BP10473 | Left postcentral gyrus
+FJ1798 | BP10480 | Right postcentral gyrus
+FJ1799 | BP6553 | Posterior commissure
+FJ1800 | BP10466 | Left precentral gyrus
+FJ1801 | BP10459 | Right precentral gyrus
+FJ1802 | BP10425 | Right caudate nucleus
+FJ1803 | BP5507 | Choroid plexus of cerebral hemisphere
+FJ1804 | BP10452 | Right fornix of forebrain
+FJ1805 | BP10481 | Right globus pallidus
+FJ1806 | BP10430 | White matter of right cerebral hemisphere
+FJ1807 | BP10432 | Right hippocampus
+FJ1808 | BP6496 | Hypothalamus
+FJ1809 | BP10454 | Brachium of right inferior colliculus
+FJ1810 | BP10427 | Right inferior colliculus
+FJ1811 | BP6669 | Interpeduncular fossa
+FJ1812 | BP6558 | Lamina terminalis
+FJ1813 | BP10429 | Right lateral geniculate body
+FJ1814 | BP10436 | Right lateral ventricle
+FJ1815 | BP6596 | Mammillary body
+FJ1816 | BP7746 | Right medial geniculate body
+FJ1816M | BP9165 | Left medial geniculate body
+FJ1817 | BP5695 | Midbrain
+FJ1818 | BP5710 | Optic chiasm
+FJ1819 | BP5708 | Right optic nerve
+FJ1820 | BP10467 | Right optic tract
+FJ1821 | BP6560 | Peduncle of midbrain
+FJ1822 | BP6545 | Pons
+FJ1823 | BP10426 | Right putamen
+FJ1824 | BP10431 | Right stria medullaris of thalamus
+FJ1825 | BP6563 | Stria terminalis
+FJ1826 | BP10470 | Right superior colliculus
+FJ1827 | BP10434 | Right thalamus
+FJ1828 | BP6548 | Tuber cinereum
+FJ1829 | BP10478 | Right amygdala
+FJ1830 | BP5696 | Cerebellum
+FJ1831 | BP5693 | Medulla oblongata
+FJ1832 | BP6580 | Septum of telencephalon
+FJ1833 | BP10453 | Left superior frontal gyrus
+FJ1834 | BP10457 | Right superior frontal gyrus
+FJ1835 | BP10458 | Left superior parietal lobule
+FJ1836 | BP10460 | Right superior parietal lobule
+FJ1837 | BP10464 | Anterior part of left superior temporal gyrus
+FJ1838 | BP10484 | Anterior part of right superior temporal gyrus
+FJ1839 | BP10444 | Posterior part of left superior temporal gyrus
+FJ1840 | BP10433 | Posterior part of right superior temporal gyrus
+FJ1841 | BP10438 | Left supramarginal gyrus
+FJ1842 | BP10469 | Right supramarginal gyrus
+FJ1843 | BP5496 | Tentorium cerebelli
+FJ1844 | BP6340 | Basilar artery
+FJ1846 | BP6406 | Celiac artery
+FJ1853 | BP5789 | Hepatic portal vein
+FJ1858 | BP6452 | Hepatovenous segment IX
+FJ1867 | BP5828 | Tributary of middle hepatic vein
+FJ1874 | BP6179 | Left lobe branch of left hepatic artery
+FJ1883 | BP5653 | Caudate lobe tributary of left hepatic biliary tree
+FJ1893 | BP5788 | Left portal vein
+FJ1895 | BP4631 | Pancreas
+FJ1896 | BP5645 | Pancreatic duct
+FJ1913 | BP5787 | Right portal vein
+FJ1914 | BP5784 | Caudate lobe branch of right portal vein
+FJ1916 | BP6172 | Caudate lobe branch of right hepatic artery
+FJ1924 | BP6171 | Right lobe branch of right hepatic artery
+FJ1928 | BP6193 | Superior mesenteric artery
+FJ1931 | BP6004 | Descending thoracic aorta
+FJ1932 | BP6008 | Abdominal aorta
+FJ1933 | BP6095 | Bronchial artery
+FJ1934 | BP6399 | Esophageal artery
+FJ1935 | BP6329 | Right superior intercostal artery
+FJ1936 | BP6218 | Right superior epigastric artery
+FJ1937 | BP6338 | Right internal thoracic artery
+FJ1938 | BP6288 | Right lateral thoracic artery
+FJ1939 | BP6139 | Right first posterior intercostal artery
+FJ1950 | BP6135 | Right second posterior intercostal artery
+FJ1961 | BP6654 | Posterior intercostal arteries
+FJ1967 | BP6087 | Right subcostal artery
+FJ1969 | BP6221 | Right musculophrenic artery
+FJ1970 | BP6330 | Left superior intercostal artery
+FJ1971 | BP6219 | Left superior epigastric artery
+FJ1972 | BP6339 | Left internal thoracic artery
+FJ1973 | BP6138 | Left first posterior intercostal artery
+FJ1974 | BP6136 | Left second posterior intercostal artery
+FJ1975 | BP6654 | Posterior intercostal arteries
+FJ1976 | BP6287 | Left lateral thoracic artery
+FJ1977 | BP6088 | Left subcostal artery
+FJ1979 | BP6222 | Left musculophrenic artery
+FJ1981 | BP5903 | Accessory hemiazygos vein
+FJ1985 | BP6659 | Set of anterior intercostal veins
+FJ1986 | BP5965 | Left superior intercostal vein
+FJ1987 | BP5977 | Left subcostal vein
+FJ1988 | BP5964 | Left musculophrenic vein
+FJ1991 | BP5901 | Right superior intercostal vein
+FJ1993 | BP5970 | Right internal thoracic vein
+FJ1994 | BP6659 | Set of anterior intercostal veins
+FJ1995 | BP5976 | Right subcostal vein
+FJ1996 | BP5963 | Right musculophrenic vein
+FJ2011 | BP6193 | Superior mesenteric artery
+FJ2013 | BP6406 | Celiac artery
+FJ2025 | BP6191 | Marginal colic artery
+FJ2034 | BP7651 | Ileal branch of inferior branch of ileocolic artery
+FJ2038 | BP7655 | Right renal artery
+FJ2041 | BP7661 | Right anterior segmental artery
+FJ2042 | BP7665 | Superior segmental branch of right renal artery
+FJ2043 | BP7668 | Inferior segmental branch of right renal artery
+FJ2044 | BP7661 | Right anterior segmental artery
+FJ2045 | BP7670 | Posterior segmental branch of right renal artery
+FJ2046 | BP7672 | Left renal artery
+FJ2049 | BP7675 | Inferior segmental branch of left renal artery
+FJ2052 | BP7677 | Superior segmental branch of left renal artery
+FJ2053 | BP7678 | Posterior segmental branch of left renal artery
+FJ2054 | BP7678 | Posterior segmental branch of left renal artery
+FJ2055 | BP6027 | Right dorsalis pedis artery
+FJ2056 | BP5794 | Deep dorsal vein of penis
+FJ2057 | BP6042 | Descending branch of right lateral circumflex femoral artery
+FJ2058 | BP6439 | Distal perforating artery
+FJ2059 | BP5892 | Dorsal venous arch of left foot
+FJ2060 | BP5892 | Dorsal venous arch of left foot
+FJ2061 | BP5891 | Dorsal venous arch of right foot
+FJ2062 | BP5891 | Dorsal venous arch of right foot
+FJ2063 | BP6043 | Descending branch of left lateral circumflex femoral artery
+FJ2064 | BP6439 | Distal perforating artery
+FJ2065 | BP6073 | Left anterior tibial artery
+FJ2066 | BP6058 | Left anterior tibial recurrent artery
+FJ2067 | BP6055 | Left arcuate artery
+FJ2068 | BP6013 | Left deep plantar artery
+FJ2069 | BP6039 | Left descending genicular artery
+FJ2072 | BP6049 | Dorsal digital artery of foot
+FJ2073 | BP6028 | Left dorsalis pedis artery
+FJ2074 | BP6082 | Left femoral artery
+FJ2076 | BP6149 | Left inferior lateral genicular artery
+FJ2077 | BP6146 | Left inferior medial genicular artery
+FJ2078 | BP6036 | Left lateral circumflex femoral artery
+FJ2079 | BP6066 | Left lateral plantar artery
+FJ2080 | BP6156 | Left lateral superior genicular artery
+FJ2081 | BP6052 | Left lateral tarsal artery
+FJ2082 | BP6063 | Left medial plantar artery
+FJ2083 | BP6153 | Left medial superior genicular artery
+FJ2084 | BP6085 | Left middle genicular artery
+FJ2085 | BP6015 | Left plantar arch
+FJ2086 | BP6079 | Left popliteal artery
+FJ2087 | BP6076 | Left posterior tibial artery
+FJ2089 | BP6437 | Left superficial medial plantar artery
+FJ2090 | BP6650 | Set of perforating arteries
+FJ2091 | BP6653 | Set of calcaneal branches of posterior tibial artery
+FJ2092 | BP6652 | Set of common plantar digital arteries
+FJ2093 | BP6647 | Set of dorsal digital arteries
+FJ2094 | BP6650 | Set of perforating arteries
+FJ2095 | BP6649 | Set of plantar digital arteries proper
+FJ2096 | BP6060 | Plantar metatarsal artery
+FJ2097 | BP5850 | Left anterior tibial vein
+FJ2099 | BP5874 | Left deep femoral vein
+FJ2100 | BP6658 | Set of perforating veins
+FJ2102 | BP5880 | Left femoral vein
+FJ2103 | BP5871 | Left great saphenous vein
+FJ2107 | BP5856 | Left genicular vein
+FJ2108 | BP5856 | Left genicular vein
+FJ2113 | BP5821 | Tributary of plantar venous arch
+FJ2115 | BP5821 | Tributary of plantar venous arch
+FJ2117 | BP5862 | Left popliteal vein
+FJ2118 | BP5847 | Left posterior tibial vein
+FJ2119 | BP6658 | Set of perforating veins
+FJ2120 | BP6657 | Set of plantar digital veins
+FJ2121 | BP5853 | Left small saphenous vein
+FJ2122 | BP5842 | Left superficial epigastric vein
+FJ2124 | BP5856 | Left genicular vein
+FJ2125 | BP5856 | Left genicular vein
+FJ2127 | BP6650 | Set of perforating arteries
+FJ2128 | BP5886 | Plantar venous arch of left foot
+FJ2129 | BP5885 | Plantar venous arch of right foot
+FJ2130 | BP6072 | Right anterior tibial artery
+FJ2131 | BP6057 | Right anterior tibial recurrent artery
+FJ2132 | BP5849 | Right anterior tibial vein
+FJ2133 | BP6054 | Right arcuate artery
+FJ2135 | BP5873 | Right deep femoral vein
+FJ2136 | BP6012 | Right deep plantar artery
+FJ2137 | BP6038 | Right descending genicular artery
+FJ2138 | BP6658 | Set of perforating veins
+FJ2141 | BP6049 | Dorsal digital artery of foot
+FJ2143 | BP6081 | Right femoral artery
+FJ2144 | BP5879 | Right femoral vein
+FJ2145 | BP5870 | Right great saphenous vein
+FJ2150 | BP6148 | Right inferior lateral genicular artery
+FJ2151 | BP5855 | Right genicular vein
+FJ2152 | BP6145 | Right inferior medial genicular artery
+FJ2153 | BP5855 | Right genicular vein
+FJ2158 | BP6035 | Right lateral circumflex femoral artery
+FJ2159 | BP6065 | Right lateral plantar artery
+FJ2160 | BP5821 | Tributary of plantar venous arch
+FJ2162 | BP6155 | Right lateral superior genicular artery
+FJ2163 | BP6051 | Right lateral tarsal artery
+FJ2164 | BP6062 | Right medial plantar artery
+FJ2165 | BP5821 | Tributary of plantar venous arch
+FJ2166 | BP6152 | Right medial superior genicular artery
+FJ2167 | BP6084 | Right middle genicular artery
+FJ2169 | BP6014 | Right plantar arch
+FJ2170 | BP6078 | Right popliteal artery
+FJ2171 | BP5861 | Right popliteal vein
+FJ2172 | BP6075 | Right posterior tibial artery
+FJ2173 | BP5846 | Right posterior tibial vein
+FJ2174 | BP6658 | Set of perforating veins
+FJ2175 | BP6657 | Set of plantar digital veins
+FJ2176 | BP5852 | Right small saphenous vein
+FJ2178 | BP5841 | Right superficial epigastric vein
+FJ2179 | BP6436 | Right superficial medial plantar artery
+FJ2181 | BP5855 | Right genicular vein
+FJ2182 | BP5855 | Right genicular vein
+FJ2183 | BP5850 | Left anterior tibial vein
+FJ2184 | BP5859 | Left fibular vein
+FJ2185 | BP6656 | Set of dorsal digital veins
+FJ2186 | BP5981 | Dorsal metacarpal vein
+FJ2187 | BP5859 | Left fibular vein
+FJ2188 | BP5868 | Left lateral circumflex femoral vein
+FJ2189 | BP5865 | Left medial circumflex femoral vein
+FJ2190 | BP5858 | Right fibular vein
+FJ2191 | BP5822 | Plantar metatarsal vein
+FJ2192 | BP6658 | Set of perforating veins
+FJ2193 | BP5849 | Right anterior tibial vein
+FJ2194 | BP5858 | Right fibular vein
+FJ2195 | BP6653 | Set of calcaneal branches of posterior tibial artery
+FJ2196 | BP6652 | Set of common plantar digital arteries
+FJ2197 | BP6647 | Set of dorsal digital arteries
+FJ2198 | BP6656 | Set of dorsal digital veins
+FJ2199 | BP5981 | Dorsal metacarpal vein
+FJ2200 | BP5858 | Right fibular vein
+FJ2201 | BP5867 | Right lateral circumflex femoral vein
+FJ2202 | BP5864 | Right medial circumflex femoral vein
+FJ2203 | BP6650 | Set of perforating arteries
+FJ2204 | BP6649 | Set of plantar digital arteries proper
+FJ2205 | BP6649 | Set of plantar digital arteries proper
+FJ2206 | BP6060 | Plantar metatarsal artery
+FJ2207 | BP5822 | Plantar metatarsal vein
+FJ2208 | BP5839 | Superficial dorsal vein of penis
+FJ2209 | BP6214 | Right inferior thyroid artery
+FJ2210 | BP6215 | Left inferior thyroid artery
+FJ2211 | BP6326 | Acromial branch of left thoraco-acromial artery
+FJ2212 | BP6343 | Left anterior circumflex humeral artery
+FJ2213 | BP5954 | Left anterior circumflex humeral vein
+FJ2214 | BP6299 | Left anterior interosseous artery
+FJ2215 | BP6281 | Left inferior ulnar collateral artery
+FJ2216 | BP6024 | Left axillary artery
+FJ2217 | BP5957 | Left axillary vein
+FJ2218 | BP5951 | Left basilic vein
+FJ2219 | BP6021 | Left brachial artery
+FJ2220 | BP5944 | Left cephalic vein
+FJ2221 | BP6245 | Left circumflex scapular artery
+FJ2222 | BP5941 | Left circumflex scapular vein
+FJ2223 | BP6312 | Left common interosseous artery
+FJ2224 | BP6421 | Left costocervical trunk
+FJ2225 | BP6285 | Left deep brachial artery
+FJ2226 | BP6333 | Left deep cervical artery
+FJ2227 | BP6604 | Left deep palmar arch
+FJ2228 | BP6661 | Dorsal venous network of left hand
+FJ2229 | BP6614 | Left deep palmar venous arch
+FJ2230 | BP6322 | Deltoid branch of left thoraco-acromial artery
+FJ2231 | BP6229 | Dorsal carpal branch of left radial artery
+FJ2232 | BP6212 | Left dorsal scapular artery
+FJ2233 | BP5917 | Left lateral thoracic vein
+FJ2234 | BP5935 | Left median antebrachial vein
+FJ2235 | BP5932 | Left median cubital vein
+FJ2236 | BP6309 | Left dorsal carpal branch of ulnar artery
+FJ2237 | BP6132 | Left palmar metacarpal artery
+FJ2238 | BP5925 | Left palmar metacarpal vein
+FJ2239 | BP6238 | Left posterior circumflex humeral artery
+FJ2240 | BP6238 | Left posterior circumflex humeral artery
+FJ2241 | BP6302 | Left posterior ulnar recurrent artery
+FJ2242 | BP6336 | Left radial artery
+FJ2243 | BP6226 | Left radial recurrent artery
+FJ2244 | BP5928 | Left radial vein
+FJ2245 | BP6295 | Left recurrent interosseous artery
+FJ2246 | BP6291 | Left subscapular artery
+FJ2247 | BP5914 | Left subscapular vein
+FJ2248 | BP6607 | Left superficial palmar arterial arch
+FJ2249 | BP6611 | Left superficial palmar venous arch
+FJ2250 | BP5910 | Left suprascapular vein
+FJ2251 | BP6202 | Left suprascapular artery
+FJ2252 | BP6425 | Trunk of left thoraco-acromial artery
+FJ2253 | BP6242 | Left thoracodorsal artery
+FJ2254 | BP5938 | Left thoracodorsal vein
+FJ2255 | BP6418 | Left thyrocervical trunk
+FJ2256 | BP6209 | Left superficial cervical artery
+FJ2257 | BP6205 | Left transverse cervical artery
+FJ2258 | BP6316 | Left ulnar artery
+FJ2259 | BP6306 | Left anterior ulnar recurrent artery
+FJ2260 | BP5921 | Left ulnar vein
+FJ2261 | BP6273 | Radial collateral branch of left deep brachial artery
+FJ2262 | BP6272 | Radial collateral branch of right deep brachial artery
+FJ2263 | BP6325 | Acromial branch of right thoraco-acromial artery
+FJ2264 | BP6342 | Right anterior circumflex humeral artery
+FJ2265 | BP5953 | Right anterior circumflex humeral vein
+FJ2266 | BP6298 | Right anterior interosseous artery
+FJ2267 | BP6282 | Right inferior ulnar collateral artery
+FJ2268 | BP6023 | Right axillary artery
+FJ2269 | BP5956 | Right axillary vein
+FJ2270 | BP5950 | Right basilic vein
+FJ2271 | BP6020 | Right brachial artery
+FJ2272 | BP5943 | Right cephalic vein
+FJ2273 | BP6244 | Right circumflex scapular artery
+FJ2274 | BP5940 | Right circumflex scapular vein
+FJ2275 | BP6311 | Right common interosseous artery
+FJ2276 | BP6420 | Right costocervical trunk
+FJ2277 | BP6284 | Right deep brachial artery
+FJ2278 | BP6332 | Right deep cervical artery
+FJ2279 | BP6603 | Right deep palmar arch
+FJ2280 | BP6662 | Dorsal venous network of right hand
+FJ2281 | BP6613 | Right deep palmar venous arch
+FJ2282 | BP6323 | Deltoid branch of right thoraco-acromial artery
+FJ2283 | BP6228 | Dorsal carpal branch of right radial artery
+FJ2284 | BP6211 | Right dorsal scapular artery
+FJ2285 | BP5916 | Right lateral thoracic vein
+FJ2286 | BP5934 | Right median antebrachial vein
+FJ2287 | BP5931 | Right median cubital vein
+FJ2288 | BP6308 | Right dorsal carpal branch of ulnar artery
+FJ2289 | BP6131 | Right palmar metacarpal artery
+FJ2290 | BP5924 | Right palmar metacarpal vein
+FJ2291 | BP6237 | Right posterior circumflex humeral artery
+FJ2292 | BP6237 | Right posterior circumflex humeral artery
+FJ2293 | BP6303 | Right posterior ulnar recurrent artery
+FJ2294 | BP6335 | Right radial artery
+FJ2295 | BP6225 | Right radial recurrent artery
+FJ2296 | BP5927 | Right radial vein
+FJ2297 | BP6296 | Right recurrent interosseous artery
+FJ2298 | BP6290 | Right subscapular artery
+FJ2299 | BP5913 | Right subscapular vein
+FJ2300 | BP6606 | Right superficial palmar arterial arch
+FJ2301 | BP6610 | Right superficial palmar venous arch
+FJ2302 | BP5909 | Right suprascapular vein
+FJ2303 | BP6201 | Right suprascapular artery
+FJ2304 | BP6424 | Trunk of right thoraco-acromial artery
+FJ2305 | BP6241 | Right thoracodorsal artery
+FJ2306 | BP5937 | Right thoracodorsal vein
+FJ2307 | BP6417 | Right thyrocervical trunk
+FJ2308 | BP6208 | Right superficial cervical artery
+FJ2309 | BP6204 | Right transverse cervical artery
+FJ2310 | BP6315 | Right ulnar artery
+FJ2311 | BP6305 | Right anterior ulnar recurrent artery
+FJ2312 | BP5920 | Right ulnar vein
+FJ2313 | BP5948 | Left medial brachial vein
+FJ2314 | BP6232 | Left arteria radialis indicis
+FJ2315 | BP6100 | Left first common palmar digital artery
+FJ2316 | BP6110 | Left second common palmar digital artery
+FJ2317 | BP6113 | Left third common palmar digital artery
+FJ2318 | BP6647 | Set of dorsal digital arteries
+FJ2319 | BP5992 | Proper palmar digital vein of left little finger
+FJ2320 | BP5925 | Left palmar metacarpal vein
+FJ2321 | BP5992 | Proper palmar digital vein of left little finger
+FJ2322 | BP5996 | Common palmar digital vein
+FJ2323 | BP5925 | Left palmar metacarpal vein
+FJ2324 | BP5995 | Proper palmar digital vein of left index finger
+FJ2325 | BP5995 | Proper palmar digital vein of left index finger
+FJ2326 | BP5986 | Proper palmar digital vein of left middle finger
+FJ2327 | BP5989 | Proper palmar digital vein of left ring finger
+FJ2328 | BP5989 | Proper palmar digital vein of left ring finger
+FJ2329 | BP5992 | Proper palmar digital vein of left little finger
+FJ2330 | BP6320 | Pectoral branch of left thoraco-acromial artery
+FJ2331 | BP6275 | Middle collateral branch of left deep brachial artery
+FJ2332 | BP6232 | Left arteria radialis indicis
+FJ2333 | BP6104 | Medial proper palmar digital artery of left index finger
+FJ2334 | BP6107 | Lateral proper palmar digital artery of left middle finger
+FJ2335 | BP6126 | Lateral proper palmar digital artery of left ring finger
+FJ2336 | BP6122 | Lateral proper palmar digital artery of left little finger
+FJ2337 | BP6116 | Left fourth common palmar digital artery
+FJ2338 | BP6235 | Left arteria princeps pollicis
+FJ2339 | BP6235 | Left arteria princeps pollicis
+FJ2340 | BP5986 | Proper palmar digital vein of left middle finger
+FJ2341 | BP5947 | Right medial brachial vein
+FJ2342 | BP6231 | Right arteria radialis indicis
+FJ2343 | BP6099 | Right first common palmar digital artery
+FJ2344 | BP6109 | Right second common palmar digital artery
+FJ2345 | BP6112 | Right third common palmar digital artery
+FJ2346 | BP6647 | Set of dorsal digital arteries
+FJ2347 | BP6651 | Set of dorsal metacarpal arteries
+FJ2348 | BP6651 | Set of dorsal metacarpal arteries
+FJ2349 | BP5991 | Proper palmar digital vein of right little finger
+FJ2350 | BP5924 | Right palmar metacarpal vein
+FJ2351 | BP5991 | Proper palmar digital vein of right little finger
+FJ2352 | BP5996 | Common palmar digital vein
+FJ2353 | BP5924 | Right palmar metacarpal vein
+FJ2354 | BP5994 | Proper palmar digital vein of right index finger
+FJ2355 | BP5994 | Proper palmar digital vein of right index finger
+FJ2356 | BP5985 | Proper palmar digital vein of right middle finger
+FJ2357 | BP5985 | Proper palmar digital vein of right middle finger
+FJ2358 | BP5988 | Proper palmar digital vein of right ring finger
+FJ2359 | BP5988 | Proper palmar digital vein of right ring finger
+FJ2360 | BP5991 | Proper palmar digital vein of right little finger
+FJ2361 | BP6319 | Pectoral branch of right thoraco-acromial artery
+FJ2362 | BP6276 | Middle collateral branch of right deep brachial artery
+FJ2363 | BP6231 | Right arteria radialis indicis
+FJ2364 | BP6103 | Medial proper palmar digital artery of right index finger
+FJ2365 | BP6106 | Lateral proper palmar digital artery of right middle finger
+FJ2366 | BP6125 | Lateral proper palmar digital artery of right ring finger
+FJ2367 | BP6128 | Medial proper palmar digital artery of right middle finger
+FJ2368 | BP6121 | Lateral proper palmar digital artery of right little finger
+FJ2369 | BP6119 | Medial proper palmar digital artery of right ring finger
+FJ2370 | BP6115 | Right fourth common palmar digital artery
+FJ2371 | BP6234 | Right arteria princeps pollicis
+FJ2372 | BP6234 | Right arteria princeps pollicis
+FJ2373 | BP6278 | Right superior ulnar collateral artery
+FJ2374 | BP6279 | Left superior ulnar collateral artery
+FJ2386 | BP6172 | Caudate lobe branch of right hepatic artery
+FJ2394 | BP6171 | Right lobe branch of right hepatic artery
+FJ2404 | BP5788 | Left portal vein
+FJ2405 | BP5787 | Right portal vein
+FJ2409 | BP6444 | Hepatovenous segment VII
+FJ2414 | BP5819 | Middle hepatic vein
+FJ2415 | BP5820 | Left hepatic vein
+FJ2416 | BP5818 | Right hepatic vein
+FJ2417 | BP9071 | Left anterior cusp of pulmonary valve
+FJ2418 | BP8573 | Anterolateral head of lateral papillary muscle of left ventricle
+FJ2419 | BP9283 | Anterior papillary muscle of right ventricle
+FJ2420 | BP8614 | Anterior leaflet of mitral valve
+FJ2421 | BP8711 | Anterior leaflet of tricuspid valve
+FJ2422 | BP8928 | Cavity of left ventricle
+FJ2423 | BP9227 | Cavity of right ventricle
+FJ2424 | BP8677 | Cavity of right atrium
+FJ2425 | BP8719 | Cavity of left atrium
+FJ2426 | BP8827 | Left posterior cusp of aortic valve
+FJ2427 | BP8601 | Posterior cusp of pulmonary valve
+FJ2428 | BP7815 | Wall of ventricle
+FJ2429 | BP8949 | Lateral papillary muscle of left ventricle
+FJ2430 | BP8146 | Posterior papillary muscle of right ventricle
+FJ2431 | BP7905 | Right posterior cusp of aortic valve
+FJ2432 | BP8834 | Posterior leaflet of mitral valve
+FJ2433 | BP8544 | Posterior leaflet of tricuspid valve
+FJ2434 | BP9033 | Right anterior cusp of pulmonary valve
+FJ2435 | BP8415 | Anterior cusp of aortic valve
+FJ2436 | BP8648 | Septal leaflet of tricuspid valve
+FJ2437 | BP8088 | Septal papillary muscle of right ventricle
+FJ2438 | BP9267 | Wall of left atrium
+FJ2439 | BP8712 | Wall of right atrium
+FJ2440 | BP9117 | Cricoid cartilage
+FJ2441 | BP9109 | Inferior lingular bronchial tree
+FJ2442 | BP8759 | Left medial basal segmental bronchial tree
+FJ2443 | BP7924 | Left anterior segmental bronchial tree
+FJ2444 | BP8229 | Left apical segmental bronchial tree
+FJ2445 | BP9045 | Left lateral basal segmental bronchial tree
+FJ2446 | BP8584 | Left posterior basal segmental bronchial tree
+FJ2447 | BP8694 | Left posterior segmental bronchial tree
+FJ2448 | BP8416 | Left superior segmental bronchial tree
+FJ2449 | BP7978 | Lateral segmental bronchial tree
+FJ2450 | BP8386 | Left main bronchus
+FJ2451 | BP8364 | Medial segmental bronchial tree
+FJ2452 | BP8250 | Right anterior basal segmental bronchial tree
+FJ2453 | BP7982 | Right anterior segmental bronchial tree
+FJ2454 | BP8086 | Right apical segmental bronchial tree
+FJ2455 | BP8090 | Right lateral basal segmental bronchial tree
+FJ2456 | BP7932 | Right medial basal segmental bronchial tree
+FJ2457 | BP7919 | Right posterior basal segmental bronchial tree
+FJ2458 | BP8644 | Right posterior segmental bronchial tree
+FJ2459 | BP7994 | Right superior segmental bronchial tree
+FJ2460 | BP8229 | Left apical segmental bronchial tree
+FJ2461 | BP8229 | Left apical segmental bronchial tree
+FJ2462 | BP8229 | Left apical segmental bronchial tree
+FJ2463 | BP8229 | Left apical segmental bronchial tree
+FJ2464 | BP8229 | Left apical segmental bronchial tree
+FJ2465 | BP8694 | Left posterior segmental bronchial tree
+FJ2466 | BP8694 | Left posterior segmental bronchial tree
+FJ2467 | BP7924 | Left anterior segmental bronchial tree
+FJ2468 | BP7924 | Left anterior segmental bronchial tree
+FJ2469 | BP7924 | Left anterior segmental bronchial tree
+FJ2470 | BP7919 | Right posterior basal segmental bronchial tree
+FJ2471 | BP7924 | Left anterior segmental bronchial tree
+FJ2472 | BP7924 | Left anterior segmental bronchial tree
+FJ2473 | BP7924 | Left anterior segmental bronchial tree
+FJ2474 | BP7924 | Left anterior segmental bronchial tree
+FJ2475 | BP9109 | Inferior lingular bronchial tree
+FJ2476 | BP8806 | Superior lingular bronchial tree
+FJ2477 | BP8806 | Superior lingular bronchial tree
+FJ2478 | BP8806 | Superior lingular bronchial tree
+FJ2479 | BP8416 | Left superior segmental bronchial tree
+FJ2480 | BP8416 | Left superior segmental bronchial tree
+FJ2481 | BP7919 | Right posterior basal segmental bronchial tree
+FJ2482 | BP8416 | Left superior segmental bronchial tree
+FJ2483 | BP8416 | Left superior segmental bronchial tree
+FJ2484 | BP8416 | Left superior segmental bronchial tree
+FJ2485 | BP8416 | Left superior segmental bronchial tree
+FJ2486 | BP7919 | Right posterior basal segmental bronchial tree
+FJ2487 | BP7919 | Right posterior basal segmental bronchial tree
+FJ2488 | BP7932 | Right medial basal segmental bronchial tree
+FJ2489 | BP7919 | Right posterior basal segmental bronchial tree
+FJ2490 | BP8090 | Right lateral basal segmental bronchial tree
+FJ2491 | BP8090 | Right lateral basal segmental bronchial tree
+FJ2492 | BP8090 | Right lateral basal segmental bronchial tree
+FJ2493 | BP8250 | Right anterior basal segmental bronchial tree
+FJ2494 | BP8250 | Right anterior basal segmental bronchial tree
+FJ2495 | BP7994 | Right superior segmental bronchial tree
+FJ2496 | BP7994 | Right superior segmental bronchial tree
+FJ2497 | BP7994 | Right superior segmental bronchial tree
+FJ2498 | BP7994 | Right superior segmental bronchial tree
+FJ2499 | BP7994 | Right superior segmental bronchial tree
+FJ2500 | BP7994 | Right superior segmental bronchial tree
+FJ2501 | BP7994 | Right superior segmental bronchial tree
+FJ2502 | BP7994 | Right superior segmental bronchial tree
+FJ2503 | BP7978 | Lateral segmental bronchial tree
+FJ2504 | BP7978 | Lateral segmental bronchial tree
+FJ2505 | BP7978 | Lateral segmental bronchial tree
+FJ2506 | BP8364 | Medial segmental bronchial tree
+FJ2507 | BP8364 | Medial segmental bronchial tree
+FJ2508 | BP8364 | Medial segmental bronchial tree
+FJ2509 | BP7982 | Right anterior segmental bronchial tree
+FJ2510 | BP7982 | Right anterior segmental bronchial tree
+FJ2511 | BP7982 | Right anterior segmental bronchial tree
+FJ2512 | BP7982 | Right anterior segmental bronchial tree
+FJ2513 | BP7982 | Right anterior segmental bronchial tree
+FJ2514 | BP7982 | Right anterior segmental bronchial tree
+FJ2515 | BP8644 | Right posterior segmental bronchial tree
+FJ2516 | BP8644 | Right posterior segmental bronchial tree
+FJ2517 | BP8644 | Right posterior segmental bronchial tree
+FJ2518 | BP8644 | Right posterior segmental bronchial tree
+FJ2519 | BP8644 | Right posterior segmental bronchial tree
+FJ2520 | BP8086 | Right apical segmental bronchial tree
+FJ2521 | BP8086 | Right apical segmental bronchial tree
+FJ2522 | BP8086 | Right apical segmental bronchial tree
+FJ2523 | BP8086 | Right apical segmental bronchial tree
+FJ2524 | BP8086 | Right apical segmental bronchial tree
+FJ2525 | BP8086 | Right apical segmental bronchial tree
+FJ2526 | BP8086 | Right apical segmental bronchial tree
+FJ2527 | BP8584 | Left posterior basal segmental bronchial tree
+FJ2528 | BP8584 | Left posterior basal segmental bronchial tree
+FJ2529 | BP8584 | Left posterior basal segmental bronchial tree
+FJ2530 | BP8584 | Left posterior basal segmental bronchial tree
+FJ2531 | BP8584 | Left posterior basal segmental bronchial tree
+FJ2532 | BP9045 | Left lateral basal segmental bronchial tree
+FJ2533 | BP9045 | Left lateral basal segmental bronchial tree
+FJ2534 | BP9045 | Left lateral basal segmental bronchial tree
+FJ2535 | BP8011 | Left anterior basal segmental bronchial tree
+FJ2536 | BP8011 | Left anterior basal segmental bronchial tree
+FJ2537 | BP8759 | Left medial basal segmental bronchial tree
+FJ2538 | BP8011 | Left anterior basal segmental bronchial tree
+FJ2539 | BP8732 | Right main bronchus proper
+FJ2540 | BP8806 | Superior lingular bronchial tree
+FJ2541 | BP7849 | Trachea
+FJ2542 | BP9157 | Left coccygeus
+FJ2543 | BP8934 | External anal sphincter
+FJ2544 | BP8007 | Left iliococcygeus
+FJ2545 | BP7791 | Left pubococcygeus
+FJ2546 | BP8228 | Left puborectalis
+FJ2547 | BP8115 | Right coccygeus
+FJ2548 | BP8934 | External anal sphincter
+FJ2549 | BP8874 | Right iliococcygeus
+FJ2550 | BP9143 | Right pubococcygeus
+FJ2551 | BP8202 | Right puborectalis
+FJ2552 | BP9016 | Tendinous arch of levator ani
+FJ2553 | BP9016 | Tendinous arch of levator ani
+FJ2554 | BP8269 | Right major alar cartilage
+FJ2555 | BP8231 | Left major alar cartilage
+FJ2556 | BP8535 | Left lateral nasal cartilage
+FJ2557 | BP8657 | Septal nasal cartilage
+FJ2558 | BP8196 | Right lateral nasal cartilage
+FJ2561 | BP8804 | Spleen
+FJ2562 | BP8474 | Splenic artery
+FJ2563 | BP9222 | Esophagus
+FJ2564 | BP7926 | Stomach
+FJ2565 | BP8994 | Appendix
+FJ2566 | BP9195 | Ascending colon
+FJ2567 | BP8743 | Descending colon
+FJ2568 | BP8892 | Taenia libera
+FJ2569 | BP8553 | Taenia mesocolica
+FJ2570 | BP9094 | Taenia omentalis
+FJ2571 | BP9212 | Rectum
+FJ2572 | BP8403 | Transverse colon
+FJ2573 | BP8646 | Duodenum
+FJ2574 | BP8147 | Proximal part of ileum
+FJ2575 | BP8147 | Proximal part of ileum
+FJ2576 | BP7819 | Middle part of ileum
+FJ2577 | BP7819 | Middle part of ileum
+FJ2578 | BP7819 | Middle part of ileum
+FJ2579 | BP7819 | Middle part of ileum
+FJ2580 | BP7819 | Middle part of ileum
+FJ2581 | BP7819 | Middle part of ileum
+FJ2582 | BP7819 | Middle part of ileum
+FJ2583 | BP7819 | Middle part of ileum
+FJ2584 | BP7819 | Middle part of ileum
+FJ2585 | BP8147 | Proximal part of ileum
+FJ2586 | BP7819 | Middle part of ileum
+FJ2587 | BP8262 | Distal part of ileum
+FJ2588 | BP8262 | Distal part of ileum
+FJ2589 | BP8262 | Distal part of ileum
+FJ2590 | BP8262 | Distal part of ileum
+FJ2591 | BP8262 | Distal part of ileum
+FJ2592 | BP8262 | Distal part of ileum
+FJ2593 | BP8262 | Distal part of ileum
+FJ2594 | BP8262 | Distal part of ileum
+FJ2595 | BP8262 | Distal part of ileum
+FJ2596 | BP8147 | Proximal part of ileum
+FJ2597 | BP8262 | Distal part of ileum
+FJ2598 | BP8262 | Distal part of ileum
+FJ2599 | BP8823 | Ileocecal junction
+FJ2600 | BP8147 | Proximal part of ileum
+FJ2601 | BP8147 | Proximal part of ileum
+FJ2602 | BP8147 | Proximal part of ileum
+FJ2603 | BP8147 | Proximal part of ileum
+FJ2604 | BP8147 | Proximal part of ileum
+FJ2605 | BP8147 | Proximal part of ileum
+FJ2606 | BP8075 | Proximal part of jejunum
+FJ2607 | BP7928 | Middle part of jejunum
+FJ2608 | BP7928 | Middle part of jejunum
+FJ2609 | BP7928 | Middle part of jejunum
+FJ2610 | BP7928 | Middle part of jejunum
+FJ2611 | BP8240 | Distal part of jejunum
+FJ2612 | BP8240 | Distal part of jejunum
+FJ2613 | BP8240 | Distal part of jejunum
+FJ2614 | BP8240 | Distal part of jejunum
+FJ2615 | BP8240 | Distal part of jejunum
+FJ2616 | BP8240 | Distal part of jejunum
+FJ2617 | BP8075 | Proximal part of jejunum
+FJ2618 | BP8240 | Distal part of jejunum
+FJ2619 | BP8240 | Distal part of jejunum
+FJ2620 | BP8240 | Distal part of jejunum
+FJ2621 | BP8240 | Distal part of jejunum
+FJ2622 | BP8075 | Proximal part of jejunum
+FJ2623 | BP8075 | Proximal part of jejunum
+FJ2624 | BP8075 | Proximal part of jejunum
+FJ2625 | BP8075 | Proximal part of jejunum
+FJ2626 | BP8075 | Proximal part of jejunum
+FJ2627 | BP8075 | Proximal part of jejunum
+FJ2628 | BP7928 | Middle part of jejunum
+FJ2629 | BP9199 | Parenchyma of pancreas
+FJ2630 | BP8172 | Pancreatic duct tree
+FJ2631 | BP8970 | Trunk of anterior interventricular branch of left coronary artery
+FJ2632 | BP8913 | First right anterior branch of anterior interventricular branch of left coronary artery
+FJ2633 | BP8004 | Diagonal branch of anterior descending branch of left coronary artery
+FJ2634 | BP8004 | Diagonal branch of anterior descending branch of left coronary artery
+FJ2635 | BP8004 | Diagonal branch of anterior descending branch of left coronary artery
+FJ2636 | BP8004 | Diagonal branch of anterior descending branch of left coronary artery
+FJ2637 | BP8004 | Diagonal branch of anterior descending branch of left coronary artery
+FJ2638 | BP8004 | Diagonal branch of anterior descending branch of left coronary artery
+FJ2639 | BP8004 | Diagonal branch of anterior descending branch of left coronary artery
+FJ2640 | BP8004 | Diagonal branch of anterior descending branch of left coronary artery
+FJ2641 | BP8649 | Third right anterior branch of anterior interventricular branch of left coronary artery
+FJ2642 | BP8004 | Diagonal branch of anterior descending branch of left coronary artery
+FJ2643 | BP8013 | Conus branch of anterior interventricular branch of left coronary artery
+FJ2644 | BP8013 | Conus branch of anterior interventricular branch of left coronary artery
+FJ2645 | BP8913 | First right anterior branch of anterior interventricular branch of left coronary artery
+FJ2646 | BP8897 | Second right anterior branch of anterior interventricular branch of left coronary artery
+FJ2647 | BP8649 | Third right anterior branch of anterior interventricular branch of left coronary artery
+FJ2648 | BP8004 | Diagonal branch of anterior descending branch of left coronary artery
+FJ2649 | BP8397 | Circumflex branch of left coronary artery
+FJ2650 | BP8397 | Circumflex branch of left coronary artery
+FJ2651 | BP8397 | Circumflex branch of left coronary artery
+FJ2652 | BP8397 | Circumflex branch of left coronary artery
+FJ2653 | BP8397 | Circumflex branch of left coronary artery
+FJ2654 | BP8397 | Circumflex branch of left coronary artery
+FJ2655 | BP9086 | Coronary sinus
+FJ2656 | BP8933 | Great cardiac vein
+FJ2657 | BP8171 | Anterior interventricular vein
+FJ2658 | BP8171 | Anterior interventricular vein
+FJ2659 | BP8171 | Anterior interventricular vein
+FJ2660 | BP8171 | Anterior interventricular vein
+FJ2661 | BP8171 | Anterior interventricular vein
+FJ2662 | BP8171 | Anterior interventricular vein
+FJ2663 | BP8171 | Anterior interventricular vein
+FJ2664 | BP8171 | Anterior interventricular vein
+FJ2665 | BP8171 | Anterior interventricular vein
+FJ2667 | BP8446 | Marginal branch of right coronary artery
+FJ2668 | BP8446 | Marginal branch of right coronary artery
+FJ2670 | BP8689 | Right conus artery
+FJ2671 | BP7824 | First anterior ventricular branch of right coronary artery
+FJ2672 | BP8446 | Marginal branch of right coronary artery
+FJ2673 | BP7824 | First anterior ventricular branch of right coronary artery
+FJ2674 | BP8446 | Marginal branch of right coronary artery
+FJ2675 | BP8446 | Marginal branch of right coronary artery
+FJ2676 | BP8689 | Right conus artery
+FJ2677 | BP7824 | First anterior ventricular branch of right coronary artery
+FJ2678 | BP7983 | Middle cardiac vein
+FJ2679 | BP7983 | Middle cardiac vein
+FJ2680 | BP7983 | Middle cardiac vein
+FJ2681 | BP7983 | Middle cardiac vein
+FJ2682 | BP7983 | Middle cardiac vein
+FJ2683 | BP7983 | Middle cardiac vein
+FJ2684 | BP7983 | Middle cardiac vein
+FJ2685 | BP7983 | Middle cardiac vein
+FJ2686 | BP7983 | Middle cardiac vein
+FJ2687 | BP7983 | Middle cardiac vein
+FJ2688 | BP7983 | Middle cardiac vein
+FJ2689 | BP7983 | Middle cardiac vein
+FJ2690 | BP7983 | Middle cardiac vein
+FJ2691 | BP7983 | Middle cardiac vein
+FJ2692 | BP7876 | Posterior interventricular branch of right coronary artery
+FJ2693 | BP7876 | Posterior interventricular branch of right coronary artery
+FJ2694 | BP7876 | Posterior interventricular branch of right coronary artery
+FJ2695 | BP7876 | Posterior interventricular branch of right coronary artery
+FJ2696 | BP7876 | Posterior interventricular branch of right coronary artery
+FJ2697 | BP7876 | Posterior interventricular branch of right coronary artery
+FJ2698 | BP7876 | Posterior interventricular branch of right coronary artery
+FJ2699 | BP7876 | Posterior interventricular branch of right coronary artery
+FJ2700 | BP7876 | Posterior interventricular branch of right coronary artery
+FJ2701 | BP8014 | Posterior vein of left ventricle
+FJ2702 | BP8014 | Posterior vein of left ventricle
+FJ2703 | BP8647 | Left marginal vein
+FJ2704 | BP8647 | Left marginal vein
+FJ2705 | BP8647 | Left marginal vein
+FJ2706 | BP8014 | Posterior vein of left ventricle
+FJ2707 | BP8014 | Posterior vein of left ventricle
+FJ2708 | BP8014 | Posterior vein of left ventricle
+FJ2709 | BP8014 | Posterior vein of left ventricle
+FJ2710 | BP8014 | Posterior vein of left ventricle
+FJ2711 | BP8014 | Posterior vein of left ventricle
+FJ2712 | BP8014 | Posterior vein of left ventricle
+FJ2713 | BP8014 | Posterior vein of left ventricle
+FJ2714 | BP7761 | First posterior ventricular branch of right coronary artery
+FJ2715 | BP7761 | First posterior ventricular branch of right coronary artery
+FJ2716 | BP7761 | First posterior ventricular branch of right coronary artery
+FJ2717 | BP7761 | First posterior ventricular branch of right coronary artery
+FJ2718 | BP7761 | First posterior ventricular branch of right coronary artery
+FJ2719 | BP7761 | First posterior ventricular branch of right coronary artery
+FJ2720 | BP7761 | First posterior ventricular branch of right coronary artery
+FJ2721 | BP7761 | First posterior ventricular branch of right coronary artery
+FJ2722 | BP7761 | First posterior ventricular branch of right coronary artery
+FJ2723 | BP8221 | Trunk of right coronary artery
+FJ2724 | BP8778 | Small cardiac vein
+FJ2725 | BP8603 | Anterior cardiac vein
+FJ2727 | BP8476 | Right marginal vein
+FJ2728 | BP8476 | Right marginal vein
+FJ2729 | BP8476 | Right marginal vein
+FJ2730 | BP8603 | Anterior cardiac vein
+FJ2731 | BP8778 | Small cardiac vein
+FJ2732 | BP8286 | Septal branch of anterior interventricular artery
+FJ2733 | BP8286 | Septal branch of anterior interventricular artery
+FJ2734 | BP8286 | Septal branch of anterior interventricular artery
+FJ2735 | BP8568 | First septal branch of right posterior interventricular artery
+FJ2736 | BP9235 | Second septal branch of right posterior interventricular artery
+FJ2737 | BP8961 | Trunk of left coronary artery
+FJ2738 | BP8440 | Left genioglossus
+FJ2739 | BP9231 | Left hyoglossus
+FJ2740 | BP9205 | Left inferior pharyngeal constrictor
+FJ2741 | BP8365 | Left levator veli palatini
+FJ2742 | BP7915 | Right middle pharyngeal constrictor
+FJ2743 | BP8733 | Left palatopharyngeus
+FJ2744 | BP8235 | Left pterygomandibular raphe
+FJ2745 | BP9270 | Left salpingopharyngeus
+FJ2746 | BP9122 | Left stylopharyngeus
+FJ2747 | BP8791 | Left superior pharyngeal constrictor
+FJ2748 | BP9103 | Left tensor veli palatini
+FJ2749 | BP8947 | Pharyngeal raphe
+FJ2750 | BP8513 | Right genioglossus
+FJ2751 | BP8076 | Right hyoglossus
+FJ2752 | BP8063 | Right inferior pharyngeal constrictor
+FJ2753 | BP9032 | Right levator veli palatini
+FJ2754 | BP8725 | Left middle pharyngeal constrictor
+FJ2755 | BP8607 | Right palatopharyngeus
+FJ2756 | BP8688 | Right pterygomandibular raphe
+FJ2757 | BP8983 | Right salpingopharyngeus
+FJ2758 | BP9164 | Right stylopharyngeus
+FJ2759 | BP8635 | Right superior pharyngeal constrictor
+FJ2760 | BP8501 | Right tensor veli palatini
+FJ2761 | BP9090 | Tongue
+FJ2762 | BP9142 | Uvular muscle
+FJ2763 | BP8289 | Left stylohyoid ligament
+FJ2764 | BP8422 | Right stylohyoid ligament
+FJ2765 | BP8714 | Left sublingual gland
+FJ2766 | BP9232 | Left submandibular gland
+FJ2767 | BP8380 | Right sublingual gland
+FJ2768 | BP9147 | Right submandibular gland
+FJ2769 | BP9117 | Cricoid cartilage
+FJ2770 | BP9263 | Epiglottis
+FJ2771 | BP9140 | Hyo-epiglottic ligament
+FJ2772 | BP8836 | Hyoid bone
+FJ2773 | BP8764 | Left cuneiform cartilage
+FJ2774 | BP9219 | Left aryepiglotticus
+FJ2775 | BP8314 | Left arytenoid cartilage
+FJ2776 | BP8097 | Left corniculate cartilage
+FJ2777 | BP8870 | Left conus elasticus
+FJ2778 | BP8828 | Left lateral crico-arytenoid
+FJ2779 | BP8424 | Left lateral thyrohyoid ligament
+FJ2780 | BP8893 | Left oblique arytenoid
+FJ2781 | BP8175 | Oblique part of left cricothyroid
+FJ2782 | BP7822 | Left posterior crico-arytenoid
+FJ2783 | BP8529 | Straight part of left cricothyroid
+FJ2784 | BP7801 | Left thyro-arytenoid
+FJ2785 | BP7801 | Left thyro-arytenoid
+FJ2786 | BP8736 | Left thyrohyoid membrane
+FJ2787 | BP8188 | Left vocal ligament
+FJ2788 | BP9223 | Left vocalis
+FJ2789 | BP8581 | Median cricothyroid ligament
+FJ2790 | BP8311 | Median thyrohyoid ligament
+FJ2791 | BP8570 | Right aryepiglotticus
+FJ2792 | BP9249 | Right arytenoid cartilage
+FJ2793 | BP8670 | Right corniculate cartilage
+FJ2794 | BP8425 | Right conus elasticus
+FJ2795 | BP9068 | Right cuneiform cartilage
+FJ2796 | BP8618 | Right lateral crico-arytenoid
+FJ2797 | BP8164 | Right lateral thyrohyoid ligament
+FJ2798 | BP9152 | Right oblique arytenoid
+FJ2799 | BP9077 | Oblique part of right cricothyroid
+FJ2800 | BP8360 | Right posterior crico-arytenoid
+FJ2801 | BP8055 | Straight part of right cricothyroid
+FJ2802 | BP7867 | Right thyro-arytenoid
+FJ2803 | BP7867 | Right thyro-arytenoid
+FJ2804 | BP8304 | Right thyrohyoid membrane
+FJ2805 | BP9026 | Right vocal ligament
+FJ2806 | BP8173 | Right vocalis
+FJ2807 | BP8292 | Thyro-epiglottic ligament
+FJ2808 | BP7901 | Thyroid cartilage
+FJ2809 | BP8905 | Transverse arytenoid
+FJ2810 | BP9115 | Skin
+FJ2811 | BP9255 | External ear
+FJ2812 | BP8954 | Eyebrow
+FJ2813 | BP8565 | Hair of head
+FJ2814 | BP7963 | Lip
+FJ2815 | BP8350 | Pubic hair
+FJ2816 | BP8727 | Caudate lobe of liver
+FJ2817 | BP9029 | Gallbladder
+FJ2818 | BP8890 | Hepatovenous segment II
+FJ2819 | BP8982 | Hepatovenous segment III
+FJ2820 | BP8871 | Hepatovenous segment IV
+FJ2821 | BP8976 | Hepatovenous segment V
+FJ2822 | BP9210 | Hepatovenous segment VI
+FJ2823 | BP8866 | Hepatovenous segment VIII
+FJ2824 | BP8866 | Hepatovenous segment VIII
+FJ2881 | BP7974 | Left posterior basal segmental artery
+FJ2882 | BP8105 | Left lateral basal segmental artery
+FJ2883 | BP8631 | Left anterior basal segmental artery
+FJ2884 | BP8129 | Left medial basal segmental artery
+FJ2885 | BP8129 | Left medial basal segmental artery
+FJ2886 | BP8631 | Left anterior basal segmental artery
+FJ2887 | BP8631 | Left anterior basal segmental artery
+FJ2888 | BP7885 | Left superior segmental artery
+FJ2889 | BP7885 | Left superior segmental artery
+FJ2890 | BP7885 | Left superior segmental artery
+FJ2891 | BP7885 | Left superior segmental artery
+FJ2892 | BP7974 | Left posterior basal segmental artery
+FJ2893 | BP7885 | Left superior segmental artery
+FJ2894 | BP7885 | Left superior segmental artery
+FJ2895 | BP7885 | Left superior segmental artery
+FJ2896 | BP9023 | Inferior lingular artery
+FJ2897 | BP9023 | Inferior lingular artery
+FJ2898 | BP8372 | Superior lingular artery
+FJ2899 | BP8372 | Superior lingular artery
+FJ2900 | BP8372 | Superior lingular artery
+FJ2901 | BP8372 | Superior lingular artery
+FJ2902 | BP8113 | Left anterior segmental artery
+FJ2903 | BP7974 | Left posterior basal segmental artery
+FJ2904 | BP8113 | Left anterior segmental artery
+FJ2905 | BP8113 | Left anterior segmental artery
+FJ2906 | BP8113 | Left anterior segmental artery
+FJ2907 | BP8113 | Left anterior segmental artery
+FJ2908 | BP8113 | Left anterior segmental artery
+FJ2909 | BP8113 | Left anterior segmental artery
+FJ2910 | BP8113 | Left anterior segmental artery
+FJ2911 | BP8477 | Left posterior segmental artery
+FJ2912 | BP8477 | Left posterior segmental artery
+FJ2913 | BP8477 | Left posterior segmental artery
+FJ2914 | BP7974 | Left posterior basal segmental artery
+FJ2915 | BP8182 | Left apical segmental artery
+FJ2916 | BP8182 | Left apical segmental artery
+FJ2917 | BP8182 | Left apical segmental artery
+FJ2918 | BP8182 | Left apical segmental artery
+FJ2919 | BP7974 | Left posterior basal segmental artery
+FJ2920 | BP7974 | Left posterior basal segmental artery
+FJ2921 | BP8105 | Left lateral basal segmental artery
+FJ2922 | BP8105 | Left lateral basal segmental artery
+FJ2923 | BP8105 | Left lateral basal segmental artery
+FJ2924 | BP8463 | Left pulmonary artery
+FJ2925 | BP8556 | Left superior pulmonary vein
+FJ2926 | BP8051 | Left posterior segmental vein
+FJ2927 | BP8051 | Left posterior segmental vein
+FJ2928 | BP8051 | Left posterior segmental vein
+FJ2929 | BP8051 | Left posterior segmental vein
+FJ2930 | BP8073 | Left anterior segmental vein
+FJ2931 | BP8073 | Left anterior segmental vein
+FJ2932 | BP8073 | Left anterior segmental vein
+FJ2933 | BP8556 | Left superior pulmonary vein
+FJ2934 | BP7948 | Inferior lingular vein
+FJ2935 | BP7948 | Inferior lingular vein
+FJ2936 | BP8158 | Left apical segmental vein
+FJ2937 | BP8045 | Superior lingular vein
+FJ2938 | BP8045 | Superior lingular vein
+FJ2939 | BP8051 | Left posterior segmental vein
+FJ2940 | BP8051 | Left posterior segmental vein
+FJ2941 | BP8051 | Left posterior segmental vein
+FJ2942 | BP8051 | Left posterior segmental vein
+FJ2943 | BP8051 | Left posterior segmental vein
+FJ2944 | BP8334 | Left inferior pulmonary vein
+FJ2945 | BP8815 | Left posterior basal segmental vein
+FJ2946 | BP8815 | Left posterior basal segmental vein
+FJ2947 | BP8158 | Left apical segmental vein
+FJ2948 | BP8815 | Left posterior basal segmental vein
+FJ2949 | BP8815 | Left posterior basal segmental vein
+FJ2950 | BP8334 | Left inferior pulmonary vein
+FJ2951 | BP8389 | Left lateral basal segmental vein
+FJ2952 | BP8389 | Left lateral basal segmental vein
+FJ2953 | BP8389 | Left lateral basal segmental vein
+FJ2954 | BP8389 | Left lateral basal segmental vein
+FJ2955 | BP8334 | Left inferior pulmonary vein
+FJ2956 | BP8735 | Left anterior basal segmental vein
+FJ2957 | BP8735 | Left anterior basal segmental vein
+FJ2958 | BP8158 | Left apical segmental vein
+FJ2959 | BP8735 | Left anterior basal segmental vein
+FJ2960 | BP8735 | Left anterior basal segmental vein
+FJ2961 | BP8158 | Left apical segmental vein
+FJ2962 | BP8158 | Left apical segmental vein
+FJ2963 | BP8158 | Left apical segmental vein
+FJ2964 | BP8158 | Left apical segmental vein
+FJ2965 | BP8051 | Left posterior segmental vein
+FJ2966 | BP8690 | Pulmonary trunk
+FJ2967 | BP8255 | Apical part of right apical segmental artery
+FJ2968 | BP7996 | Apical part of right posterior segmental artery
+FJ2969 | BP7996 | Apical part of right posterior segmental artery
+FJ2970 | BP7889 | Posterior part of right posterior segmental artery
+FJ2971 | BP7889 | Posterior part of right posterior segmental artery
+FJ2972 | BP7889 | Posterior part of right posterior segmental artery
+FJ2973 | BP8620 | Right upper lobar artery
+FJ2974 | BP8518 | Posterior branch of right anterior segmental artery
+FJ2975 | BP8391 | Anterior branch of right anterior segmental artery
+FJ2976 | BP8391 | Anterior branch of right anterior segmental artery
+FJ2977 | BP8391 | Anterior branch of right anterior segmental artery
+FJ2978 | BP8199 | Anterior part of right apical segmental artery
+FJ2979 | BP8391 | Anterior branch of right anterior segmental artery
+FJ2980 | BP8518 | Posterior branch of right anterior segmental artery
+FJ2981 | BP8518 | Posterior branch of right anterior segmental artery
+FJ2982 | BP7903 | Anterior branch of lateral segmental artery
+FJ2983 | BP8150 | Posterior branch of lateral segmental artery
+FJ2984 | BP8150 | Posterior branch of lateral segmental artery
+FJ2985 | BP7903 | Anterior branch of lateral segmental artery
+FJ2986 | BP8359 | Superior branch of medial segmental artery
+FJ2987 | BP7998 | Inferior branch of medial segmental artery
+FJ2988 | BP7998 | Inferior branch of medial segmental artery
+FJ2989 | BP8199 | Anterior part of right apical segmental artery
+FJ2990 | BP8359 | Superior branch of medial segmental artery
+FJ2991 | BP8070 | Lateral branch of right superior segmental artery
+FJ2992 | BP8070 | Lateral branch of right superior segmental artery
+FJ2993 | BP8070 | Lateral branch of right superior segmental artery
+FJ2994 | BP8442 | Medial branch of right superior segmental artery
+FJ2995 | BP8442 | Medial branch of right superior segmental artery
+FJ2996 | BP8442 | Medial branch of right superior segmental artery
+FJ2997 | BP8410 | Superior branch of right superior segmental artery
+FJ2998 | BP8410 | Superior branch of right superior segmental artery
+FJ2999 | BP8410 | Superior branch of right superior segmental artery
+FJ3000 | BP8199 | Anterior part of right apical segmental artery
+FJ3001 | BP8744 | Lateral branch of right anterior basal segmental artery
+FJ3002 | BP8430 | Basal branch of right anterior basal segmental artery
+FJ3003 | BP8430 | Basal branch of right anterior basal segmental artery
+FJ3004 | BP8092 | Lateral branch of right lateral basal segmental artery
+FJ3005 | BP8092 | Lateral branch of right lateral basal segmental artery
+FJ3006 | BP8092 | Lateral branch of right lateral basal segmental artery
+FJ3007 | BP8092 | Lateral branch of right lateral basal segmental artery
+FJ3008 | BP8110 | Mediobasal branch of right posterior basal segmental artery
+FJ3009 | BP9225 | Accessory subsuperior branch of right posterior basal segmental artery
+FJ3010 | BP9225 | Accessory subsuperior branch of right posterior basal segmental artery
+FJ3011 | BP8199 | Anterior part of right apical segmental artery
+FJ3012 | BP8110 | Mediobasal branch of right posterior basal segmental artery
+FJ3013 | BP8169 | Laterobasal branch of right posterior basal segmental artery
+FJ3014 | BP8169 | Laterobasal branch of right posterior basal segmental artery
+FJ3015 | BP8255 | Apical part of right apical segmental artery
+FJ3016 | BP8255 | Apical part of right apical segmental artery
+FJ3017 | BP8255 | Apical part of right apical segmental artery
+FJ3018 | BP7996 | Apical part of right posterior segmental artery
+FJ3019 | BP8968 | Right pulmonary artery
+FJ3020 | BP8580 | Right superior pulmonary vein
+FJ3021 | BP9179 | Inferior part of right anterior segmental vein
+FJ3022 | BP9003 | Right posterior segmental vein
+FJ3023 | BP9003 | Right posterior segmental vein
+FJ3024 | BP9003 | Right posterior segmental vein
+FJ3025 | BP9003 | Right posterior segmental vein
+FJ3026 | BP9003 | Right posterior segmental vein
+FJ3027 | BP8277 | Superior part of right anterior segmental vein
+FJ3028 | BP8705 | Right anterior segmental vein
+FJ3029 | BP8705 | Right anterior segmental vein
+FJ3030 | BP7839 | Superior part of medial segmental vein
+FJ3031 | BP8135 | Trunk of right apical segmental vein
+FJ3032 | BP8634 | Inferior part of medial segmental vein
+FJ3033 | BP8634 | Inferior part of medial segmental vein
+FJ3034 | BP8453 | Anterior part of lateral segmental vein
+FJ3035 | BP8453 | Anterior part of lateral segmental vein
+FJ3036 | BP8453 | Anterior part of lateral segmental vein
+FJ3037 | BP8148 | Posterior part of lateral segmental vein
+FJ3038 | BP8148 | Posterior part of lateral segmental vein
+FJ3039 | BP8148 | Posterior part of lateral segmental vein
+FJ3040 | BP8784 | Right inferior pulmonary vein
+FJ3041 | BP7968 | Right posterior basal segmental vein
+FJ3042 | BP8641 | Anterior part of right apical segmental vein
+FJ3043 | BP7968 | Right posterior basal segmental vein
+FJ3044 | BP7968 | Right posterior basal segmental vein
+FJ3045 | BP7968 | Right posterior basal segmental vein
+FJ3046 | BP7968 | Right posterior basal segmental vein
+FJ3047 | BP7968 | Right posterior basal segmental vein
+FJ3048 | BP7968 | Right posterior basal segmental vein
+FJ3049 | BP7953 | Right anterior basal segmental vein
+FJ3050 | BP7980 | Right superior segmental vein
+FJ3051 | BP7980 | Right superior segmental vein
+FJ3052 | BP7980 | Right superior segmental vein
+FJ3053 | BP8641 | Anterior part of right apical segmental vein
+FJ3054 | BP8612 | Right medial basal segmental vein
+FJ3055 | BP8612 | Right medial basal segmental vein
+FJ3056 | BP7953 | Right anterior basal segmental vein
+FJ3057 | BP7968 | Right posterior basal segmental vein
+FJ3058 | BP7968 | Right posterior basal segmental vein
+FJ3059 | BP7877 | Right lateral basal segmental vein
+FJ3060 | BP7877 | Right lateral basal segmental vein
+FJ3061 | BP7877 | Right lateral basal segmental vein
+FJ3062 | BP7877 | Right lateral basal segmental vein
+FJ3063 | BP7980 | Right superior segmental vein
+FJ3064 | BP8325 | Apical part of right apical segmental vein
+FJ3065 | BP7980 | Right superior segmental vein
+FJ3066 | BP7980 | Right superior segmental vein
+FJ3067 | BP8325 | Apical part of right apical segmental vein
+FJ3068 | BP8325 | Apical part of right apical segmental vein
+FJ3069 | BP9003 | Right posterior segmental vein
+FJ3070 | BP9003 | Right posterior segmental vein
+FJ3071 | BP8932 | Anterior superior tributary of right hepatic biliary tree
+FJ3072 | BP9262 | Anterior inferior tributary of right hepatic biliary tree
+FJ3073 | BP7908 | Anterior superior segmental branch of right portal vein
+FJ3074 | BP8473 | Anterior inferior segmental branch of right portal vein
+FJ3075 | BP8869 | Anterior inferior segmental hepatic artery
+FJ3076 | BP9163 | Anterior superior segmental hepatic artery
+FJ3077 | BP9178 | Caudate lobe branch of left hepatic artery
+FJ3078 | BP8522 | Common hepatic artery
+FJ3079 | BP9079 | Common hepatic duct
+FJ3080 | BP9078 | Cystic duct
+FJ3081 | BP8485 | Hepatic artery proper
+FJ3082 | BP8801 | Pre-hepatic portal vein
+FJ3083 | BP8633 | Anterior inferior segmental tributary of middle hepatic vein
+FJ3084 | BP8275 | Medial inferior segmental tributary of middle hepatic vein
+FJ3085 | BP8275 | Medial inferior segmental tributary of middle hepatic vein
+FJ3086 | BP8633 | Anterior inferior segmental tributary of middle hepatic vein
+FJ3088 | BP8734 | Lateral superior tributary of left hepatic biliary tree
+FJ3089 | BP8845 | Lateral inferior tributary of left hepatic biliary tree
+FJ3090 | BP8734 | Lateral superior tributary of left hepatic biliary tree
+FJ3091 | BP7851 | Lateral superior segmental hepatic artery
+FJ3092 | BP8814 | Lateral inferior segmental hepatic artery
+FJ3093 | BP7851 | Lateral superior segmental hepatic artery
+FJ3094 | BP8609 | Left duct of caudate lobe of liver
+FJ3095 | BP8671 | Trunk of left hepatic artery
+FJ3096 | BP8715 | Left hepatic duct
+FJ3097 | BP8184 | Lateral inferior segmental tributary of left hepatic vein
+FJ3098 | BP9074 | Lateral superior segmental tributary of left hepatic vein
+FJ3099 | BP8184 | Lateral inferior segmental tributary of left hepatic vein
+FJ3100 | BP8184 | Lateral inferior segmental tributary of left hepatic vein
+FJ3101 | BP8742 | Medial superior segmental tributary of left hepatic vein
+FJ3102 | BP9233 | Trunk of left portal vein
+FJ3103 | BP7806 | Medial inferior tributary of left hepatic biliary tree
+FJ3104 | BP8213 | Medial superior tributary of left hepatic biliary tree
+FJ3105 | BP8213 | Medial superior tributary of left hepatic biliary tree
+FJ3106 | BP8177 | Medial inferior segmental hepatic artery
+FJ3107 | BP8099 | Medial superior segmental hepatic artery
+FJ3108 | BP9072 | Posterior inferior tributary of right hepatic biliary tree
+FJ3109 | BP8658 | Posterior superior tributary of right hepatic biliary tree
+FJ3110 | BP8658 | Posterior superior tributary of right hepatic biliary tree
+FJ3111 | BP8786 | Posterior inferior segmental branch of right portal vein
+FJ3112 | BP8515 | Posterior superior segmental branch of right portal vein
+FJ3113 | BP8515 | Posterior superior segmental branch of right portal vein
+FJ3114 | BP8896 | Posterior inferior segmental hepatic artery
+FJ3115 | BP8503 | Posterior superior segmental hepatic artery
+FJ3116 | BP8503 | Posterior superior segmental hepatic artery
+FJ3117 | BP8942 | Trunk of right hepatic artery
+FJ3118 | BP8428 | Posterior inferior segmental tributary of right hepatic vein
+FJ3119 | BP9037 | Posterior superior segmental tributary of right hepatic vein
+FJ3120 | BP8428 | Posterior inferior segmental tributary of right hepatic vein
+FJ3121 | BP8549 | Anterior superior segmental tributary of right hepatic vein
+FJ3122 | BP8922 | Trunk of right portal vein
+FJ3123 | BP9268 | Right hepatic duct
+FJ3124 | BP8904 | Caudate lobe branch of left portal vein
+FJ3125 | BP8988 | Lateral inferior segmental branch of left portal vein
+FJ3126 | BP8843 | Lateral superior segmental branch of left portal vein
+FJ3127 | BP8270 | Medial superior segmental branch of left portal vein
+FJ3128 | BP9093 | Medial inferior segmental branch of left portal vein
+FJ3129 | BP9014 | Left adrenal gland
+FJ3130 | BP9132 | Right adrenal gland
+FJ3131 | BP8798 | Diaphragm
+FJ3132 | BP9224 | Corpus cavernosum of penis
+FJ3133 | BP8470 | Corpus spongiosum of penis
+FJ3134 | BP8793 | Glans penis
+FJ3135 | BP8796 | Left deferent duct
+FJ3136 | BP8772 | Left epididymis
+FJ3137 | BP9064 | Left seminal vesicle
+FJ3138 | BP8578 | Left testis
+FJ3139 | BP8469 | Prostate
+FJ3140 | BP9116 | Right deferent duct
+FJ3141 | BP8141 | Right epididymis
+FJ3142 | BP9204 | Right testis
+FJ3143 | BP8530 | Right seminal vesicle
+FJ3144 | BP8750 | Left ureter
+FJ3145 | BP9289 | Left kidney
+FJ3146 | BP8912 | Right ureter
+FJ3147 | BP8907 | Right kidney
+FJ3148 | BP9098 | Urethra
+FJ3149 | BP8497 | Urinary bladder
+FJ3150 | BP8666 | Left lobe of thymus
+FJ3151 | BP9220 | Right lobe of thymus
+FJ3152 | BP8768 | Right hip bone
+FJ3153 | BP7865 | Xiphoid process
+FJ3154 | BP8412 | Tenth thoracic vertebra
+FJ3155 | BP8043 | Eleventh thoracic vertebra
+FJ3156 | BP9250 | Twelfth thoracic vertebra
+FJ3157 | BP8948 | First lumbar vertebra
+FJ3158 | BP8981 | First thoracic vertebra
+FJ3159 | BP8995 | Second lumbar vertebra
+FJ3160 | BP8475 | Second thoracic vertebra
+FJ3161 | BP9108 | Third cervical vertebra
+FJ3162 | BP8227 | Third lumbar vertebra
+FJ3163 | BP8726 | Third thoracic vertebra
+FJ3164 | BP8003 | Fourth cervical vertebra
+FJ3165 | BP8133 | Fourth lumbar vertebra
+FJ3166 | BP9156 | Fourth thoracic vertebra
+FJ3167 | BP8835 | Fifth cervical vertebra
+FJ3168 | BP8280 | Fifth lumbar vertebra
+FJ3169 | BP8643 | Fifth thoracic vertebra
+FJ3170 | BP7845 | Sixth cervical vertebra
+FJ3171 | BP8303 | Sixth thoracic vertebra
+FJ3172 | BP7979 | Seventh cervical vertebra
+FJ3173 | BP8840 | Seventh thoracic vertebra
+FJ3174 | BP9221 | Eighth thoracic vertebra
+FJ3175 | BP8178 | Ninth thoracic vertebra
+FJ3176 | BP8831 | Atlas
+FJ3177 | BP8459 | Axis
+FJ3178 | BP8989 | Body of sternum
+FJ3179 | BP8108 | Distal phalanx of left second toe
+FJ3180 | BP7955 | Distal phalanx of left third toe
+FJ3181 | BP8789 | Distal phalanx of left fourth toe
+FJ3182 | BP9247 | Distal phalanx of left big toe
+FJ3183 | BP8295 | Distal phalanx of left index finger
+FJ3184 | BP8799 | Distal phalanx of left little finger
+FJ3185 | BP8818 | Distal phalanx of left little toe
+FJ3186 | BP8844 | Distal phalanx of left middle finger
+FJ3187 | BP9065 | Distal phalanx of left ring finger
+FJ3188 | BP9118 | Distal phalanx of left thumb
+FJ3189 | BP8472 | Distal phalanx of right second toe
+FJ3190 | BP9005 | Distal phalanx of right third toe
+FJ3191 | BP9261 | Distal phalanx of right fourth toe
+FJ3192 | BP9282 | Distal phalanx of right big toe
+FJ3193 | BP8939 | Distal phalanx of right index finger
+FJ3194 | BP8637 | Distal phalanx of right little finger
+FJ3195 | BP8695 | Distal phalanx of right little toe
+FJ3196 | BP8483 | Distal phalanx of right middle finger
+FJ3197 | BP7961 | Distal phalanx of right ring finger
+FJ3198 | BP8436 | Distal phalanx of right thumb
+FJ3199 | BP8991 | Ethmoid
+FJ3200 | BP8209 | Frontal bone
+FJ3201 | BP8836 | Hyoid bone
+FJ3202 | BP9151 | Intervertebral disk of axis
+FJ3203 | BP9269 | Intervertebral disk of fourth thoracic vertebra
+FJ3204 | BP8610 | Intervertebral disk of fifth thoracic vertebra
+FJ3205 | BP8652 | Intervertebral disk of sixth thoracic vertebra
+FJ3206 | BP8433 | Intervertebral disk of seventh thoracic vertebra
+FJ3207 | BP8829 | Intervertebral disk of eighth thoracic vertebra
+FJ3208 | BP8704 | Intervertebral disk of ninth thoracic vertebra
+FJ3209 | BP9069 | Intervertebral disk of tenth thoracic vertebra
+FJ3210 | BP7810 | Intervertebral disk of eleventh thoracic vertebra
+FJ3211 | BP7812 | Intervertebral disk
+FJ3212 | BP8891 | Intervertebral disk of first lumbar vertebra
+FJ3213 | BP9201 | Intervertebral disk of third cervical vertebra
+FJ3214 | BP8683 | Intervertebral disk of second lumbar vertebra
+FJ3215 | BP8046 | Intervertebral disk of third lumbar vertebra
+FJ3216 | BP8261 | Intervertebral disk of fourth lumbar vertebra
+FJ3217 | BP8781 | Intervertebral disk of fifth lumbar vertebra
+FJ3218 | BP8718 | Intervertebral disk of fourth cervical vertebra
+FJ3219 | BP7934 | Intervertebral disk of fifth cervical vertebra
+FJ3220 | BP9190 | Intervertebral disk of sixth cervical vertebra
+FJ3221 | BP8243 | Intervertebral disk of seventh cervical vertebra
+FJ3222 | BP9158 | Intervertebral disk of first thoracic vertebra
+FJ3223 | BP8514 | Intervertebral disk of second thoracic vertebra
+FJ3224 | BP9007 | Intervertebral disk of third thoracic vertebra
+FJ3225 | BP9155 | Left tenth rib
+FJ3226 | BP9097 | Left eleventh rib
+FJ3227 | BP9061 | Left twelfth rib
+FJ3228 | BP8800 | Left first rib
+FJ3229 | BP8996 | Left second rib
+FJ3230 | BP8357 | Left third rib
+FJ3231 | BP8081 | Left fourth rib
+FJ3232 | BP8479 | Left fifth rib
+FJ3233 | BP9041 | Left sixth rib
+FJ3234 | BP9230 | Left seventh rib
+FJ3235 | BP8708 | Left eighth rib
+FJ3236 | BP8438 | Left ninth rib
+FJ3237 | BP8841 | Left clavicle
+FJ3239 | BP8731 | Left first costal cartilage
+FJ3240 | BP8887 | Left first metacarpal bone
+FJ3241 | BP8160 | Left first metatarsal bone
+FJ3242 | BP8420 | Left second costal cartilage
+FJ3243 | BP8909 | Left second metacarpal bone
+FJ3244 | BP8915 | Left second metatarsal bone
+FJ3245 | BP8752 | Left third costal cartilage
+FJ3246 | BP8863 | Left third metacarpal bone
+FJ3247 | BP8967 | Left third metatarsal bone
+FJ3248 | BP8773 | Left fourth costal cartilage
+FJ3249 | BP9203 | Left fourth metacarpal bone
+FJ3250 | BP8511 | Left fourth metatarsal bone
+FJ3251 | BP8787 | Left fifth costal cartilage
+FJ3252 | BP8000 | Left fifth metacarpal bone
+FJ3253 | BP9237 | Left fifth metatarsal bone
+FJ3254 | BP8340 | Left sixth costal cartilage
+FJ3255 | BP8527 | Left seventh costal cartilage
+FJ3256 | BP8533 | Left calcaneus
+FJ3257 | BP7959 | Left capitate
+FJ3258 | BP8538 | Left cuboid bone
+FJ3259 | BP9042 | Left femur
+FJ3260 | BP8251 | Left fibula
+FJ3261 | BP8883 | Left hamate
+FJ3262 | BP9191 | Left humerus
+FJ3263 | BP9034 | Left inferior nasal concha
+FJ3264 | BP8520 | Left intermediate cuneiform bone
+FJ3265 | BP8103 | Left lacrimal bone
+FJ3266 | BP8272 | Sesamoid bone of left foot
+FJ3267 | BP8347 | Left lateral cuneiform bone
+FJ3268 | BP8493 | Left lunate
+FJ3269 | BP9046 | Left maxilla
+FJ3270 | BP8272 | Sesamoid bone of left foot
+FJ3271 | BP8774 | Left medial cuneiform bone
+FJ3272 | BP8558 | Left nasal bone
+FJ3273 | BP7930 | Left palatine bone
+FJ3274 | BP9209 | Left parietal bone
+FJ3275 | BP8378 | Left patella
+FJ3276 | BP8957 | Left pisiform
+FJ3277 | BP9059 | Left radius
+FJ3278 | BP8122 | Left scaphoid
+FJ3279 | BP9121 | Left scapula
+FJ3280 | BP9187 | Left talus
+FJ3281 | BP7991 | Left temporal bone
+FJ3282 | BP9202 | Left tibia
+FJ3283 | BP9024 | Left trapezium
+FJ3284 | BP9272 | Left trapezoid
+FJ3285 | BP8583 | Left triquetral
+FJ3286 | BP9070 | Left ulna
+FJ3287 | BP8495 | Left zygomatic bone
+FJ3288 | BP8950 | Left hip bone
+FJ3289 | BP8107 | Mandible
+FJ3290 | BP8562 | Manubrium
+FJ3291 | BP8611 | Middle phalanx of left ring finger
+FJ3292 | BP8451 | Middle phalanx of right ring finger
+FJ3293 | BP7873 | Middle phalanx of left second toe
+FJ3294 | BP7748 | Middle phalanx of left third toe
+FJ3295 | BP9004 | Middle phalanx of left fourth toe
+FJ3296 | BP9063 | Middle phalanx of left index finger
+FJ3297 | BP8595 | Middle phalanx of left little finger
+FJ3298 | BP9035 | Middle phalanx of left little toe
+FJ3299 | BP8456 | Middle phalanx of left middle finger
+FJ3300 | BP8488 | Middle phalanx of right second toe
+FJ3301 | BP9047 | Middle phalanx of right third toe
+FJ3302 | BP8576 | Middle phalanx of right fourth toe
+FJ3303 | BP8523 | Middle phalanx of right index finger
+FJ3304 | BP8491 | Middle phalanx of right little finger
+FJ3305 | BP9234 | Middle phalanx of right little toe
+FJ3306 | BP9150 | Middle phalanx of right middle finger
+FJ3307 | BP8599 | Navicular bone of left foot
+FJ3308 | BP9133 | Navicular bone of right foot
+FJ3309 | BP9177 | Occipital bone
+FJ3310 | BP8785 | Proximal phalanx of right big toe
+FJ3311 | BP8837 | Proximal phalanx of left third toe
+FJ3312 | BP8346 | Proximal phalanx of left fourth toe
+FJ3313 | BP8328 | Proximal phalanx of left index finger
+FJ3314 | BP8710 | Proximal phalanx of left little finger
+FJ3315 | BP8594 | Proximal phalanx of left little toe
+FJ3316 | BP8864 | Proximal phalanx of left middle finger
+FJ3317 | BP7936 | Proximal phalanx of left ring finger
+FJ3318 | BP7897 | Proximal phalanx of left thumb
+FJ3319 | BP9196 | Proximal phalanx of right second toe
+FJ3320 | BP8762 | Proximal phalanx of right third toe
+FJ3321 | BP8281 | Proximal phalanx of right fourth toe
+FJ3322 | BP8914 | Proximal phalanx of right index finger
+FJ3323 | BP8100 | Proximal phalanx of right little finger
+FJ3324 | BP8417 | Proximal phalanx of right little toe
+FJ3325 | BP9025 | Proximal phalanx of right middle finger
+FJ3326 | BP8330 | Proximal phalanx of right ring finger
+FJ3327 | BP8017 | Proximal phalanx of right thumb
+FJ3328 | BP9088 | Proximal phalanx of left second toe
+FJ3329 | BP8653 | Proximal phalanx of left big toe
+FJ3330 | BP8407 | Right tenth rib
+FJ3331 | BP8951 | Right eleventh rib
+FJ3332 | BP9236 | Right twelfth rib
+FJ3333 | BP8434 | Right first costal cartilage
+FJ3334 | BP8341 | Right first rib
+FJ3335 | BP8906 | Right second costal cartilage
+FJ3336 | BP9279 | Right second rib
+FJ3337 | BP9006 | Right third costal cartilage
+FJ3338 | BP8969 | Right third rib
+FJ3339 | BP8536 | Right fourth costal cartilage
+FJ3340 | BP9092 | Right fourth rib
+FJ3341 | BP8822 | Right fifth costal cartilage
+FJ3342 | BP8792 | Right fifth rib
+FJ3343 | BP7868 | Right sixth costal cartilage
+FJ3344 | BP8881 | Right sixth rib
+FJ3345 | BP8368 | Right seventh costal cartilage
+FJ3346 | BP8211 | Right seventh rib
+FJ3347 | BP9073 | Right eighth rib
+FJ3348 | BP9181 | Right ninth rib
+FJ3349 | BP8464 | Right radius
+FJ3350 | BP8547 | Right first metacarpal bone
+FJ3351 | BP8230 | Right first metatarsal bone
+FJ3352 | BP8219 | Right second metacarpal bone
+FJ3353 | BP8627 | Right second metatarsal bone
+FJ3354 | BP8629 | Right third metacarpal bone
+FJ3355 | BP8802 | Right third metatarsal bone
+FJ3356 | BP8444 | Right fourth metacarpal bone
+FJ3357 | BP9130 | Right fourth metatarsal bone
+FJ3358 | BP8925 | Right fifth metacarpal bone
+FJ3359 | BP7912 | Right fifth metatarsal bone
+FJ3360 | BP9040 | Right calcaneus
+FJ3361 | BP8528 | Right capitate
+FJ3362 | BP9271 | Right clavicle
+FJ3364 | BP8873 | Right cuboid bone
+FJ3365 | BP8920 | Right femur
+FJ3366 | BP8009 | Right fibula
+FJ3367 | BP9266 | Right hamate
+FJ3368 | BP9206 | Right humerus
+FJ3369 | BP8413 | Right inferior nasal concha
+FJ3370 | BP9110 | Right intermediate cuneiform bone
+FJ3371 | BP8741 | Right lacrimal bone
+FJ3372 | BP8756 | Sesamoid bone of right foot
+FJ3373 | BP8730 | Right lateral cuneiform bone
+FJ3374 | BP9284 | Right lunate
+FJ3375 | BP8309 | Right maxilla
+FJ3376 | BP8756 | Sesamoid bone of right foot
+FJ3377 | BP8830 | Right medial cuneiform bone
+FJ3378 | BP9060 | Right nasal bone
+FJ3379 | BP8406 | Right palatine bone
+FJ3380 | BP9057 | Right parietal bone
+FJ3381 | BP8390 | Right patella
+FJ3382 | BP8770 | Right pisiform
+FJ3383 | BP8724 | Right scaphoid
+FJ3384 | BP9101 | Right scapula
+FJ3385 | BP8033 | Right talus
+FJ3386 | BP8875 | Right temporal bone
+FJ3387 | BP8031 | Right tibia
+FJ3388 | BP8566 | Right trapezium
+FJ3389 | BP7880 | Right trapezoid
+FJ3390 | BP8307 | Right triquetral
+FJ3391 | BP8233 | Right ulna
+FJ3392 | BP8777 | Right zygomatic bone
+FJ3393 | BP9174 | Sacrum
+FJ3394 | BP8498 | Sphenoid bone
+FJ3395 | BP8776 | Vomer
+FJ3396 | BP9149 | Mesentery of small intestine
+FJ3397 | BP9008 | Mesoappendix
+FJ3398 | BP9186 | Transverse mesocolon
+FJ3399 | BP10366 | Ascending branch of left colic artery
+FJ3400 | BP10588 | Left colic vein
+FJ3401 | BP10570 | Anterior inferior pancreaticoduodenal artery
+FJ3406 | BP10293 | Anterior cecal artery
+FJ3409 | BP10602 | Anterior superior pancreaticoduodenal artery
+FJ3410 | BP10350 | Appendicular artery
+FJ3411 | BP10322 | Arch of aorta
+FJ3413 | BP10329 | Ascending aorta
+FJ3414 | BP10306 | Ascending branch of inferior branch of ileocolic artery
+FJ3415 | BP10601 | Ileocolic vein
+FJ3416 | BP10369 | Azygos vein
+FJ3417 | BP10355 | Brachiocephalic artery
+FJ3418 | BP10558 | Bronchial branch of arch of aorta
+FJ3419 | BP10611 | Caudal pancreatic artery
+FJ3420 | BP8474 | Splenic artery
+FJ3421 | BP10622 | Celiac trunk
+FJ3426 | BP10594 | Left superficial dorsal vein of penis
+FJ3427 | BP10248 | Descending aorta
+FJ3428 | BP10331 | Descending branch of left colic artery
+FJ3429 | BP10588 | Left colic vein
+FJ3430 | BP10604 | Dorsal pancreatic artery
+FJ3431 | BP10612 | Set of oesophageal branches of thoracic aorta
+FJ3432 | BP10569 | Trunk of gastroduodenal artery
+FJ3433 | BP10610 | Great pancreatic artery
+FJ3434 | BP10360 | Hemiazygos vein
+FJ3437 | BP10603 | Ileal artery
+FJ3438 | BP10589 | Ileal vein
+FJ3439 | BP10325 | Ileocolic artery
+FJ3440 | BP10601 | Ileocolic vein
+FJ3441 | BP10311 | Inferior vena cava
+FJ3442 | BP10321 | Inferior mesenteric artery
+FJ3443 | BP10621 | Inferior mesenteric vein
+FJ3444 | BP10581 | Inferior pancreatic artery
+FJ3446 | BP10615 | Inferior pancreaticoduodenal artery
+FJ3447 | BP10580 | Inferior phrenic vein
+FJ3448 | BP10580 | Inferior phrenic vein
+FJ3449 | BP10580 | Inferior phrenic vein
+FJ3450 | BP10580 | Inferior phrenic vein
+FJ3451 | BP10580 | Inferior phrenic vein
+FJ3452 | BP10580 | Inferior phrenic vein
+FJ3458 | BP10274 | Anterior division of left renal artery
+FJ3459 | BP10274 | Anterior division of left renal artery
+FJ3460 | BP10274 | Anterior division of left renal artery
+FJ3461 | BP10274 | Anterior division of left renal artery
+FJ3462 | BP10274 | Anterior division of left renal artery
+FJ3463 | BP10274 | Anterior division of left renal artery
+FJ3464 | BP10347 | Left common iliac artery
+FJ3465 | BP10352 | Left common iliac vein
+FJ3466 | BP10599 | Left external iliac artery
+FJ3467 | BP10319 | Left inferior suprarenal artery
+FJ3468 | BP10328 | Left internal iliac artery
+FJ3469 | BP10309 | Left internal iliac vein
+FJ3470 | BP10309 | Left internal iliac vein
+FJ3471 | BP10309 | Left internal iliac vein
+FJ3472 | BP10608 | Left middle suprarenal artery
+FJ3473 | BP10270 | Posterior division of left renal artery
+FJ3474 | BP10270 | Posterior division of left renal artery
+FJ3475 | BP10270 | Posterior division of left renal artery
+FJ3476 | BP10627 | Trunk of left renal artery
+FJ3477 | BP10330 | Left renal vein
+FJ3478 | BP10330 | Left renal vein
+FJ3479 | BP10308 | Left subclavian artery
+FJ3480 | BP10629 | Left suprarenal vein
+FJ3481 | BP10616 | Ureteric segment of left renal artery
+FJ3482 | BP10267 | Left brachiocephalic vein
+FJ3483 | BP10326 | Left common carotid artery
+FJ3484 | BP10318 | Left external iliac vein
+FJ3485 | BP10367 | Left internal jugular vein
+FJ3486 | BP10345 | Left subclavian vein
+FJ3493 | BP10625 | Left ascending lumbar vein
+FJ3494 | BP10296 | Left colic artery
+FJ3495 | BP10588 | Left colic vein
+FJ3496 | BP10315 | Left dorsal artery of penis
+FJ3497 | BP10315 | Left dorsal artery of penis
+FJ3499 | BP10363 | Left gastric artery
+FJ3500 | BP10631 | Left gastric vein
+FJ3501 | BP10607 | Left gastro-epiploic artery
+FJ3502 | BP10617 | Left gastroepiploic vein
+FJ3510 | BP10343 | Left iliolumbar vein
+FJ3511 | BP10368 | Left inferior epigastric artery
+FJ3512 | BP10283 | Left inferior epigastric vein
+FJ3513 | BP10359 | Left inferior gluteal vein
+FJ3514 | BP10246 | Left inferior phrenic artery
+FJ3515 | BP10246 | Left inferior phrenic artery
+FJ3516 | BP10246 | Left inferior phrenic artery
+FJ3517 | BP10246 | Left inferior phrenic artery
+FJ3518 | BP10246 | Left inferior phrenic artery
+FJ3519 | BP10246 | Left inferior phrenic artery
+FJ3520 | BP10246 | Left inferior phrenic artery
+FJ3522 | BP10318 | Left external iliac vein
+FJ3523 | BP10318 | Left external iliac vein
+FJ3524 | BP10318 | Left external iliac vein
+FJ3525 | BP10251 | Left internal pudendal vein
+FJ3526 | BP10349 | Left lateral sacral vein
+FJ3527 | BP10362 | Left obturator vein
+FJ3529 | BP10261 | Left superficial epigastric artery
+FJ3530 | BP10364 | Left superior epigastric vein
+FJ3531 | BP10357 | Left superior gluteal vein
+FJ3532 | BP10620 | Left testicular artery
+FJ3533 | BP10562 | Left testicular vein
+FJ3534 | BP10606 | Marginal artery of colon
+FJ3541 | BP10348 | Median sacral vein
+FJ3542 | BP10324 | Middle colic artery
+FJ3543 | BP10591 | Middle colic vein
+FJ3544 | BP8474 | Splenic artery
+FJ3545 | BP10566 | Pancreaticoduodenal vein
+FJ3546 | BP10587 | Posterior inferior pancreaticoduodenal artery
+FJ3553 | BP10284 | Posterior cecal artery
+FJ3557 | BP10574 | Posterior superior pancreaticoduodenal artery
+FJ3558 | BP10290 | Anterior division of right renal artery
+FJ3559 | BP10290 | Anterior division of right renal artery
+FJ3560 | BP10290 | Anterior division of right renal artery
+FJ3561 | BP10290 | Anterior division of right renal artery
+FJ3562 | BP10290 | Anterior division of right renal artery
+FJ3563 | BP10290 | Anterior division of right renal artery
+FJ3564 | BP10288 | Right common carotid artery
+FJ3565 | BP10297 | Right common iliac artery
+FJ3566 | BP10313 | Right common iliac vein
+FJ3567 | BP10614 | Right external iliac artery
+FJ3568 | BP10294 | Right external iliac vein
+FJ3569 | BP10316 | Right internal iliac artery
+FJ3570 | BP10327 | Right internal iliac vein
+FJ3571 | BP10327 | Right internal iliac vein
+FJ3572 | BP10327 | Right internal iliac vein
+FJ3573 | BP10258 | Posterior division of right renal artery
+FJ3574 | BP10258 | Posterior division of right renal artery
+FJ3575 | BP10258 | Posterior division of right renal artery
+FJ3576 | BP10632 | Trunk of right renal artery
+FJ3577 | BP10256 | Right renal vein
+FJ3578 | BP10256 | Right renal vein
+FJ3579 | BP10281 | Right subclavian artery
+FJ3580 | BP10623 | Right suprarenal vein
+FJ3581 | BP10556 | Ureteric segment of right renal artery
+FJ3582 | BP10556 | Ureteric segment of right renal artery
+FJ3583 | BP10354 | Right brachiocephalic vein
+FJ3584 | BP10358 | Right inferior suprarenal artery
+FJ3585 | BP10334 | Right internal jugular vein
+FJ3586 | BP10613 | Right middle suprarenal artery
+FJ3587 | BP10356 | Right subclavian vein
+FJ3589 | BP10593 | Right ascending lumbar vein
+FJ3590 | BP10353 | Right colic artery
+FJ3591 | BP10572 | Right colic vein
+FJ3592 | BP10299 | Right dorsal artery of penis
+FJ3593 | BP10299 | Right dorsal artery of penis
+FJ3594 | BP10564 | Right gastric artery
+FJ3595 | BP10586 | Right gastric vein
+FJ3596 | BP10590 | Right gastro-epiploic artery
+FJ3597 | BP10573 | Right gastroepiploic vein
+FJ3603 | BP10351 | Right iliolumbar vein
+FJ3604 | BP10340 | Right inferior epigastric artery
+FJ3605 | BP10271 | Right inferior epigastric vein
+FJ3606 | BP10276 | Right inferior gluteal vein
+FJ3607 | BP10327 | Right internal iliac vein
+FJ3608 | BP10327 | Right internal iliac vein
+FJ3609 | BP10327 | Right internal iliac vein
+FJ3610 | BP10365 | Right internal pudendal vein
+FJ3611 | BP10278 | Right lateral sacral vein
+FJ3612 | BP10254 | Right obturator vein
+FJ3614 | BP10307 | Right superficial epigastric artery
+FJ3615 | BP10337 | Right superior epigastric vein
+FJ3616 | BP10304 | Right superior gluteal vein
+FJ3617 | BP10618 | Right testicular artery
+FJ3618 | BP10605 | Right testicular vein
+FJ3619 | BP10280 | Right inferior phrenic artery
+FJ3620 | BP10280 | Right inferior phrenic artery
+FJ3621 | BP10280 | Right inferior phrenic artery
+FJ3622 | BP10280 | Right inferior phrenic artery
+FJ3623 | BP10280 | Right inferior phrenic artery
+FJ3624 | BP10280 | Right inferior phrenic artery
+FJ3625 | BP10280 | Right inferior phrenic artery
+FJ3626 | BP10280 | Right inferior phrenic artery
+FJ3631 | BP10565 | Lumbar vein
+FJ3632 | BP10584 | Lumbar artery
+FJ3635 | BP10565 | Lumbar vein
+FJ3636 | BP10584 | Lumbar artery
+FJ3637 | BP10630 | Right superficial dorsal vein of penis
+FJ3638 | BP10312 | Sigmoid artery
+FJ3639 | BP10626 | Sigmoid vein
+FJ3640 | BP8474 | Splenic artery
+FJ3641 | BP10265 | Splenic vein
+FJ3644 | BP10592 | Trunk of superior mesenteric artery
+FJ3645 | BP10292 | Superior vena cava
+FJ3646 | BP10566 | Pancreaticoduodenal vein
+FJ3647 | BP10291 | Superior mesenteric vein
+FJ3648 | BP10568 | Superior phrenic vein
+FJ3649 | BP10568 | Superior phrenic vein
+FJ3650 | BP10568 | Superior phrenic vein
+FJ3651 | BP10568 | Superior phrenic vein
+FJ3652 | BP10568 | Superior phrenic vein
+FJ3653 | BP10568 | Superior phrenic vein
+FJ3654 | BP10568 | Superior phrenic vein
+FJ3655 | BP10566 | Pancreaticoduodenal vein
+FJ3656 | BP10244 | Superior rectal artery
+FJ3657 | BP10577 | Superior rectal vein
+FJ3658 | BP10585 | Ascending lumbar vein
+FJ3659 | BP10311 | Inferior vena cava
