@@ -1,0 +1,24 @@
+from pathlib import Path
+
+folder = Path(r"C:\Users\hofma\Master AI\Semester 1\3D\Projekt\Data\isa_BP3D_4.0_obj_99")
+out_file = folder.parent / "obj_header_info+conceptidee.txt"
+
+keys = ("File ID", "Representation ID", "Concept ID", "English name")
+
+with open(out_file, "w", encoding="utf-8") as out:
+    for obj in sorted(folder.glob("*.obj")):
+        info = {}
+        with open(obj, "r", encoding="utf-8", errors="replace") as f:
+            for line in f:
+                if not line.startswith("#"):
+                    break
+                for key in keys:
+                    if line.startswith(f"# {key} :"):
+                        info[key] = line.split(":", 1)[1].strip()
+
+        if len(info) == len(keys):
+            out.write(f"{info['File ID']} | {info['Representation ID']} | {info['Concept ID']} | {info['English name']}\n")
+        else:
+            out.write(f"# {obj.name}: Header unvollständig\n")
+
+print(f"Fertig: {out_file}")
