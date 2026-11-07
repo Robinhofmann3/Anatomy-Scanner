@@ -82,7 +82,15 @@ do not start; in-flight models finish hidden if deselected. Loaded geometry is
 cached for the page session. Failures remain visible in the progress summary;
 toggle the affected category off and on to retry. The panel preserves selection
 while loading. No fixed anatomical depth is encoded, and this panel does not
-implement depth peeling, individual-model selection or saved preferences.
+implement depth peeling or saved preferences. Organ systems expand into coarse
+German display groups defined in `organGroups.js`, such as small intestine,
+large intestine, liver and pancreas. A group toggles all its existing model
+fragments together; raw file names and numbered fragments are not displayed.
+Heart retains its wall/valve/other groups; skin, muscles, skeleton and vessels
+retain their existing broad categories. Unmatched organ models are kept in
+"Weitere Strukturen" so that grouping never drops files. Empty groups are not
+displayed. Parent checkboxes reflect partial selection and control descendants.
+This groups existing OBJ files without merging or subdividing geometry.
 
 ## View and magnifier controls
 

@@ -24,6 +24,28 @@ try:
         page.on('pageerror', lambda error: errors.append(str(error)))
         page.goto(f'http://127.0.0.1:{server.server_port}/Anatomy.html')
         page.locator('.category-panel').wait_for(timeout=45000)
+        page.evaluate('''() => {
+            for (const name of ['Organe (', 'Verdauung (']) {
+                const details = [...document.querySelectorAll('details')].find(d =>
+                    d.querySelector(':scope > summary span')?.textContent.startsWith(name));
+                details.open = true;
+            }
+        }''')
+        part = page.locator('input[value="organs.digestive.smallIntestine"]')
+        part.uncheck()
+        assert not part.is_checked()
+        assert page.evaluate('''() => [...document.querySelectorAll('summary')].find(s =>
+            s.querySelector('span')?.textContent.startsWith('Verdauung (')).querySelector('input').indeterminate''')
+        part.check()
+        assert page.locator('input[value="organs.digestive.largeIntestine"]').is_checked()
+        assert page.locator('.category-panel input[value^="partof:"]').count() == 0
+        page.screenshot(path=str(Path(tempfile.gettempdir()) / 'anatomy-organ-groups.png'))
+        page.evaluate('''() => {
+            for (const details of document.querySelectorAll('details')) {
+                if (!details.querySelector(':scope > summary span')?.textContent.startsWith('Körper (')) details.open = false;
+            }
+            document.querySelector('.category-panel').scrollTop = 0;
+        }''')
         def settle():
             page.evaluate('() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)))')
 

@@ -1,4 +1,5 @@
 import { getCategoryModels } from './anatomyCatalog.js';
+import { getOrganDisplayGroups } from './organGroups.js';
 
 const LABELS = {
     body: 'Körper', skin: 'Haut', muscles: 'Muskeln', skeleton: 'Skelett',
@@ -21,7 +22,7 @@ export function createCategoryPanel(catalog, onChange) {
     title.textContent = 'Körper anzeigen';
     panel.append(title);
     const help = document.createElement('p');
-    help.textContent = 'Gruppen ein-/ausblenden. Haut ausblenden, um das Innere zu sehen. Modelle werden bei Auswahl geladen.';
+    help.textContent = 'Gruppen aufklappen und ganze Organe auswählen, z. B. Dünndarm oder Leber. Zugehörige Modellteile werden gemeinsam geschaltet. Haut ausblenden, um das Innere zu sehen.';
     panel.append(help);
     const toolbar = document.createElement('div');
     toolbar.className = 'category-toolbar';
@@ -52,12 +53,36 @@ export function createCategoryPanel(catalog, onChange) {
         toolbar.append(button);
     }
 
+    function selectionLabel(models, caption, modelKey) {
+        const label = document.createElement('label');
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.disabled = models.length === 0;
+        if (modelKey) checkbox.value = modelKey;
+        const text = document.createElement('span');
+        text.textContent = caption;
+        label.append(checkbox, text);
+        // Labels toggle selection; the disclosure triangle toggles expansion.
+        label.addEventListener('click', event => event.stopPropagation());
+        checkbox.addEventListener('change', () => {
+            for (const model of models) {
+                if (checkbox.checked) selected.add(model.key);
+                else selected.delete(model.key);
+            }
+            refresh();
+        });
+        rows.push({ checkbox, models });
+        return label;
+    }
+
     function addCategory(category, container) {
         const children = catalog.categories.filter(child => child.parentId === category.id);
         const models = getCategoryModels(catalog, category.id);
+        const directModels = models.filter(model => model.categoryId === category.id);
+        const displayGroups = getOrganDisplayGroups(category.id, directModels);
         let row;
         let nested;
-        if (children.length) {
+        if (children.length || displayGroups.length) {
             const details = document.createElement('details');
             details.open = category.id === 'body';
             row = document.createElement('summary');
@@ -71,25 +96,14 @@ export function createCategoryPanel(catalog, onChange) {
             row.className = 'category-leaf';
             container.append(row);
         }
-        const label = document.createElement('label');
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.disabled = models.length === 0;
-        const text = document.createElement('span');
-        text.textContent = `${LABELS[category.id] || category.labelEn} (${models.length})`;
-        label.append(checkbox, text);
-        // Labels toggle selection; the disclosure triangle toggles expansion.
-        label.addEventListener('click', event => event.stopPropagation());
-        checkbox.addEventListener('change', () => {
-            for (const model of models) {
-                if (checkbox.checked) selected.add(model.key);
-                else selected.delete(model.key);
-            }
-            refresh();
-        });
-        row.append(label);
-        rows.push({ checkbox, models });
+        row.append(selectionLabel(models, `${LABELS[category.id] || category.labelEn} (${models.length})`));
         for (const child of children) addCategory(child, nested);
+        for (const group of displayGroups) {
+            const leaf = document.createElement('div');
+            leaf.className = 'category-leaf';
+            leaf.append(selectionLabel(group.models, `${group.label} (${group.models.length})`, group.id));
+            nested.append(leaf);
+        }
     }
     addCategory(catalog.categories.find(category => category.id === 'body'), panel);
     const status = document.createElement('p');
