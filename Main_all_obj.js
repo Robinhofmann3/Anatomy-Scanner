@@ -1,14 +1,16 @@
 import * as THREE from 'three';
 
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { DragControls } from 'three/addons/controls/DragControls.js';
+import { createMagnifier, attachMagnifierDrag } from './magnifier.js';
+import { createViewControls } from './viewControls.js';
 
 import { createLights } from './lights.js';
 
 import {
-    createAlleModelle,
-    createRing
+    createCatalogModels
 } from './objects_all_obj_organs.js';
+import { loadAnatomyCatalog } from './anatomyCatalog.js';
+import { createCategoryPanel } from './categoryPanel.js';
 
 
 // ========================================
@@ -112,6 +114,9 @@ function init() {
     controls.enableDamping = true;
 
     controls.dampingFactor = 0.05;
+    controls.enablePan = true;
+    controls.screenSpacePanning = true;
+    controls.mouseButtons.RIGHT = THREE.MOUSE.PAN;
 
     controls.update();
 
@@ -124,7 +129,7 @@ const cutout = {
     center: new THREE.Vector3(0, 10, 5),
     axisX: new THREE.Vector3(1, 0, 0),
     axisY: new THREE.Vector3(0, 1, 0),
-    radius: 10.96,
+    radius: 0.96,
     depth: { value: 0 }
 };
 
@@ -142,18 +147,22 @@ const cutout = {
 
     const loadingLabel = createLoadingLabel();
 
-    createAlleModelle(scene, cutout, (geladen, fehler, gesamt) => {
-
-        loadingLabel.textContent =
-            'Lade Modelle: ' + (geladen + fehler) + ' / ' + gesamt +
-            (fehler > 0 ? ' (' + fehler + ' fehlgeschlagen)' : '');
-
-        if (geladen + fehler === gesamt) {
-
-            setTimeout(() => loadingLabel.remove(), 3000);
-
-        }
-
+    loadAnatomyCatalog().then(catalog => {
+        let panel;
+        let latestProgress;
+        const models = createCatalogModels(scene, cutout,
+            catalog.models.filter(model => model.source === catalog.defaultSource),
+            progress => {
+                latestProgress = progress;
+                panel?.setProgress(progress);
+            });
+        panel = createCategoryPanel(catalog, selected => models.setSelected(selected));
+        // Refresh once the panel reference exists (initial selection is synchronous).
+        panel.setProgress(latestProgress);
+        loadingLabel.remove();
+    }).catch(error => {
+        loadingLabel.textContent = 'Kategorien konnten nicht geladen werden. Bitte Seite neu laden.';
+        console.error(error);
     });
 
 
@@ -161,7 +170,7 @@ const cutout = {
     // RING ERSTELLEN
     // ========================================
 
-    const ring = createRing(scene);
+    const ring = createMagnifier(scene, cutout);
 
     // Anteil des Weges von der Kamera zum Körpermittelpunkt
     // (0.5 = Ring sitzt auf halber Strecke, kleiner = näher an der Kamera)
@@ -200,34 +209,17 @@ const cutout = {
     // DRAG CONTROLS
     // ========================================
 
-    const dragControls = new DragControls(
-
-        [ring],
-        camera,
-        renderer.domElement
-
-    );
-
-    dragControls.addEventListener('dragstart', () => {
-
-        controls.enabled = false;
-
-    });
-
-    // Beim Ziehen nur die Bildschirm-Verschiebung merken
-    dragControls.addEventListener('drag', () => {
-
-        const local = camera.worldToLocal(ring.position.clone());
-
-        ringOffset.set(local.x, local.y);
-
-    });
-
-    dragControls.addEventListener('dragend', () => {
-
-        controls.enabled = true;
-
-    });
+    attachMagnifierDrag(ring, camera, renderer.domElement, controls, ringOffset);
+    const viewControls = createViewControls({ magnifier: ring, camera,
+        canvas: renderer.domElement, controls, onReset: () => {
+        controls.reset();
+        camera.position.set(0, 12, 40);
+        controls.target.set(0, 10, 0);
+        controls.update();
+        ringOffset.set(0, 0);
+        viewControls.resetSize();
+        updateRingFromCamera();
+    } });
 
 
     // ========================================
@@ -242,6 +234,7 @@ const cutout = {
 
         // Ring jedes Frame vor der Kamera positionieren und ausrichten
         updateRingFromCamera();
+        viewControls.updatePosition();
 
         ring.getWorldPosition(cutout.center);
 

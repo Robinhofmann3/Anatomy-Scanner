@@ -3,6 +3,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>3D Human Model</title>
     <style>
         body {
@@ -14,11 +15,67 @@
             width: 100vw;
             height: 100vh;
         }
+        .category-panel {
+            position: fixed; top: 12px; right: 12px; z-index: 20;
+            box-sizing: border-box; width: min(330px, calc(100vw - 24px));
+            max-height: calc(100dvh - 24px); overflow: auto;
+            padding: 16px; background: rgba(255,255,255,.96); color: #18212d;
+            border: 1px solid #d7dce3; border-radius: 12px;
+            box-shadow: 0 6px 24px #0002; font: 14px/1.5 system-ui, sans-serif;
+        }
+        .category-panel h2 { font-size: 18px; margin: 0 0 6px; }
+        .category-panel p { margin: 6px 0 12px; }
+        .category-toolbar { display: flex; gap: 8px; margin-bottom: 12px; }
+        .category-toolbar button {
+            padding: 6px 16px; border: 1px solid #b4bdc9; border-radius: 6px;
+            background: #f2f5f8; color: inherit; cursor: pointer;
+        }
+        .category-panel summary { cursor: pointer; padding: 4px 0; }
+        .category-panel label { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; }
+        .category-panel input { accent-color: #2462c5; width: 16px; height: 16px; }
+        .category-children { margin-left: 14px; padding-left: 8px; border-left: 1px solid #dce2ea; }
+        .category-leaf { padding: 4px 0; }
+        .category-status { border-top: 1px solid #dce2ea; padding-top: 10px; }
+        .category-panel small { color: #596779; }
+        .view-toolbar, .magnifier-controls {
+            position: fixed; z-index: 25; display: flex; align-items: center; gap: 4px;
+            padding: 5px; border: 1px solid #d7dce3; border-radius: 12px;
+            background: rgba(255,255,255,.96); color: #18212d;
+            box-shadow: 0 6px 24px #0002; font: 14px/1.5 system-ui, sans-serif;
+        }
+        .view-toolbar { bottom: 12px; left: 50%; transform: translateX(-50%); }
+        .magnifier-controls { left: 0; top: 0; visibility: hidden; }
+        .view-toolbar button, .magnifier-controls button {
+            border: 0; border-radius: 7px; background: transparent; color: inherit;
+            min-width: 36px; min-height: 36px; padding: 6px 10px; cursor: pointer; font: inherit;
+            touch-action: manipulation;
+        }
+        .magnifier-controls button { font-size: 22px; padding: 0; }
+        .magnifier-controls output { min-width: 50px; text-align: center; font-variant-numeric: tabular-nums; }
+        .view-toolbar button:hover, .magnifier-controls button:hover { background: #eef2f7; }
+        .view-toolbar button[aria-pressed="true"] { background: #e2ebfc; color: #174b9d; }
+        .magnifier-controls button:disabled { color: #a9b0bb; cursor: default; background: transparent; }
+        .view-toolbar button:focus-visible, .magnifier-controls button:focus-visible { outline: 2px solid #2462c5; outline-offset: 1px; }
+        @media (max-width: 650px) {
+            .category-panel { max-height: 45dvh; }
+            .view-toolbar { white-space: nowrap; }
+            .view-toolbar button { padding: 6px 8px; }
+        }
     </style>
 </head>
 <body>
 
     <div id="WebGL-output"></div>
+    <div id="magnifier-controls" class="magnifier-controls" role="group" aria-label="Lupengröße">
+        <button id="magnifier-smaller" type="button" aria-label="Lupe verkleinern" title="Lupe um 5 % verkleinern">−</button>
+        <output id="magnifier-size-value" aria-live="polite" aria-label="Lupengröße">100 %</output>
+        <button id="magnifier-larger" type="button" aria-label="Lupe vergrößern" title="Lupe um 5 % vergrößern">+</button>
+    </div>
+    <nav id="view-toolbar" class="view-toolbar" aria-label="Ansicht steuern">
+        <button type="button" data-view-mode="rotate" aria-pressed="true" title="Mit der linken Maustaste den Körper drehen">↻ Drehen</button>
+        <button type="button" data-view-mode="pan" aria-pressed="false" title="Mit der linken Maustaste verschieben; auch mit der rechten Maustaste möglich">↔ Verschieben</button>
+        <button id="reset-view" type="button" title="Kamera, Lupenposition und Lupengröße zurücksetzen; Auswahl bleibt erhalten">⟲ Zurücksetzen</button>
+    </nav>
 
     <script type="importmap">
     {

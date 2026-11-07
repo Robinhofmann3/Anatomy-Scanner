@@ -183,7 +183,7 @@ function createSkinMaterial(cutout) {
         shader.uniforms.uRingCenter = { value: cutout.center };
         shader.uniforms.uRingAxisX = { value: cutout.axisX };
         shader.uniforms.uRingAxisY = { value: cutout.axisY };
-        shader.uniforms.uRingRadius = { value: cutout.radius };
+        shader.uniforms.uRingRadius = cutout.radiusUniform || { value: cutout.radius };
 
         shader.vertexShader = shader.vertexShader.replace(
             '#include <common>',
@@ -407,6 +407,83 @@ export function createAlleModelle(scene, cutout, onProgress) {
 // ========================================
 // RING ERSTELLEN
 // ========================================
+
+// Catalog-driven viewer: load selected models on demand and reuse loaded meshes.
+export function createCatalogModels(scene, cutout, records, onProgress) {
+    // Show the outer body early, before the smaller internal structures.
+    records = [...records].sort((a, b) => Number(b.categoryId === 'skin') - Number(a.categoryId === 'skin'));
+    const group = new THREE.Group();
+    group.name = 'ANATOMIE';
+    prepareModel(group);
+    scene.add(group);
+    const loader = new OBJLoader();
+    const loaded = new Map();
+    const pending = new Set();
+    const failed = new Set();
+    let selected = new Set();
+    let active = 0;
+
+    function report() {
+        const current = records.filter(record => selected.has(record.key));
+        onProgress?.({
+            total: current.length,
+            loaded: current.filter(record => loaded.has(record.key)).length,
+            failed: current.filter(record => failed.has(record.key)).length,
+        });
+    }
+
+    function pump() {
+        while (active < MAX_PARALLEL) {
+            const record = records.find(record => selected.has(record.key) &&
+                !loaded.has(record.key) && !pending.has(record.key) && !failed.has(record.key));
+            if (!record) break;
+            active++;
+            pending.add(record.key);
+            loader.load(record.path, obj => {
+                obj.name = record.fileId;
+                obj.userData.catalogKey = record.key;
+                obj.userData.categoryId = record.categoryId;
+                obj.userData.nameEn = record.nameEn;
+                obj.traverse(child => {
+                    if (!child.isMesh) return;
+                    child.geometry.computeVertexNormals();
+                    child.material = record.categoryId === 'skin'
+                        ? createSkinMaterial(cutout) : createPartMaterial(record.fileId);
+                    child.castShadow = true;
+                    child.receiveShadow = true;
+                });
+                obj.visible = selected.has(record.key);
+                loaded.set(record.key, obj);
+                group.add(obj);
+                finish(record);
+            }, undefined, error => {
+                failed.add(record.key);
+                console.warn('Modell konnte nicht geladen werden:', record.path, error);
+                finish(record);
+            });
+        }
+    }
+
+    function finish(record) {
+        active--;
+        pending.delete(record.key);
+        report();
+        pump();
+    }
+
+    return {
+        group,
+        setSelected(keys) {
+            const next = new Set(keys);
+            // Toggling a failed model off and back on permits a retry.
+            for (const key of failed) if (!selected.has(key) && next.has(key)) failed.delete(key);
+            selected = next;
+            for (const [key, obj] of loaded) obj.visible = selected.has(key);
+            report();
+            pump();
+        },
+    };
+}
 
 export function createRing(scene) {
 
