@@ -1,0 +1,7959 @@
+{
+ "schemaVersion": 1,
+ "source": "partof",
+ "description": "LOD1 System > LOD2 Gruppe > LOD3 Organ/Knochen/Muskel (aus Einzelteilen). LOD4: Data/organ-portfolio.json",
+ "nodes": [
+  {
+   "id": "haut",
+   "level": 1,
+   "parentId": null,
+   "label": "Haut"
+  },
+  {
+   "id": "skelett",
+   "level": 1,
+   "parentId": null,
+   "label": "Skelett"
+  },
+  {
+   "id": "muskulatur",
+   "level": 1,
+   "parentId": null,
+   "label": "Muskulatur"
+  },
+  {
+   "id": "organe",
+   "level": 1,
+   "parentId": null,
+   "label": "Organe & Organsysteme"
+  },
+  {
+   "id": "sonstiges",
+   "level": 1,
+   "parentId": null,
+   "label": "Nicht zugeordnet"
+  },
+  {
+   "id": "haut.haut",
+   "level": 2,
+   "parentId": "haut",
+   "label": "Haut"
+  },
+  {
+   "id": "skelett.schaedel",
+   "level": 2,
+   "parentId": "skelett",
+   "label": "Schädel"
+  },
+  {
+   "id": "skelett.rumpf",
+   "level": 2,
+   "parentId": "skelett",
+   "label": "Wirbelsäule & Brustkorb"
+  },
+  {
+   "id": "skelett.gliedmassen",
+   "level": 2,
+   "parentId": "skelett",
+   "label": "Arme, Beine & Gürtel"
+  },
+  {
+   "id": "muskulatur.muskeln",
+   "level": 2,
+   "parentId": "muskulatur",
+   "label": "Muskeln"
+  },
+  {
+   "id": "organe.kreislauf",
+   "level": 2,
+   "parentId": "organe",
+   "label": "Herz & Kreislauf"
+  },
+  {
+   "id": "organe.atmung",
+   "level": 2,
+   "parentId": "organe",
+   "label": "Atmung"
+  },
+  {
+   "id": "organe.verdauung",
+   "level": 2,
+   "parentId": "organe",
+   "label": "Verdauung"
+  },
+  {
+   "id": "organe.harn",
+   "level": 2,
+   "parentId": "organe",
+   "label": "Harn- & Geschlechtsorgane"
+  },
+  {
+   "id": "organe.nerven",
+   "level": 2,
+   "parentId": "organe",
+   "label": "Gehirn & Nervensystem"
+  },
+  {
+   "id": "organe.sinne",
+   "level": 2,
+   "parentId": "organe",
+   "label": "Sinnesorgane"
+  },
+  {
+   "id": "organe.hormone",
+   "level": 2,
+   "parentId": "organe",
+   "label": "Hormondrüsen"
+  },
+  {
+   "id": "organe.immun",
+   "level": 2,
+   "parentId": "organe",
+   "label": "Immunsystem"
+  },
+  {
+   "id": "sonstiges.unklar",
+   "level": 2,
+   "parentId": "sonstiges",
+   "label": "Unbekannte Teile"
+  },
+  {
+   "id": "organe.verdauung.mund",
+   "level": 3,
+   "parentId": "organe.verdauung",
+   "label": "Mund & Zunge",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1252",
+    "partof:FJ1253",
+    "partof:FJ2761"
+   ]
+  },
+  {
+   "id": "organe.sinne.auge_links",
+   "level": 3,
+   "parentId": "organe.sinne",
+   "label": "Linkes Auge & Tränenapparat",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1282",
+    "partof:FJ1285",
+    "partof:FJ1286",
+    "partof:FJ1289",
+    "partof:FJ1297",
+    "partof:FJ1298",
+    "partof:FJ1299",
+    "partof:FJ1301",
+    "partof:FJ1302",
+    "partof:FJ1305",
+    "partof:FJ1309",
+    "partof:FJ1317",
+    "partof:FJ1320",
+    "partof:FJ1331",
+    "partof:FJ3265"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_inferior_oblique",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left inferior oblique",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1294"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_inferior_rectus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left inferior rectus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1295"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_lateral_rectus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left lateral rectus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1304"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_levator_palpebrae_superioris",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left levator palpebrae superioris",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1306"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_medial_rectus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left medial rectus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1308"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_superior_oblique",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left superior oblique",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1322"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_superior_rectus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left superior rectus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1323"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.tarsal_plate_of_left_upper_eyelid",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Tarsal plate of left upper eyelid",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1324"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.tarsal_plate_of_left_lower_eyelid",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Tarsal plate of left lower eyelid",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1328"
+   ]
+  },
+  {
+   "id": "organe.sinne.auge_rechts",
+   "level": 3,
+   "parentId": "organe.sinne",
+   "label": "Rechtes Auge & Tränenapparat",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1336",
+    "partof:FJ1337",
+    "partof:FJ1340",
+    "partof:FJ1348",
+    "partof:FJ1349",
+    "partof:FJ1350",
+    "partof:FJ1352",
+    "partof:FJ1353",
+    "partof:FJ1356",
+    "partof:FJ1360",
+    "partof:FJ1368",
+    "partof:FJ1371",
+    "partof:FJ1382",
+    "partof:FJ3371"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_inferior_oblique",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right inferior oblique",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1345"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_inferior_rectus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right inferior rectus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1346"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_lateral_rectus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right lateral rectus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1355"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_levator_palpebrae_superioris",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right levator palpebrae superioris",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1357"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_medial_rectus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right medial rectus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1359"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_superior_oblique",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right superior oblique",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1373"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_superior_rectus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right superior rectus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1374"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.tarsal_plate_of_right_upper_eyelid",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Tarsal plate of right upper eyelid",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1375"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.tarsal_plate_of_right_lower_eyelid",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Tarsal plate of right lower eyelid",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1379"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_iliotibial_tract",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right iliotibial tract",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1423"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_iliotibial_tract",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left iliotibial tract",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1423M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_obturator_internus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right obturator internus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1426"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_obturator_internus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left obturator internus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1426M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_piriformis",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right piriformis",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1428"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_piriformis",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left piriformis",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1428M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_psoas_major",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right psoas major",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1431"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_psoas_major",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left psoas major",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1431M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.abdominal_part_of_right_pectoralis_major",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Abdominal part of right pectoralis major",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1446"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.abdominal_part_of_left_pectoralis_major",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Abdominal part of left pectoralis major",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1446M"
+   ]
+  },
+  {
+   "id": "sonstiges.unklar.fj1450",
+   "level": 3,
+   "parentId": "sonstiges.unklar",
+   "label": "FJ1450",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1450"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.external_anal_sphincter",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "External anal sphincter",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1450M",
+    "partof:FJ2543",
+    "partof:FJ2548"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_external_oblique",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right external oblique",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1452"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_external_oblique",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left external oblique",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1452M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_pectoralis_minor",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right pectoralis minor",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1456"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_pectoralis_minor",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left pectoralis minor",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1456M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_serratus_anterior",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right serratus anterior",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1459"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_serratus_anterior",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left serratus anterior",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1459M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_subclavius",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right subclavius",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1460"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_subclavius",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left subclavius",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1460M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_transversus_thoracis",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right transversus thoracis",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1461"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_transversus_thoracis",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left transversus thoracis",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1461M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.sternocostal_part_of_right_pectoralis_major",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Sternocostal part of right pectoralis major",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1464"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.sternocostal_part_of_left_pectoralis_major",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Sternocostal part of left pectoralis major",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1464M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.flexor_retinaculum_of_right_wrist",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Flexor retinaculum of right wrist",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1471"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.flexor_retinaculum_of_left_wrist",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Flexor retinaculum of left wrist",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1471M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_anconeus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right anconeus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1485"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_anconeus",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left anconeus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1485M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_brachialis",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left brachialis",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1486M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_coracobrachialis",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left coracobrachialis",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1488M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_levator_scapulae",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right levator scapulae",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1532"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_levator_scapulae",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left levator scapulae",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1532M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_rhomboid_major",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right rhomboid major",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1536"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_rhomboid_major",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left rhomboid major",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1536M"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_rhomboid_minor",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right rhomboid minor",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1537"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_rhomboid_minor",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left rhomboid minor",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1537M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_anterior_cerebral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right anterior cerebral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1654"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_anterior_cerebral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left anterior cerebral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1654M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_communicating_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior communicating artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1655"
+   ]
+  },
+  {
+   "id": "sonstiges.unklar.fj1656",
+   "level": 3,
+   "parentId": "sonstiges.unklar",
+   "label": "FJ1656",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1656"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_inferior_cerebellar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior inferior cerebellar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1656M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_anterior_spinal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right anterior spinal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1657"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_anterior_choroidal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right anterior choroidal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1658"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_anterior_choroidal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left anterior choroidal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1658M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_temporal_branch_of_right_lateral_occipital_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior temporal branch of right lateral occipital artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1661"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_temporal_branch_of_left_lateral_occipital_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior temporal branch of left lateral occipital artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1661M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterolateral_central_branch_of_right_middle_cerebral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterolateral central branch of right middle cerebral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1662",
+    "partof:FJ1663"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.basilar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Basilar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1672",
+    "partof:FJ1844"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_thalamogeniculate_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right thalamogeniculate artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1675"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_thalamogeniculate_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left thalamogeniculate artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1675M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_splenial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right splenial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1677",
+    "partof:FJ1678"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_splenial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left splenial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1677M",
+    "partof:FJ1678M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.middle_temporal_branch_of_right_lateral_occipital_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Middle temporal branch of right lateral occipital artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1680"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.middle_temporal_branch_of_left_lateral_occipital_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Middle temporal branch of left lateral occipital artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1680M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_internal_carotid_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right internal carotid artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1682"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_internal_carotid_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left internal carotid artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1682M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.lateral_branch_of_right_pontine_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Lateral branch of right pontine artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1684"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.lateral_branch_of_left_pontine_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Lateral branch of left pontine artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1684M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_lateral_occipital_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right lateral occipital artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1687"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_lateral_occipital_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left lateral occipital artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1687M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.medial_branch_of_right_pontine_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Medial branch of right pontine artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1689"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.medial_branch_of_left_pontine_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Medial branch of left pontine artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1689M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_medial_occipital_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right medial occipital artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1691"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_medial_occipital_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left medial occipital artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1691M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.sphenoid_part_of_right_middle_cerebral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Sphenoid part of right middle cerebral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1692"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_ophthalmic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right ophthalmic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1695"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_ophthalmic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left ophthalmic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1695M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_posterior_inferior_cerebellar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right posterior inferior cerebellar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1700",
+    "partof:FJ1701",
+    "partof:FJ1702",
+    "partof:FJ1703",
+    "partof:FJ1704",
+    "partof:FJ1705",
+    "partof:FJ1706",
+    "partof:FJ1707",
+    "partof:FJ1708",
+    "partof:FJ1709",
+    "partof:FJ1710",
+    "partof:FJ1711",
+    "partof:FJ1715"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_posterior_inferior_cerebellar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left posterior inferior cerebellar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1700M",
+    "partof:FJ1701M",
+    "partof:FJ1702M",
+    "partof:FJ1703M",
+    "partof:FJ1704M",
+    "partof:FJ1705M",
+    "partof:FJ1706M",
+    "partof:FJ1707M",
+    "partof:FJ1708M",
+    "partof:FJ1709M",
+    "partof:FJ1710M",
+    "partof:FJ1711M",
+    "partof:FJ1715M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_posterior_communicating_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right posterior communicating artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1713"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_posterior_communicating_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left posterior communicating artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1713M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_thalamoperforating_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right thalamoperforating artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1720"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_thalamoperforating_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left thalamoperforating artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1720M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.precommunicating_part_of_right_posterior_cerebral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Precommunicating part of right posterior cerebral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1723"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.precommunicating_part_of_left_posterior_cerebral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Precommunicating part of left posterior cerebral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1723M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_vertebral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right vertebral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1725"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_vertebral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left vertebral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1725M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_superior_cerebellar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right superior cerebellar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1726"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_superior_cerebellar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left superior cerebellar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1726M"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_posterior_medial_choroidal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right posterior medial choroidal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1727"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_posterior_medial_choroidal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left posterior medial choroidal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1727M"
+   ]
+  },
+  {
+   "id": "organe.nerven.hirnventrikel",
+   "level": 3,
+   "parentId": "organe.nerven",
+   "label": "Hirnventrikel",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1730",
+    "partof:FJ1731",
+    "partof:FJ1738",
+    "partof:FJ1767",
+    "partof:FJ1814"
+   ]
+  },
+  {
+   "id": "organe.nerven.grosshirn",
+   "level": 3,
+   "parentId": "organe.nerven",
+   "label": "Großhirn",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ1732",
+    "partof:FJ1733",
+    "partof:FJ1739",
+    "partof:FJ1740",
+    "partof:FJ1744",
+    "partof:FJ1745",
+    "partof:FJ1746",
+    "partof:FJ1747",
+    "partof:FJ1748",
+    "partof:FJ1749",
+    "partof:FJ1750",
+    "partof:FJ1751",
+    "partof:FJ1758",
+    "partof:FJ1759",
+    "partof:FJ1783",
+    "partof:FJ1784",
+    "partof:FJ1785",
+    "partof:FJ1786",
+    "partof:FJ1787",
+    "partof:FJ1788",
+    "partof:FJ1789",
+    "partof:FJ1790",
+    "partof:FJ1791",
+    "partof:FJ1792",
+    "partof:FJ1797",
+    "partof:FJ1798",
+    "partof:FJ1800",
+    "partof:FJ1801",
+    "partof:FJ1806",
+    "partof:FJ1807",
+    "partof:FJ1833",
+    "partof:FJ1834",
+    "partof:FJ1835",
+    "partof:FJ1836",
+    "partof:FJ1841",
+    "partof:FJ1842"
+   ]
+  },
+  {
+   "id": "organe.nerven.rueckenmark",
+   "level": 3,
+   "parentId": "organe.nerven",
+   "label": "Rückenmark",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1737"
+   ]
+  },
+  {
+   "id": "organe.nerven.zwischenhirn",
+   "level": 3,
+   "parentId": "organe.nerven",
+   "label": "Zwischenhirn",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1743",
+    "partof:FJ1760",
+    "partof:FJ1780",
+    "partof:FJ1808",
+    "partof:FJ1828"
+   ]
+  },
+  {
+   "id": "organe.nerven.hirnstamm",
+   "level": 3,
+   "parentId": "organe.nerven",
+   "label": "Hirnstamm",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1762",
+    "partof:FJ1769",
+    "partof:FJ1770",
+    "partof:FJ1775",
+    "partof:FJ1779",
+    "partof:FJ1810",
+    "partof:FJ1817",
+    "partof:FJ1822",
+    "partof:FJ1826",
+    "partof:FJ1831"
+   ]
+  },
+  {
+   "id": "organe.nerven.kleinhirn",
+   "level": 3,
+   "parentId": "organe.nerven",
+   "label": "Kleinhirn",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1781",
+    "partof:FJ1830"
+   ]
+  },
+  {
+   "id": "organe.hormone.zirbeldruese",
+   "level": 3,
+   "parentId": "organe.hormone",
+   "label": "Zirbeldrüse",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1795"
+   ]
+  },
+  {
+   "id": "organe.hormone.hypophyse",
+   "level": 3,
+   "parentId": "organe.hormone",
+   "label": "Hypophyse",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1796"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.celiac_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Celiac artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1846",
+    "partof:FJ2013"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.hepatic_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Hepatic portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1853"
+   ]
+  },
+  {
+   "id": "organe.verdauung.gallenwege",
+   "level": 3,
+   "parentId": "organe.verdauung",
+   "label": "Gallenblase & Gallenwege",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1883",
+    "partof:FJ2817",
+    "partof:FJ3071",
+    "partof:FJ3072",
+    "partof:FJ3079",
+    "partof:FJ3080",
+    "partof:FJ3088",
+    "partof:FJ3089",
+    "partof:FJ3090",
+    "partof:FJ3096",
+    "partof:FJ3103",
+    "partof:FJ3104",
+    "partof:FJ3105",
+    "partof:FJ3108",
+    "partof:FJ3109",
+    "partof:FJ3110",
+    "partof:FJ3123"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1893",
+    "partof:FJ2404"
+   ]
+  },
+  {
+   "id": "organe.verdauung.pankreas",
+   "level": 3,
+   "parentId": "organe.verdauung",
+   "label": "Bauchspeicheldrüse",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1895",
+    "partof:FJ1896",
+    "partof:FJ2629",
+    "partof:FJ2630"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1913",
+    "partof:FJ2405"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.caudate_lobe_branch_of_right_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Caudate lobe branch of right portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1914"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.caudate_lobe_branch_of_right_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Caudate lobe branch of right hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1916",
+    "partof:FJ2386"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.superior_mesenteric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Superior mesenteric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1928",
+    "partof:FJ2011"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.descending_thoracic_aorta",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Descending thoracic aorta",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1931"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.abdominal_aorta",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Abdominal aorta",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1932"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.esophageal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Esophageal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1934"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_superior_intercostal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right superior intercostal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1935"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_superior_epigastric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right superior epigastric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1936"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_internal_thoracic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right internal thoracic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1937"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_lateral_thoracic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right lateral thoracic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1938"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_subcostal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right subcostal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1967"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_musculophrenic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right musculophrenic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1969"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_superior_intercostal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left superior intercostal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1970"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_superior_epigastric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left superior epigastric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1971"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_internal_thoracic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left internal thoracic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1972"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_lateral_thoracic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left lateral thoracic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1976"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_subcostal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left subcostal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1977"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_musculophrenic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left musculophrenic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1979"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_superior_intercostal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left superior intercostal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1986"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_internal_thoracic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right internal thoracic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ1993"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.marginal_colic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Marginal colic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2025"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.ileal_branch_of_inferior_branch_of_ileocolic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Ileal branch of inferior branch of ileocolic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2034"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_renal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right renal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2038"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_anterior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right anterior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2041",
+    "partof:FJ2044"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_renal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left renal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2046"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_dorsalis_pedis_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right dorsalis pedis artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2055"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.distal_perforating_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Distal perforating artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2058",
+    "partof:FJ2064"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_anterior_tibial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left anterior tibial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2065"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_arcuate_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left arcuate artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2067"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_descending_genicular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left descending genicular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2069"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_dorsalis_pedis_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left dorsalis pedis artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2073"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_femoral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left femoral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2074"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_lateral_circumflex_femoral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left lateral circumflex femoral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2078"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_lateral_plantar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left lateral plantar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2079"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_lateral_tarsal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left lateral tarsal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2081"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_medial_plantar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left medial plantar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2082"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_plantar_arch",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left plantar arch",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2085"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_popliteal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left popliteal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2086"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_posterior_tibial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left posterior tibial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2087"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_superficial_medial_plantar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left superficial medial plantar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2089"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.plantar_metatarsal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Plantar metatarsal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2096",
+    "partof:FJ2206"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_anterior_tibial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right anterior tibial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2130"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_arcuate_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right arcuate artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2133"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_descending_genicular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right descending genicular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2137"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_femoral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right femoral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2143"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_lateral_circumflex_femoral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right lateral circumflex femoral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2158"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_lateral_plantar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right lateral plantar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2159"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_lateral_tarsal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right lateral tarsal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2163"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_medial_plantar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right medial plantar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2164"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_plantar_arch",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right plantar arch",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2169"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_popliteal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right popliteal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2170"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_posterior_tibial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right posterior tibial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2172"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_superficial_medial_plantar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right superficial medial plantar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2179"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_inferior_thyroid_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right inferior thyroid artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2209"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_inferior_thyroid_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left inferior thyroid artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2210"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.acromial_branch_of_left_thoraco_acromial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Acromial branch of left thoraco-acromial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2211"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_anterior_circumflex_humeral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left anterior circumflex humeral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2212"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_anterior_interosseous_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left anterior interosseous artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2214"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_inferior_ulnar_collateral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left inferior ulnar collateral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2215"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_basilic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left basilic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2218"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_brachial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left brachial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2219"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_cephalic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left cephalic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2220"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_circumflex_scapular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left circumflex scapular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2221"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_common_interosseous_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left common interosseous artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2223"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_costocervical_trunk",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left costocervical trunk",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2224"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_deep_brachial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left deep brachial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2225"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_deep_cervical_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left deep cervical artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2226"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.deltoid_branch_of_left_thoraco_acromial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Deltoid branch of left thoraco-acromial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2230"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.dorsal_carpal_branch_of_left_radial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Dorsal carpal branch of left radial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2231"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_dorsal_scapular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left dorsal scapular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2232"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_dorsal_carpal_branch_of_ulnar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left dorsal carpal branch of ulnar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2236"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_posterior_circumflex_humeral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left posterior circumflex humeral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2239",
+    "partof:FJ2240"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_posterior_ulnar_recurrent_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left posterior ulnar recurrent artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2241"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_radial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left radial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2242"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_radial_recurrent_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left radial recurrent artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2243"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_subscapular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left subscapular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2246"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_suprascapular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left suprascapular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2251"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_left_thoraco_acromial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of left thoraco-acromial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2252"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_thoracodorsal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left thoracodorsal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2253"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_thyrocervical_trunk",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left thyrocervical trunk",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2255"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_superficial_cervical_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left superficial cervical artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2256"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_transverse_cervical_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left transverse cervical artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2257"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_ulnar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left ulnar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2258"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_anterior_ulnar_recurrent_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left anterior ulnar recurrent artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2259"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.acromial_branch_of_right_thoraco_acromial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Acromial branch of right thoraco-acromial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2263"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_anterior_circumflex_humeral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right anterior circumflex humeral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2264"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_anterior_interosseous_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right anterior interosseous artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2266"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_inferior_ulnar_collateral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right inferior ulnar collateral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2267"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_basilic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right basilic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2270"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_brachial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right brachial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2271"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_cephalic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right cephalic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2272"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_circumflex_scapular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right circumflex scapular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2273"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_common_interosseous_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right common interosseous artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2275"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_costocervical_trunk",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right costocervical trunk",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2276"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_deep_brachial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right deep brachial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2277"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_deep_cervical_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right deep cervical artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2278"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.deltoid_branch_of_right_thoraco_acromial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Deltoid branch of right thoraco-acromial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2282"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.dorsal_carpal_branch_of_right_radial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Dorsal carpal branch of right radial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2283"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_dorsal_scapular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right dorsal scapular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2284"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_dorsal_carpal_branch_of_ulnar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right dorsal carpal branch of ulnar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2288"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_posterior_circumflex_humeral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right posterior circumflex humeral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2291",
+    "partof:FJ2292"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_posterior_ulnar_recurrent_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right posterior ulnar recurrent artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2293"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_radial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right radial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2294"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_radial_recurrent_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right radial recurrent artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2295"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_subscapular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right subscapular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2298"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_suprascapular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right suprascapular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2303"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_right_thoraco_acromial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of right thoraco-acromial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2304"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_thoracodorsal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right thoracodorsal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2305"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_thyrocervical_trunk",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right thyrocervical trunk",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2307"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_superficial_cervical_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right superficial cervical artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2308"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_transverse_cervical_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right transverse cervical artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2309"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_ulnar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right ulnar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2310"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_anterior_ulnar_recurrent_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right anterior ulnar recurrent artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2311"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.pectoral_branch_of_left_thoraco_acromial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Pectoral branch of left thoraco-acromial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2330"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_medial_brachial_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right medial brachial vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2341"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.pectoral_branch_of_right_thoraco_acromial_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Pectoral branch of right thoraco-acromial artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2361"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_superior_ulnar_collateral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right superior ulnar collateral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2373"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_superior_ulnar_collateral_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left superior ulnar collateral artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2374"
+   ]
+  },
+  {
+   "id": "organe.verdauung.leber",
+   "level": 3,
+   "parentId": "organe.verdauung",
+   "label": "Leber",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ2409",
+    "partof:FJ2816",
+    "partof:FJ2818",
+    "partof:FJ2819",
+    "partof:FJ2820",
+    "partof:FJ2821",
+    "partof:FJ2822",
+    "partof:FJ2823",
+    "partof:FJ2824"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_hepatic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left hepatic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2415"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_hepatic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right hepatic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2416"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.herz",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Herz",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ2417",
+    "partof:FJ2418",
+    "partof:FJ2419",
+    "partof:FJ2420",
+    "partof:FJ2421",
+    "partof:FJ2422",
+    "partof:FJ2423",
+    "partof:FJ2424",
+    "partof:FJ2425",
+    "partof:FJ2426",
+    "partof:FJ2427",
+    "partof:FJ2429",
+    "partof:FJ2430",
+    "partof:FJ2431",
+    "partof:FJ2432",
+    "partof:FJ2433",
+    "partof:FJ2434",
+    "partof:FJ2435",
+    "partof:FJ2436",
+    "partof:FJ2437",
+    "partof:FJ2438",
+    "partof:FJ2439",
+    "partof:FJ2631",
+    "partof:FJ2632",
+    "partof:FJ2633",
+    "partof:FJ2634",
+    "partof:FJ2635",
+    "partof:FJ2636",
+    "partof:FJ2637",
+    "partof:FJ2638",
+    "partof:FJ2639",
+    "partof:FJ2640",
+    "partof:FJ2641",
+    "partof:FJ2642",
+    "partof:FJ2643",
+    "partof:FJ2644",
+    "partof:FJ2645",
+    "partof:FJ2646",
+    "partof:FJ2647",
+    "partof:FJ2648",
+    "partof:FJ2649",
+    "partof:FJ2650",
+    "partof:FJ2651",
+    "partof:FJ2652",
+    "partof:FJ2653",
+    "partof:FJ2654",
+    "partof:FJ2655",
+    "partof:FJ2656",
+    "partof:FJ2667",
+    "partof:FJ2668",
+    "partof:FJ2671",
+    "partof:FJ2672",
+    "partof:FJ2673",
+    "partof:FJ2674",
+    "partof:FJ2675",
+    "partof:FJ2677",
+    "partof:FJ2678",
+    "partof:FJ2679",
+    "partof:FJ2680",
+    "partof:FJ2681",
+    "partof:FJ2682",
+    "partof:FJ2683",
+    "partof:FJ2684",
+    "partof:FJ2685",
+    "partof:FJ2686",
+    "partof:FJ2687",
+    "partof:FJ2688",
+    "partof:FJ2689",
+    "partof:FJ2690",
+    "partof:FJ2691",
+    "partof:FJ2692",
+    "partof:FJ2693",
+    "partof:FJ2694",
+    "partof:FJ2695",
+    "partof:FJ2696",
+    "partof:FJ2697",
+    "partof:FJ2698",
+    "partof:FJ2699",
+    "partof:FJ2700",
+    "partof:FJ2701",
+    "partof:FJ2702",
+    "partof:FJ2703",
+    "partof:FJ2704",
+    "partof:FJ2705",
+    "partof:FJ2706",
+    "partof:FJ2707",
+    "partof:FJ2708",
+    "partof:FJ2709",
+    "partof:FJ2710",
+    "partof:FJ2711",
+    "partof:FJ2712",
+    "partof:FJ2713",
+    "partof:FJ2714",
+    "partof:FJ2715",
+    "partof:FJ2716",
+    "partof:FJ2717",
+    "partof:FJ2718",
+    "partof:FJ2719",
+    "partof:FJ2720",
+    "partof:FJ2721",
+    "partof:FJ2722",
+    "partof:FJ2723",
+    "partof:FJ2724",
+    "partof:FJ2727",
+    "partof:FJ2728",
+    "partof:FJ2729",
+    "partof:FJ2731",
+    "partof:FJ2737"
+   ]
+  },
+  {
+   "id": "organe.atmung.lunge_links",
+   "level": 3,
+   "parentId": "organe.atmung",
+   "label": "Linke Lunge (Bronchialbaum)",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ2441",
+    "partof:FJ2442",
+    "partof:FJ2443",
+    "partof:FJ2444",
+    "partof:FJ2445",
+    "partof:FJ2446",
+    "partof:FJ2447",
+    "partof:FJ2448",
+    "partof:FJ2450",
+    "partof:FJ2460",
+    "partof:FJ2461",
+    "partof:FJ2462",
+    "partof:FJ2463",
+    "partof:FJ2464",
+    "partof:FJ2465",
+    "partof:FJ2466",
+    "partof:FJ2467",
+    "partof:FJ2468",
+    "partof:FJ2469",
+    "partof:FJ2471",
+    "partof:FJ2472",
+    "partof:FJ2473",
+    "partof:FJ2474",
+    "partof:FJ2475",
+    "partof:FJ2476",
+    "partof:FJ2477",
+    "partof:FJ2478",
+    "partof:FJ2479",
+    "partof:FJ2480",
+    "partof:FJ2482",
+    "partof:FJ2483",
+    "partof:FJ2484",
+    "partof:FJ2485",
+    "partof:FJ2527",
+    "partof:FJ2528",
+    "partof:FJ2529",
+    "partof:FJ2530",
+    "partof:FJ2531",
+    "partof:FJ2532",
+    "partof:FJ2533",
+    "partof:FJ2534",
+    "partof:FJ2535",
+    "partof:FJ2536",
+    "partof:FJ2537",
+    "partof:FJ2538",
+    "partof:FJ2540"
+   ]
+  },
+  {
+   "id": "organe.atmung.lunge_rechts",
+   "level": 3,
+   "parentId": "organe.atmung",
+   "label": "Rechte Lunge (Bronchialbaum)",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ2449",
+    "partof:FJ2451",
+    "partof:FJ2452",
+    "partof:FJ2453",
+    "partof:FJ2454",
+    "partof:FJ2455",
+    "partof:FJ2456",
+    "partof:FJ2457",
+    "partof:FJ2458",
+    "partof:FJ2459",
+    "partof:FJ2470",
+    "partof:FJ2481",
+    "partof:FJ2486",
+    "partof:FJ2487",
+    "partof:FJ2488",
+    "partof:FJ2489",
+    "partof:FJ2490",
+    "partof:FJ2491",
+    "partof:FJ2492",
+    "partof:FJ2493",
+    "partof:FJ2494",
+    "partof:FJ2495",
+    "partof:FJ2496",
+    "partof:FJ2497",
+    "partof:FJ2498",
+    "partof:FJ2499",
+    "partof:FJ2500",
+    "partof:FJ2501",
+    "partof:FJ2502",
+    "partof:FJ2503",
+    "partof:FJ2504",
+    "partof:FJ2505",
+    "partof:FJ2506",
+    "partof:FJ2507",
+    "partof:FJ2508",
+    "partof:FJ2509",
+    "partof:FJ2510",
+    "partof:FJ2511",
+    "partof:FJ2512",
+    "partof:FJ2513",
+    "partof:FJ2514",
+    "partof:FJ2515",
+    "partof:FJ2516",
+    "partof:FJ2517",
+    "partof:FJ2518",
+    "partof:FJ2519",
+    "partof:FJ2520",
+    "partof:FJ2521",
+    "partof:FJ2522",
+    "partof:FJ2523",
+    "partof:FJ2524",
+    "partof:FJ2525",
+    "partof:FJ2526",
+    "partof:FJ2539"
+   ]
+  },
+  {
+   "id": "organe.atmung.luftroehre",
+   "level": 3,
+   "parentId": "organe.atmung",
+   "label": "Luftröhre",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2541"
+   ]
+  },
+  {
+   "id": "organe.atmung.nase",
+   "level": 3,
+   "parentId": "organe.atmung",
+   "label": "Nase (Knorpel)",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2554",
+    "partof:FJ2555",
+    "partof:FJ2556",
+    "partof:FJ2557",
+    "partof:FJ2558"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.splenic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Splenic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2562",
+    "partof:FJ3420",
+    "partof:FJ3544",
+    "partof:FJ3640"
+   ]
+  },
+  {
+   "id": "organe.verdauung.speiseroehre",
+   "level": 3,
+   "parentId": "organe.verdauung",
+   "label": "Speiseröhre",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2563"
+   ]
+  },
+  {
+   "id": "organe.verdauung.magen",
+   "level": 3,
+   "parentId": "organe.verdauung",
+   "label": "Magen",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ2564"
+   ]
+  },
+  {
+   "id": "organe.verdauung.dickdarm",
+   "level": 3,
+   "parentId": "organe.verdauung",
+   "label": "Dickdarm",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ2565",
+    "partof:FJ2566",
+    "partof:FJ2567",
+    "partof:FJ2568",
+    "partof:FJ2569",
+    "partof:FJ2570",
+    "partof:FJ2571",
+    "partof:FJ2572",
+    "partof:FJ2599",
+    "partof:FJ3397",
+    "partof:FJ3398"
+   ]
+  },
+  {
+   "id": "organe.verdauung.duenndarm",
+   "level": 3,
+   "parentId": "organe.verdauung",
+   "label": "Dünndarm",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ2573",
+    "partof:FJ2574",
+    "partof:FJ2575",
+    "partof:FJ2576",
+    "partof:FJ2577",
+    "partof:FJ2578",
+    "partof:FJ2579",
+    "partof:FJ2580",
+    "partof:FJ2581",
+    "partof:FJ2582",
+    "partof:FJ2583",
+    "partof:FJ2584",
+    "partof:FJ2585",
+    "partof:FJ2586",
+    "partof:FJ2587",
+    "partof:FJ2588",
+    "partof:FJ2589",
+    "partof:FJ2590",
+    "partof:FJ2591",
+    "partof:FJ2592",
+    "partof:FJ2593",
+    "partof:FJ2594",
+    "partof:FJ2595",
+    "partof:FJ2596",
+    "partof:FJ2597",
+    "partof:FJ2598",
+    "partof:FJ2600",
+    "partof:FJ2601",
+    "partof:FJ2602",
+    "partof:FJ2603",
+    "partof:FJ2604",
+    "partof:FJ2605",
+    "partof:FJ2606",
+    "partof:FJ2607",
+    "partof:FJ2608",
+    "partof:FJ2609",
+    "partof:FJ2610",
+    "partof:FJ2611",
+    "partof:FJ2612",
+    "partof:FJ2613",
+    "partof:FJ2614",
+    "partof:FJ2615",
+    "partof:FJ2616",
+    "partof:FJ2617",
+    "partof:FJ2618",
+    "partof:FJ2619",
+    "partof:FJ2620",
+    "partof:FJ2621",
+    "partof:FJ2622",
+    "partof:FJ2623",
+    "partof:FJ2624",
+    "partof:FJ2625",
+    "partof:FJ2626",
+    "partof:FJ2627",
+    "partof:FJ2628",
+    "partof:FJ3396"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_conus_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right conus artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2670",
+    "partof:FJ2676"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_levator_veli_palatini",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left levator veli palatini",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2741"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.left_tensor_veli_palatini",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Left tensor veli palatini",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2748"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_levator_veli_palatini",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right levator veli palatini",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2753"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.right_tensor_veli_palatini",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Right tensor veli palatini",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2760"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.uvular_muscle",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Uvular muscle",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2762"
+   ]
+  },
+  {
+   "id": "organe.verdauung.speicheldruesen",
+   "level": 3,
+   "parentId": "organe.verdauung",
+   "label": "Speicheldrüsen",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2766",
+    "partof:FJ2768"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.hyoid_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Hyoid bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2772",
+    "partof:FJ3201"
+   ]
+  },
+  {
+   "id": "haut.haut.skin",
+   "level": 3,
+   "parentId": "haut.haut",
+   "label": "Skin",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2810"
+   ]
+  },
+  {
+   "id": "haut.haut.pubic_hair",
+   "level": 3,
+   "parentId": "haut.haut",
+   "label": "Pubic hair",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2815"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_posterior_basal_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left posterior basal segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2881",
+    "partof:FJ2892",
+    "partof:FJ2903",
+    "partof:FJ2914",
+    "partof:FJ2919",
+    "partof:FJ2920"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_lateral_basal_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left lateral basal segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2882",
+    "partof:FJ2921",
+    "partof:FJ2922",
+    "partof:FJ2923"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_anterior_basal_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left anterior basal segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2883",
+    "partof:FJ2886",
+    "partof:FJ2887"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_medial_basal_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left medial basal segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2884",
+    "partof:FJ2885"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_superior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left superior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2888",
+    "partof:FJ2889",
+    "partof:FJ2890",
+    "partof:FJ2891",
+    "partof:FJ2893",
+    "partof:FJ2894",
+    "partof:FJ2895"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.inferior_lingular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Inferior lingular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2896",
+    "partof:FJ2897"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.superior_lingular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Superior lingular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2898",
+    "partof:FJ2899",
+    "partof:FJ2900",
+    "partof:FJ2901"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_anterior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left anterior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2902",
+    "partof:FJ2904",
+    "partof:FJ2905",
+    "partof:FJ2906",
+    "partof:FJ2907",
+    "partof:FJ2908",
+    "partof:FJ2909",
+    "partof:FJ2910"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_posterior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left posterior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2911",
+    "partof:FJ2912",
+    "partof:FJ2913"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_apical_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left apical segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2915",
+    "partof:FJ2916",
+    "partof:FJ2917",
+    "partof:FJ2918"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_pulmonary_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left pulmonary artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2924"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_superior_pulmonary_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left superior pulmonary vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2925",
+    "partof:FJ2933"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_posterior_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left posterior segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2926",
+    "partof:FJ2927",
+    "partof:FJ2928",
+    "partof:FJ2929",
+    "partof:FJ2939",
+    "partof:FJ2940",
+    "partof:FJ2941",
+    "partof:FJ2942",
+    "partof:FJ2943",
+    "partof:FJ2965"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_anterior_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left anterior segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2930",
+    "partof:FJ2931",
+    "partof:FJ2932"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.inferior_lingular_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Inferior lingular vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2934",
+    "partof:FJ2935"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_apical_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left apical segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2936",
+    "partof:FJ2947",
+    "partof:FJ2958",
+    "partof:FJ2961",
+    "partof:FJ2962",
+    "partof:FJ2963",
+    "partof:FJ2964"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.superior_lingular_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Superior lingular vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2937",
+    "partof:FJ2938"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_inferior_pulmonary_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left inferior pulmonary vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2944",
+    "partof:FJ2950",
+    "partof:FJ2955"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_posterior_basal_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left posterior basal segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2945",
+    "partof:FJ2946",
+    "partof:FJ2948",
+    "partof:FJ2949"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_lateral_basal_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left lateral basal segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2951",
+    "partof:FJ2952",
+    "partof:FJ2953",
+    "partof:FJ2954"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_anterior_basal_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left anterior basal segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2956",
+    "partof:FJ2957",
+    "partof:FJ2959",
+    "partof:FJ2960"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.pulmonary_trunk",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Pulmonary trunk",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2966"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.apical_part_of_right_apical_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Apical part of right apical segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2967",
+    "partof:FJ3015",
+    "partof:FJ3016",
+    "partof:FJ3017"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.apical_part_of_right_posterior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Apical part of right posterior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2968",
+    "partof:FJ2969",
+    "partof:FJ3018"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.posterior_part_of_right_posterior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Posterior part of right posterior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2970",
+    "partof:FJ2971",
+    "partof:FJ2972"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_upper_lobar_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right upper lobar artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2973"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.posterior_branch_of_right_anterior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Posterior branch of right anterior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2974",
+    "partof:FJ2980",
+    "partof:FJ2981"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_branch_of_right_anterior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior branch of right anterior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2975",
+    "partof:FJ2976",
+    "partof:FJ2977",
+    "partof:FJ2979"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_part_of_right_apical_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior part of right apical segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2978",
+    "partof:FJ2989",
+    "partof:FJ3000",
+    "partof:FJ3011"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_branch_of_lateral_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior branch of lateral segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2982",
+    "partof:FJ2985"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.posterior_branch_of_lateral_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Posterior branch of lateral segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2983",
+    "partof:FJ2984"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.superior_branch_of_medial_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Superior branch of medial segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2986",
+    "partof:FJ2990"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.inferior_branch_of_medial_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Inferior branch of medial segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2987",
+    "partof:FJ2988"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.lateral_branch_of_right_superior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Lateral branch of right superior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2991",
+    "partof:FJ2992",
+    "partof:FJ2993"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.medial_branch_of_right_superior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Medial branch of right superior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2994",
+    "partof:FJ2995",
+    "partof:FJ2996"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.superior_branch_of_right_superior_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Superior branch of right superior segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ2997",
+    "partof:FJ2998",
+    "partof:FJ2999"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.lateral_branch_of_right_anterior_basal_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Lateral branch of right anterior basal segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3001"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.basal_branch_of_right_anterior_basal_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Basal branch of right anterior basal segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3002",
+    "partof:FJ3003"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.lateral_branch_of_right_lateral_basal_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Lateral branch of right lateral basal segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3004",
+    "partof:FJ3005",
+    "partof:FJ3006",
+    "partof:FJ3007"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.mediobasal_branch_of_right_posterior_basal_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Mediobasal branch of right posterior basal segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3008",
+    "partof:FJ3012"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.accessory_subsuperior_branch_of_right_posterior_basal_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Accessory subsuperior branch of right posterior basal segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3009",
+    "partof:FJ3010"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.laterobasal_branch_of_right_posterior_basal_segmental_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Laterobasal branch of right posterior basal segmental artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3013",
+    "partof:FJ3014"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_pulmonary_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right pulmonary artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3019"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_superior_pulmonary_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right superior pulmonary vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3020"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.inferior_part_of_right_anterior_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Inferior part of right anterior segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3021"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_posterior_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right posterior segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3022",
+    "partof:FJ3023",
+    "partof:FJ3024",
+    "partof:FJ3025",
+    "partof:FJ3026",
+    "partof:FJ3069",
+    "partof:FJ3070"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.superior_part_of_right_anterior_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Superior part of right anterior segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3027"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_anterior_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right anterior segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3028",
+    "partof:FJ3029"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.superior_part_of_medial_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Superior part of medial segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3030"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_right_apical_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of right apical segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3031"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.inferior_part_of_medial_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Inferior part of medial segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3032",
+    "partof:FJ3033"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_part_of_lateral_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior part of lateral segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3034",
+    "partof:FJ3035",
+    "partof:FJ3036"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.posterior_part_of_lateral_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Posterior part of lateral segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3037",
+    "partof:FJ3038",
+    "partof:FJ3039"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_inferior_pulmonary_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right inferior pulmonary vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3040"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_posterior_basal_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right posterior basal segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3041",
+    "partof:FJ3043",
+    "partof:FJ3044",
+    "partof:FJ3045",
+    "partof:FJ3046",
+    "partof:FJ3047",
+    "partof:FJ3048",
+    "partof:FJ3057",
+    "partof:FJ3058"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_part_of_right_apical_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior part of right apical segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3042",
+    "partof:FJ3053"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_anterior_basal_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right anterior basal segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3049",
+    "partof:FJ3056"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_superior_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right superior segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3050",
+    "partof:FJ3051",
+    "partof:FJ3052",
+    "partof:FJ3063",
+    "partof:FJ3065",
+    "partof:FJ3066"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_medial_basal_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right medial basal segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3054",
+    "partof:FJ3055"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_lateral_basal_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right lateral basal segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3059",
+    "partof:FJ3060",
+    "partof:FJ3061",
+    "partof:FJ3062"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.apical_part_of_right_apical_segmental_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Apical part of right apical segmental vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3064",
+    "partof:FJ3067",
+    "partof:FJ3068"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_superior_segmental_branch_of_right_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior superior segmental branch of right portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3073"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_inferior_segmental_branch_of_right_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior inferior segmental branch of right portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3074"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_inferior_segmental_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior inferior segmental hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3075"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_superior_segmental_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior superior segmental hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3076"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.caudate_lobe_branch_of_left_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Caudate lobe branch of left hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3077"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.common_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Common hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3078"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.hepatic_artery_proper",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Hepatic artery proper",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3081"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.pre_hepatic_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Pre-hepatic portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3082"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_inferior_segmental_tributary_of_middle_hepatic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior inferior segmental tributary of middle hepatic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3083",
+    "partof:FJ3086"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.lateral_superior_segmental_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Lateral superior segmental hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3091",
+    "partof:FJ3093"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.lateral_inferior_segmental_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Lateral inferior segmental hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3092"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_left_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of left hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3095"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_left_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of left portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3102"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.medial_inferior_segmental_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Medial inferior segmental hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3106"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.medial_superior_segmental_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Medial superior segmental hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3107"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.posterior_inferior_segmental_branch_of_right_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Posterior inferior segmental branch of right portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3111"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.posterior_superior_segmental_branch_of_right_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Posterior superior segmental branch of right portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3112",
+    "partof:FJ3113"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.posterior_inferior_segmental_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Posterior inferior segmental hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3114"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.posterior_superior_segmental_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Posterior superior segmental hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3115",
+    "partof:FJ3116"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_right_hepatic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of right hepatic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3117"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_right_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of right portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3122"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.caudate_lobe_branch_of_left_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Caudate lobe branch of left portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3124"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.lateral_inferior_segmental_branch_of_left_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Lateral inferior segmental branch of left portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3125"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.lateral_superior_segmental_branch_of_left_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Lateral superior segmental branch of left portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3126"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.medial_superior_segmental_branch_of_left_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Medial superior segmental branch of left portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3127"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.medial_inferior_segmental_branch_of_left_portal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Medial inferior segmental branch of left portal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3128"
+   ]
+  },
+  {
+   "id": "organe.hormone.nebenniere_links",
+   "level": 3,
+   "parentId": "organe.hormone",
+   "label": "Linke Nebenniere",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3129"
+   ]
+  },
+  {
+   "id": "organe.hormone.nebenniere_rechts",
+   "level": 3,
+   "parentId": "organe.hormone",
+   "label": "Rechte Nebenniere",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3130"
+   ]
+  },
+  {
+   "id": "muskulatur.muskeln.diaphragm",
+   "level": 3,
+   "parentId": "muskulatur.muskeln",
+   "label": "Diaphragm",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3131"
+   ]
+  },
+  {
+   "id": "organe.harn.prostata",
+   "level": 3,
+   "parentId": "organe.harn",
+   "label": "Prostata",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3139"
+   ]
+  },
+  {
+   "id": "organe.harn.harnleiter",
+   "level": 3,
+   "parentId": "organe.harn",
+   "label": "Harnleiter",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3144",
+    "partof:FJ3146"
+   ]
+  },
+  {
+   "id": "organe.harn.niere_links",
+   "level": 3,
+   "parentId": "organe.harn",
+   "label": "Linke Niere",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ3145"
+   ]
+  },
+  {
+   "id": "organe.harn.niere_rechts",
+   "level": 3,
+   "parentId": "organe.harn",
+   "label": "Rechte Niere",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ3147"
+   ]
+  },
+  {
+   "id": "organe.harn.harnroehre",
+   "level": 3,
+   "parentId": "organe.harn",
+   "label": "Harnröhre",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3148"
+   ]
+  },
+  {
+   "id": "organe.harn.harnblase",
+   "level": 3,
+   "parentId": "organe.harn",
+   "label": "Harnblase",
+   "curated": true,
+   "game": true,
+   "modelKeys": [
+    "partof:FJ3149"
+   ]
+  },
+  {
+   "id": "organe.immun.thymus",
+   "level": 3,
+   "parentId": "organe.immun",
+   "label": "Thymus",
+   "curated": true,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3150",
+    "partof:FJ3151"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_hip_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right hip bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3152"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.xiphoid_process",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Xiphoid process",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3153"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.tenth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Tenth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3154"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.eleventh_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Eleventh thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3155"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.twelfth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Twelfth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3156"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.first_lumbar_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "First lumbar vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3157"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.first_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "First thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3158"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.second_lumbar_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Second lumbar vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3159"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.second_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Second thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3160"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.third_cervical_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Third cervical vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3161"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.third_lumbar_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Third lumbar vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3162"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.third_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Third thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3163"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.fourth_cervical_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Fourth cervical vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3164"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.fourth_lumbar_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Fourth lumbar vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3165"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.fourth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Fourth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3166"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.fifth_cervical_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Fifth cervical vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3167"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.fifth_lumbar_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Fifth lumbar vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3168"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.fifth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Fifth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3169"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.sixth_cervical_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Sixth cervical vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3170"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.sixth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Sixth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3171"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.seventh_cervical_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Seventh cervical vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3172"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.seventh_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Seventh thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3173"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.eighth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Eighth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3174"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.ninth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Ninth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3175"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.atlas",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Atlas",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3176"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.axis",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Axis",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3177"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.body_of_sternum",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Body of sternum",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3178"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_left_second_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of left second toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3179"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_left_third_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of left third toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3180"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_left_fourth_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of left fourth toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3181"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_left_big_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of left big toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3182"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_left_index_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of left index finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3183"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_left_little_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of left little finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3184"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_left_little_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of left little toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3185"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_left_middle_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of left middle finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3186"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_left_ring_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of left ring finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3187"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_left_thumb",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of left thumb",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3188"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_right_second_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of right second toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3189"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_right_third_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of right third toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3190"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_right_fourth_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of right fourth toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3191"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_right_big_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of right big toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3192"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_right_index_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of right index finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3193"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_right_little_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of right little finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3194"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_right_little_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of right little toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3195"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_right_middle_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of right middle finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3196"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_right_ring_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of right ring finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3197"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.distal_phalanx_of_right_thumb",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Distal phalanx of right thumb",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3198"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.ethmoid",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Ethmoid",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3199"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.frontal_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Frontal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3200"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_axis",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of axis",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3202"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_fourth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of fourth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3203"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_fifth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of fifth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3204"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_sixth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of sixth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3205"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_seventh_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of seventh thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3206"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_eighth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of eighth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3207"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_ninth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of ninth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3208"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_tenth_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of tenth thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3209"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_eleventh_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of eleventh thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3210"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3211"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_first_lumbar_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of first lumbar vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3212"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_third_cervical_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of third cervical vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3213"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_second_lumbar_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of second lumbar vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3214"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_third_lumbar_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of third lumbar vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3215"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_fourth_lumbar_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of fourth lumbar vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3216"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_fifth_lumbar_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of fifth lumbar vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3217"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_fourth_cervical_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of fourth cervical vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3218"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_fifth_cervical_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of fifth cervical vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3219"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_sixth_cervical_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of sixth cervical vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3220"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_seventh_cervical_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of seventh cervical vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3221"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_first_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of first thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3222"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_second_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of second thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3223"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.intervertebral_disk_of_third_thoracic_vertebra",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Intervertebral disk of third thoracic vertebra",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3224"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_tenth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left tenth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3225"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_eleventh_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left eleventh rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3226"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_twelfth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left twelfth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3227"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_first_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left first rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3228"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_second_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left second rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3229"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_third_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left third rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3230"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_fourth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left fourth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3231"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_fifth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left fifth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3232"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_sixth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left sixth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3233"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_seventh_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left seventh rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3234"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_eighth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left eighth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3235"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_ninth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left ninth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3236"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_clavicle",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left clavicle",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3237"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_first_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left first costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3239"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_first_metacarpal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left first metacarpal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3240"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_first_metatarsal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left first metatarsal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3241"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_second_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left second costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3242"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_second_metacarpal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left second metacarpal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3243"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_second_metatarsal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left second metatarsal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3244"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_third_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left third costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3245"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_third_metacarpal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left third metacarpal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3246"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_third_metatarsal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left third metatarsal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3247"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_fourth_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left fourth costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3248"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_fourth_metacarpal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left fourth metacarpal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3249"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_fourth_metatarsal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left fourth metatarsal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3250"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_fifth_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left fifth costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3251"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_fifth_metacarpal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left fifth metacarpal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3252"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_fifth_metatarsal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left fifth metatarsal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3253"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_sixth_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left sixth costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3254"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.left_seventh_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Left seventh costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3255"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_calcaneus",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left calcaneus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3256"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_capitate",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left capitate",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3257"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_cuboid_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left cuboid bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3258"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_femur",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left femur",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3259"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_fibula",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left fibula",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3260"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_hamate",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left hamate",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3261"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_humerus",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left humerus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3262"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.left_inferior_nasal_concha",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Left inferior nasal concha",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3263"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_intermediate_cuneiform_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left intermediate cuneiform bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3264"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_lateral_cuneiform_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left lateral cuneiform bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3267"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_lunate",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left lunate",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3268"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.left_maxilla",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Left maxilla",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3269"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_medial_cuneiform_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left medial cuneiform bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3271"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.left_nasal_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Left nasal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3272"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.left_palatine_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Left palatine bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3273"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.left_parietal_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Left parietal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3274"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_patella",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left patella",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3275"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_pisiform",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left pisiform",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3276"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_radius",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left radius",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3277"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_scaphoid",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left scaphoid",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3278"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_scapula",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left scapula",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3279"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_talus",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left talus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3280"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.left_temporal_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Left temporal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3281"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_tibia",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left tibia",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3282"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_trapezium",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left trapezium",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3283"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_trapezoid",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left trapezoid",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3284"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_triquetral",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left triquetral",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3285"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_ulna",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left ulna",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3286"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.left_zygomatic_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Left zygomatic bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3287"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.left_hip_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Left hip bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3288"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.mandible",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Mandible",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3289"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.manubrium",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Manubrium",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3290"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_left_ring_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of left ring finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3291"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_right_ring_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of right ring finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3292"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_left_second_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of left second toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3293"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_left_third_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of left third toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3294"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_left_fourth_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of left fourth toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3295"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_left_index_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of left index finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3296"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_left_little_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of left little finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3297"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_left_little_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of left little toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3298"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_left_middle_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of left middle finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3299"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_right_second_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of right second toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3300"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_right_third_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of right third toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3301"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_right_fourth_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of right fourth toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3302"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_right_index_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of right index finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3303"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_right_little_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of right little finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3304"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_right_little_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of right little toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3305"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.middle_phalanx_of_right_middle_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Middle phalanx of right middle finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3306"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.navicular_bone_of_left_foot",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Navicular bone of left foot",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3307"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.navicular_bone_of_right_foot",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Navicular bone of right foot",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3308"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.occipital_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Occipital bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3309"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_right_big_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of right big toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3310"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_left_third_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of left third toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3311"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_left_fourth_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of left fourth toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3312"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_left_index_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of left index finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3313"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_left_little_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of left little finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3314"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_left_little_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of left little toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3315"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_left_middle_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of left middle finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3316"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_left_ring_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of left ring finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3317"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_left_thumb",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of left thumb",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3318"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_right_second_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of right second toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3319"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_right_third_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of right third toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3320"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_right_fourth_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of right fourth toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3321"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_right_index_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of right index finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3322"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_right_little_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of right little finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3323"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_right_little_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of right little toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3324"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_right_middle_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of right middle finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3325"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_right_ring_finger",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of right ring finger",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3326"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_right_thumb",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of right thumb",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3327"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_left_second_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of left second toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3328"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.proximal_phalanx_of_left_big_toe",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Proximal phalanx of left big toe",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3329"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_tenth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right tenth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3330"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_eleventh_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right eleventh rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3331"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_twelfth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right twelfth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3332"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_first_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right first costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3333"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_first_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right first rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3334"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_second_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right second costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3335"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_second_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right second rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3336"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_third_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right third costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3337"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_third_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right third rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3338"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_fourth_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right fourth costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3339"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_fourth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right fourth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3340"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_fifth_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right fifth costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3341"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_fifth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right fifth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3342"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_sixth_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right sixth costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3343"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_sixth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right sixth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3344"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_seventh_costal_cartilage",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right seventh costal cartilage",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3345"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_seventh_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right seventh rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3346"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_eighth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right eighth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3347"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.right_ninth_rib",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Right ninth rib",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3348"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_radius",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right radius",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3349"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_first_metacarpal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right first metacarpal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3350"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_first_metatarsal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right first metatarsal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3351"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_second_metacarpal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right second metacarpal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3352"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_second_metatarsal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right second metatarsal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3353"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_third_metacarpal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right third metacarpal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3354"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_third_metatarsal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right third metatarsal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3355"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_fourth_metacarpal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right fourth metacarpal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3356"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_fourth_metatarsal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right fourth metatarsal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3357"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_fifth_metacarpal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right fifth metacarpal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3358"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_fifth_metatarsal_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right fifth metatarsal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3359"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_calcaneus",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right calcaneus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3360"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_capitate",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right capitate",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3361"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_clavicle",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right clavicle",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3362"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_cuboid_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right cuboid bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3364"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_femur",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right femur",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3365"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_fibula",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right fibula",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3366"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_hamate",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right hamate",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3367"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_humerus",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right humerus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3368"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.right_inferior_nasal_concha",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Right inferior nasal concha",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3369"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_intermediate_cuneiform_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right intermediate cuneiform bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3370"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_lateral_cuneiform_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right lateral cuneiform bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3373"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_lunate",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right lunate",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3374"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.right_maxilla",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Right maxilla",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3375"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_medial_cuneiform_bone",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right medial cuneiform bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3377"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.right_nasal_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Right nasal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3378"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.right_palatine_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Right palatine bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3379"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.right_parietal_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Right parietal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3380"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_patella",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right patella",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3381"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_pisiform",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right pisiform",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3382"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_scaphoid",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right scaphoid",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3383"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_scapula",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right scapula",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3384"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_talus",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right talus",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3385"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.right_temporal_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Right temporal bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3386"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_tibia",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right tibia",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3387"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_trapezium",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right trapezium",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3388"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_trapezoid",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right trapezoid",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3389"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_triquetral",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right triquetral",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3390"
+   ]
+  },
+  {
+   "id": "skelett.gliedmassen.right_ulna",
+   "level": 3,
+   "parentId": "skelett.gliedmassen",
+   "label": "Right ulna",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3391"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.right_zygomatic_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Right zygomatic bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3392"
+   ]
+  },
+  {
+   "id": "skelett.rumpf.sacrum",
+   "level": 3,
+   "parentId": "skelett.rumpf",
+   "label": "Sacrum",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3393"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.sphenoid_bone",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Sphenoid bone",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3394"
+   ]
+  },
+  {
+   "id": "skelett.schaedel.vomer",
+   "level": 3,
+   "parentId": "skelett.schaedel",
+   "label": "Vomer",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3395"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.anterior_cecal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Anterior cecal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3406"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.appendicular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Appendicular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3410"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.arch_of_aorta",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Arch of aorta",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3411"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.ascending_aorta",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Ascending aorta",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3413"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.ascending_branch_of_inferior_branch_of_ileocolic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Ascending branch of inferior branch of ileocolic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3414"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.azygos_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Azygos vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3416"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.brachiocephalic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Brachiocephalic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3417"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.celiac_trunk",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Celiac trunk",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3421"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.descending_aorta",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Descending aorta",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3427"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_gastroduodenal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of gastroduodenal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3432"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.hemiazygos_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Hemiazygos vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3434"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.ileal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Ileal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3437"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.ileocolic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Ileocolic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3439"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.inferior_vena_cava",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Inferior vena cava",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3441",
+    "partof:FJ3659"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.inferior_mesenteric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Inferior mesenteric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3442"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.inferior_pancreaticoduodenal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Inferior pancreaticoduodenal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3446"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.inferior_phrenic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Inferior phrenic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3447",
+    "partof:FJ3448",
+    "partof:FJ3449",
+    "partof:FJ3450",
+    "partof:FJ3451",
+    "partof:FJ3452"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_common_iliac_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left common iliac artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3464"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_common_iliac_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left common iliac vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3465"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_external_iliac_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left external iliac artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3466"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_inferior_suprarenal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left inferior suprarenal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3467"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_internal_iliac_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left internal iliac artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3468"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_internal_iliac_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left internal iliac vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3469",
+    "partof:FJ3470",
+    "partof:FJ3471"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_middle_suprarenal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left middle suprarenal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3472"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_left_renal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of left renal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3476"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_subclavian_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left subclavian artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3479"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_suprarenal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left suprarenal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3480"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.ureteric_segment_of_left_renal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Ureteric segment of left renal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3481"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_brachiocephalic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left brachiocephalic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3482"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_common_carotid_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left common carotid artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3483"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_external_iliac_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left external iliac vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3484",
+    "partof:FJ3522",
+    "partof:FJ3523",
+    "partof:FJ3524"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_colic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left colic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3494"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_gastric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left gastric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3499"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_inferior_epigastric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left inferior epigastric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3511"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_inferior_phrenic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left inferior phrenic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3514",
+    "partof:FJ3515",
+    "partof:FJ3516",
+    "partof:FJ3517",
+    "partof:FJ3518",
+    "partof:FJ3519",
+    "partof:FJ3520"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_superficial_epigastric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left superficial epigastric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3529"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_testicular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left testicular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3532"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.left_testicular_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Left testicular vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3533"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.marginal_artery_of_colon",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Marginal artery of colon",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3534"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.middle_colic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Middle colic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3542"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.posterior_cecal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Posterior cecal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3553"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_common_carotid_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right common carotid artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3564"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_common_iliac_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right common iliac artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3565"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_common_iliac_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right common iliac vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3566"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_external_iliac_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right external iliac artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3567"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_external_iliac_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right external iliac vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3568"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_internal_iliac_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right internal iliac artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3569"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_internal_iliac_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right internal iliac vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3570",
+    "partof:FJ3571",
+    "partof:FJ3572",
+    "partof:FJ3607",
+    "partof:FJ3608",
+    "partof:FJ3609"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_right_renal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of right renal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3576"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_subclavian_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right subclavian artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3579"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_suprarenal_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right suprarenal vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3580"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.ureteric_segment_of_right_renal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Ureteric segment of right renal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3581",
+    "partof:FJ3582"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_brachiocephalic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right brachiocephalic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3583"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_inferior_suprarenal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right inferior suprarenal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3584"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_internal_jugular_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right internal jugular vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3585"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_middle_suprarenal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right middle suprarenal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3586"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_subclavian_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right subclavian vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3587"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_colic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right colic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3590"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_gastric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right gastric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3594"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_inferior_epigastric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right inferior epigastric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3604"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_superficial_epigastric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right superficial epigastric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3614"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_testicular_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right testicular artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3617"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_testicular_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right testicular vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3618"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.right_inferior_phrenic_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Right inferior phrenic artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3619",
+    "partof:FJ3620",
+    "partof:FJ3621",
+    "partof:FJ3622",
+    "partof:FJ3623",
+    "partof:FJ3624",
+    "partof:FJ3625",
+    "partof:FJ3626"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.sigmoid_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Sigmoid artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3638"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.trunk_of_superior_mesenteric_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Trunk of superior mesenteric artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3644"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.superior_vena_cava",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Superior vena cava",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3645"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.superior_phrenic_vein",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Superior phrenic vein",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3648",
+    "partof:FJ3649",
+    "partof:FJ3650",
+    "partof:FJ3651",
+    "partof:FJ3652",
+    "partof:FJ3653",
+    "partof:FJ3654"
+   ]
+  },
+  {
+   "id": "organe.kreislauf.superior_rectal_artery",
+   "level": 3,
+   "parentId": "organe.kreislauf",
+   "label": "Superior rectal artery",
+   "curated": false,
+   "game": false,
+   "modelKeys": [
+    "partof:FJ3656"
+   ]
+  }
+ ]
+}
