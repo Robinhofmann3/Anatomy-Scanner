@@ -1,18 +1,23 @@
-# Organ-Puzzle (Spielmodus)
+# Organ-Party (Spielesammlung)
 
-Start über den Button **„🧩 Organ-Puzzle starten“** oben links in `Anatomy.html`.
+Start über **„🎮 Neues Spiel“** oben links in `Anatomy.html`.
 
-## Spielidee
-Die wichtigsten Organe liegen links und rechts neben dem Körper. Im Körper pulsieren
-Platzhalterkugeln an den Stellen, an denen Organe fehlen. Organ packen, an die richtige
-Kugel ziehen – rastet es ein, öffnet sich ein Steckbrief im Freundebuch-Stil und ein Quiz
-mit 3 Fragen.
+## Ablauf
+1. **Spielerwahl:** 1–4 Spieler an einem PC, abwechselnd. Jeder bekommt einen witzigen
+   Zufallsnamen (z. B. „Lausige Leber“, „Holpriges Herz“) – mit 🎲 neu würfeln oder selbst tippen.
+   Dazu 2, 3 oder 5 Runden je Spieler wählen.
+2. **Glücksrad:** Wer dran ist, dreht das Rad – es wählt zufällig eines von 5 Minispielen.
+3. **Runde spielen**, Punkte landen auf der Punktetafel oben links.
+4. **Siegerehrung** nach der letzten Runde.
 
-| Aktion | Punkte |
-|---|---|
-| Organ beim ersten Versuch richtig platziert | 10 |
-| Organ nach Fehlversuch richtig platziert | 5 |
-| Quizfrage richtig | 5 |
+## Minispiele
+| Spiel | Aufgabe | Punkte (max.) |
+|---|---|---|
+| 🧩 Organ-Puzzle | 3 Organe an die leuchtenden Kugeln ziehen, je eine Quizfrage | 10 + 5 je Organ |
+| 🏆 Profi-Puzzle | 3 Organe in 45 s platzieren – ohne Hilfskugeln | 15 je Organ |
+| 📍 Wo ist das? | Auf die Stelle klicken, wo das Organ liegt; Abweichung in cm | 15 − cm je Organ |
+| 🕵️ Wer bin ich? | Organ aus Freundebuch-Hinweisen erraten und im Körper anklicken | 20 → 4 je nach Hinweisen |
+| 🔍 Lupen-Jagd | Organ mit der Röntgen-Lupe unter der Haut finden (1 s drüberhalten) | 20 − Sekunden/2 |
 
 ## CG-Komponenten
 - **Hierarchie:** Ein Organ (LOD3) ist eine `THREE.Group` aus vielen OBJ-Einzelteilen;
@@ -20,9 +25,11 @@ mit 3 Fragen.
 - **Picking:** `Raycaster` auf die Organ-Gruppen, mit Fallback in Bildschirmkoordinaten
   für dünne Strukturen (Bronchialbaum).
 - **Objektmanipulation:** Drag auf einer kameraparallelen Ebene (`Plane` + `Ray.intersectPlane`).
-- **Animation:** Einrasten (Easing „back out“), Zurückfliegen bei Fehlversuch,
-  pulsierende Platzhalter, rotierende Organe in der Ablage.
-- **Beleuchtung/Material:** Geisterhaut und Skelett halbtransparent (`depthWrite: false`).
+- **Animation:** Einrasten (Easing „back out“), Zurückfliegen, pulsierende Platzhalter,
+  rotierende Organe in der Ablage, Glücksrad (CSS-Transition).
+- **Shader:** Lupen-Jagd nutzt den Ring-Cutout-Shader der Haut (Advancement des Teams).
+- **Messung:** „Wo ist das?“ projiziert den Klick auf eine Ebene durch das Organ und rechnet
+  Szeneneinheiten in cm um (1 Einheit ≈ 8,2 cm).
 
 ## Daten
 - `Data/organ-hierarchy.json` – LOD1 System → LOD2 Gruppe → LOD3 Organ (erzeugt mit
@@ -31,10 +38,16 @@ mit 3 Fragen.
   keine medizinische Beratung)
 
 ## Dateien
-- `game/organGame.js` – 3D-Logik (Laden, Drag & Drop, Animation, Punkte)
-- `game/organGameUI.js` – HTML-Oberfläche (HUD, Steckbrief, Quiz)
+- `game/organGame.js` – Einstieg und Party-Ablauf (Spieler, Runden, Rad)
+- `game/stage.js` – 3D-Bühne: Laden, Organe, Animation, Picking
+- `game/modes.js` – die 5 Minispiele
+- `game/organGameUI.js` – HTML-Oberfläche (HUD, Rad, Freundebuch, Quiz, Siegerehrung)
 - `game/organArt.js` – eigene Comic-Organe als SVG
 - `game/organGame.css` – Styles
 
 Eingebunden in `Main_all_obj.js` mit einem Import und einem Aufruf von `createOrganGame(...)`.
-In der Browser-Konsole steht das Spiel als `window.organGame` zur Verfügung.
+In der Browser-Konsole steht alles als `window.organGame` zur Verfügung.
+
+## Lizenz der 3D-Modelle
+BodyParts3D, © The Database Center for Life Science, CC BY-SA 2.1 Japan – der Hinweis
+steht unten links in der App.

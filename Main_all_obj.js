@@ -162,12 +162,12 @@ const cutout = {
         panel.setProgress(latestProgress);
         loadingLabel.remove();
 
-        // Organ-Puzzle (eigener Spielmodus, siehe game/organGame.js)
+        // Organ-Party: Spielesammlung mit Glücksrad (siehe game/README.md)
         window.organGame = createOrganGame({
             scene, camera, controls, catalog,
             canvas: renderer.domElement,
             viewerGroup: models.group,
-            hideDuringGame: [ring],
+            magnifier: ring,
         });
     }).catch(error => {
         loadingLabel.textContent = 'Kategorien konnten nicht geladen werden. Bitte Seite neu laden.';
