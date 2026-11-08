@@ -222,6 +222,7 @@ export function createMuscleAtlas({ stage, ui }) {
             return close();
         }
         ui.hideRound();
+        stage.hideAll();          // beim ersten Laden wurden die Spielorgane erst danach erzeugt
         muscles.visible = true;
         document.body.classList.add('atlas-active');
         region = atlas.regions[0].id;
