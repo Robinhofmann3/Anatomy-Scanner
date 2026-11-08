@@ -1,0 +1,241 @@
+{
+ "schemaVersion": 1,
+ "description": "LOD4: Steckbrief (Freundebuch) + Quiz je Spielorgan. Verknüpfung über lod3Ids aus Data/organ-hierarchy.json. Allgemeinwissen, keine medizinische Beratung.",
+ "organs": [
+  {
+   "id": "gehirn",
+   "lod3Ids": ["organe.nerven.grosshirn"],
+   "name": "Gehirn",
+   "freundebuch": {
+    "spitzname": "Der Boss",
+    "wohnort": "Penthouse ganz oben – im Schädel",
+    "gewicht": "ca. 1,3–1,4 kg",
+    "besterFreund": "Das Rückenmark – wir telefonieren ununterbrochen",
+    "dasLiebeIch": "Schlaf (da räume ich auf) und neue Dinge lernen",
+    "dasMagIchGarNicht": "Stöße ohne Helm",
+    "superkraft": "Rund 86 Milliarden Nervenzellen – ich denke, also bin ich",
+    "lieblingsspruch": "Ich hab's im Kopf!"
+   },
+   "quiz": [
+    {"frage": "Wie viel Prozent der Körperenergie verbraucht das Gehirn ungefähr – obwohl es nur rund 2 % des Körpergewichts ausmacht?",
+     "antworten": ["ca. 2 %", "ca. 20 %", "ca. 50 %", "ca. 75 %"], "richtig": 1,
+     "erklaerung": "Das Gehirn ist ein Energiefresser: rund ein Fünftel der Energie in Ruhe geht an den Kopf."},
+    {"frage": "Wie viele Nervenzellen hat das menschliche Gehirn ungefähr?",
+     "antworten": ["ca. 86 Millionen", "ca. 86 Milliarden", "ca. 86 Billionen", "ca. 8.600"], "richtig": 1,
+     "erklaerung": "Etwa 86 Milliarden Neuronen – mehr als zehnmal so viele, wie Menschen auf der Erde leben."},
+    {"frage": "Was spürt das Gehirngewebe selbst NICHT?",
+     "antworten": ["Schmerz", "Sauerstoffmangel", "Zuckermangel", "Müdigkeit"], "richtig": 0,
+     "erklaerung": "Im Hirngewebe selbst gibt es keine Schmerzrezeptoren. Kopfschmerz entsteht in Hirnhäuten, Gefäßen oder Muskeln."}
+   ]
+  },
+  {
+   "id": "herz",
+   "lod3Ids": ["organe.kreislauf.herz"],
+   "name": "Herz",
+   "freundebuch": {
+    "spitzname": "Pumpi",
+    "wohnort": "Brustkorb, Mitte, leicht nach links gerückt",
+    "gewicht": "ca. 300 g – etwa so groß wie eine Faust",
+    "besterFreund": "Die Lunge – sie gibt mir frischen Sauerstoff, ich verteile ihn",
+    "dasLiebeIch": "Bewegung und Treppensteigen",
+    "dasMagIchGarNicht": "Rauchen und Dauerstress",
+    "superkraft": "Eigener Taktgeber: Mein Sinusknoten gibt den Rhythmus vor",
+    "lieblingsspruch": "Ich schlag mich durch – ca. 100.000 Mal am Tag!"
+   },
+   "quiz": [
+    {"frage": "Wie oft schlägt das Herz eines Erwachsenen ungefähr pro Tag?",
+     "antworten": ["ca. 1.000 Mal", "ca. 10.000 Mal", "ca. 100.000 Mal", "ca. 1 Million Mal"], "richtig": 2,
+     "erklaerung": "Bei 60–80 Schlägen pro Minute kommen rund 100.000 Schläge am Tag zusammen."},
+    {"frage": "Wie viele Kammern und Vorhöfe hat das Herz zusammen?",
+     "antworten": ["2", "3", "4", "6"], "richtig": 2,
+     "erklaerung": "Zwei Vorhöfe und zwei Kammern – eine Hälfte für den Lungenkreislauf, eine für den Körperkreislauf."},
+    {"frage": "Wie viel Blut pumpt das Herz in Ruhe etwa pro Minute?",
+     "antworten": ["ca. 0,5 Liter", "ca. 5 Liter", "ca. 50 Liter", "ca. 500 Liter"], "richtig": 1,
+     "erklaerung": "Rund 5 Liter pro Minute – also etwa die gesamte Blutmenge des Körpers jede Minute einmal."}
+   ]
+  },
+  {
+   "id": "lunge",
+   "lod3Ids": ["organe.atmung.lunge_links", "organe.atmung.lunge_rechts"],
+   "name": "Lunge",
+   "hinweisModell": "Im 3D-Modell ist die Lunge als Bronchialbaum (Atemwege) dargestellt.",
+   "freundebuch": {
+    "spitzname": "Die Zwillinge Links & Rechts",
+    "wohnort": "Brustkorb, rechts und links vom Herzen",
+    "gewicht": "zusammen ca. 1 kg",
+    "besterFreund": "Das Herz – wir arbeiten Wand an Wand",
+    "dasLiebeIch": "Waldluft und tiefes Durchatmen",
+    "dasMagIchGarNicht": "Zigarettenrauch und Feinstaub",
+    "superkraft": "Meine Lungenbläschen haben zusammen eine riesige Fläche – grob die Größe einer Wohnung",
+    "lieblingsspruch": "Erst mal tief durchatmen!"
+   },
+   "quiz": [
+    {"frage": "Warum ist die linke Lunge kleiner als die rechte?",
+     "antworten": ["Sie wird weniger benutzt", "Das Herz braucht Platz", "Die Leber drückt von unten", "Das ist nicht so – beide sind gleich groß"], "richtig": 1,
+     "erklaerung": "Das Herz liegt leicht links. Deshalb hat die linke Lunge nur zwei Lappen, die rechte drei."},
+    {"frage": "Wie oft atmet ein Erwachsener in Ruhe ungefähr pro Minute?",
+     "antworten": ["2–4 Mal", "12–20 Mal", "40–50 Mal", "80–100 Mal"], "richtig": 1,
+     "erklaerung": "Etwa 12 bis 20 Atemzüge pro Minute, pro Atemzug ungefähr ein halber Liter Luft."},
+    {"frage": "Wo findet der Gasaustausch (Sauerstoff rein, CO₂ raus) statt?",
+     "antworten": ["In der Luftröhre", "In den Lungenbläschen", "Im Kehlkopf", "In den Bronchien"], "richtig": 1,
+     "erklaerung": "In Millionen winziger Lungenbläschen (Alveolen), die von feinsten Blutgefäßen umsponnen sind."}
+   ]
+  },
+  {
+   "id": "leber",
+   "lod3Ids": ["organe.verdauung.leber"],
+   "name": "Leber",
+   "freundebuch": {
+    "spitzname": "Die Chemiefabrik",
+    "wohnort": "Rechter Oberbauch, unter dem Zwerchfell",
+    "gewicht": "ca. 1,5 kg – das schwerste innere Organ",
+    "besterFreund": "Die Gallenblase – sie lagert meine Galle zwischen",
+    "dasLiebeIch": "Pausen ohne Alkohol",
+    "dasMagIchGarNicht": "Zu viel Alkohol und Fett",
+    "superkraft": "Ich kann nachwachsen, wenn ein Teil von mir entfernt wurde",
+    "lieblingsspruch": "Mir ist nichts zu viel – fast."
+   },
+   "quiz": [
+    {"frage": "Was kann die Leber, was kaum ein anderes Organ kann?",
+     "antworten": ["Sich nachbilden, wenn ein Teil entfernt wurde", "Blut pumpen", "Hormone für das Wachstum bilden", "Sauerstoff speichern"], "richtig": 0,
+     "erklaerung": "Die Leber kann verlorenes Gewebe in kurzer Zeit nachbilden – deshalb sind Lebend-Teilspenden möglich."},
+    {"frage": "Welche Flüssigkeit stellt die Leber für die Fettverdauung her?",
+     "antworten": ["Speichel", "Magensäure", "Galle", "Insulin"], "richtig": 2,
+     "erklaerung": "Galle macht Fette im Darm verdaulich. Gespeichert wird sie in der Gallenblase."},
+    {"frage": "Wo im Bauch liegt die Leber?",
+     "antworten": ["Links unten", "Rechts oben", "Mittig hinter dem Bauchnabel", "Im Becken"], "richtig": 1,
+     "erklaerung": "Im rechten Oberbauch, gut geschützt unter den Rippen."}
+   ]
+  },
+  {
+   "id": "magen",
+   "lod3Ids": ["organe.verdauung.magen"],
+   "name": "Magen",
+   "freundebuch": {
+    "spitzname": "Der Säurekessel",
+    "wohnort": "Linker Oberbauch",
+    "gewicht": "leer ca. 150 g, fasst rund 1,5 Liter",
+    "besterFreund": "Die Speiseröhre – sie liefert mir alles an",
+    "dasLiebeIch": "Gut gekautes Essen",
+    "dasMagIchGarNicht": "Hastiges Schlingen spätabends",
+    "superkraft": "Ich mache Säure, die so stark ist wie Batteriesäure – und verdaue mich trotzdem nicht selbst",
+    "lieblingsspruch": "Liebe geht durch mich."
+   },
+   "quiz": [
+    {"frage": "Warum verdaut sich der Magen nicht selbst?",
+     "antworten": ["Die Säure ist zu schwach", "Eine Schleimschicht schützt die Wand", "Er ist mit Knorpel ausgekleidet", "Die Säure wird sofort weitergeleitet"], "richtig": 1,
+     "erklaerung": "Eine dicke Schleimschicht schützt die Magenwand vor der eigenen Säure."},
+    {"frage": "Welche Säure produziert der Magen?",
+     "antworten": ["Zitronensäure", "Essigsäure", "Salzsäure", "Milchsäure"], "richtig": 2,
+     "erklaerung": "Salzsäure – sie tötet Keime ab und hilft beim Aufspalten von Eiweiß."},
+    {"frage": "Wie viel fasst ein normaler Magen ungefähr?",
+     "antworten": ["ca. 0,1 Liter", "ca. 1,5 Liter", "ca. 10 Liter", "ca. 25 Liter"], "richtig": 1,
+     "erklaerung": "Etwa 1,5 Liter – dehnbar ist er aber noch deutlich weiter."}
+   ]
+  },
+  {
+   "id": "duenndarm",
+   "lod3Ids": ["organe.verdauung.duenndarm"],
+   "name": "Dünndarm",
+   "freundebuch": {
+    "spitzname": "Die Langstrecke",
+    "wohnort": "Mitte des Bauchs, ordentlich aufgewickelt",
+    "gewicht": "ca. 1 kg, mehrere Meter lang",
+    "besterFreund": "Die Bauchspeicheldrüse – sie schickt mir Verdauungssäfte",
+    "dasLiebeIch": "Ballaststoffe und viel Wasser",
+    "dasMagIchGarNicht": "Fastfood-Dauerschleife",
+    "superkraft": "Millionen winziger Zotten – so nehme ich die meisten Nährstoffe ins Blut auf",
+    "lieblingsspruch": "Ich zieh das durch!"
+   },
+   "quiz": [
+    {"frage": "Wie lang ist der Dünndarm ungefähr?",
+     "antworten": ["ca. 50 cm", "ca. 1,5 m", "ca. 5 m", "ca. 50 m"], "richtig": 2,
+     "erklaerung": "Rund 4–6 Meter – zusammengelegt passt er trotzdem in den Bauch."},
+    {"frage": "Was ist die Hauptaufgabe des Dünndarms?",
+     "antworten": ["Wasser speichern", "Nährstoffe ins Blut aufnehmen", "Blut filtern", "Hormone für den Schlaf bilden"], "richtig": 1,
+     "erklaerung": "Hier wird der Großteil der Nährstoffe aus der Nahrung aufgenommen."},
+    {"frage": "Wie heißen die winzigen Ausstülpungen, die die Darmoberfläche vergrößern?",
+     "antworten": ["Zotten", "Lappen", "Kammern", "Klappen"], "richtig": 0,
+     "erklaerung": "Darmzotten wirken wie ein Hochflor-Teppich und vervielfachen die Aufnahmefläche."}
+   ]
+  },
+  {
+   "id": "dickdarm",
+   "lod3Ids": ["organe.verdauung.dickdarm"],
+   "name": "Dickdarm",
+   "freundebuch": {
+    "spitzname": "Die WG der Bakterien",
+    "wohnort": "Wie ein Rahmen rund um den Dünndarm",
+    "gewicht": "ca. 1,5 m lang",
+    "besterFreund": "Billionen Darmbakterien – meine Mitbewohner",
+    "dasLiebeIch": "Gemüse, Vollkorn, Ballaststoffe",
+    "dasMagIchGarNicht": "Bewegungsmangel",
+    "superkraft": "Ich hole das Wasser zurück, damit du nicht austrocknest",
+    "lieblingsspruch": "Zum Schluss komm ich."
+   },
+   "quiz": [
+    {"frage": "Welche Aufgabe hat der Dickdarm vor allem?",
+     "antworten": ["Eiweiß verdauen", "Wasser und Salze zurückgewinnen", "Galle produzieren", "Blutzucker regeln"], "richtig": 1,
+     "erklaerung": "Er entzieht dem Darminhalt Wasser und Salze – der Rest wird ausgeschieden."},
+    {"frage": "Wo im Körper leben die meisten Bakterien?",
+     "antworten": ["Auf der Haut", "Im Mund", "Im Dickdarm", "In der Lunge"], "richtig": 2,
+     "erklaerung": "Im Dickdarm lebt der Großteil unserer Bakterien – das Darmmikrobiom."},
+    {"frage": "Wie heißt das kleine Anhängsel am Anfang des Dickdarms, das sich entzünden kann?",
+     "antworten": ["Mandel", "Wurmfortsatz (Blinddarm)", "Gallenblase", "Milz"], "richtig": 1,
+     "erklaerung": "Der Wurmfortsatz – umgangssprachlich „Blinddarm“. Bei einer Entzündung wird er oft entfernt."}
+   ]
+  },
+  {
+   "id": "niere",
+   "lod3Ids": ["organe.harn.niere_links", "organe.harn.niere_rechts"],
+   "name": "Niere",
+   "freundebuch": {
+    "spitzname": "Die Kläranlage",
+    "wohnort": "Hinten im Rücken, links und rechts der Wirbelsäule",
+    "gewicht": "je ca. 150 g, bohnenförmig, etwa faustgroß",
+    "besterFreund": "Die Harnblase – ich schicke ihr alles, was raus muss",
+    "dasLiebeIch": "Genug trinken",
+    "dasMagIchGarNicht": "Zu viel Salz",
+    "superkraft": "Ich filtere jeden Tag rund 180 Liter Vorharn",
+    "lieblingsspruch": "Das geht mir an die Nieren!"
+   },
+   "quiz": [
+    {"frage": "Wie viel Vorharn (Primärharn) filtern die Nieren pro Tag?",
+     "antworten": ["ca. 1,5 Liter", "ca. 18 Liter", "ca. 180 Liter", "ca. 1.800 Liter"], "richtig": 2,
+     "erklaerung": "Rund 180 Liter – davon wird fast alles zurückgeholt, am Ende bleiben etwa 1,5 Liter Urin."},
+    {"frage": "Kann man mit nur einer Niere gut leben?",
+     "antworten": ["Nein, nie", "Ja, in der Regel schon", "Nur als Kind", "Nur mit täglicher Dialyse"], "richtig": 1,
+     "erklaerung": "Eine gesunde Niere kann die Arbeit meist allein schaffen – deshalb sind Lebendspenden möglich."},
+    {"frage": "Warum liegt die rechte Niere meist etwas tiefer als die linke?",
+     "antworten": ["Sie ist schwerer", "Die Leber liegt darüber", "Das Herz drückt sie runter", "Zufall"], "richtig": 1,
+     "erklaerung": "Über der rechten Niere liegt die große Leber und schiebt sie ein Stück nach unten."}
+   ]
+  },
+  {
+   "id": "harnblase",
+   "lod3Ids": ["organe.harn.harnblase"],
+   "name": "Harnblase",
+   "freundebuch": {
+    "spitzname": "Der Wassertank",
+    "wohnort": "Im kleinen Becken, ganz unten",
+    "gewicht": "fasst ca. 300–500 ml",
+    "besterFreund": "Die Nieren – die liefern rund um die Uhr",
+    "dasLiebeIch": "Regelmäßige Pausen",
+    "dasMagIchGarNicht": "Lange Autofahrten ohne Raststätte",
+    "superkraft": "Ich bin dehnbar wie ein Ballon",
+    "lieblingsspruch": "Jetzt aber schnell!"
+   },
+   "quiz": [
+    {"frage": "Wie viel Urin fasst eine Harnblase ungefähr?",
+     "antworten": ["ca. 50 ml", "ca. 300–500 ml", "ca. 3 Liter", "ca. 10 Liter"], "richtig": 1,
+     "erklaerung": "Etwa 300 bis 500 Milliliter – Harndrang spüren wir meist schon deutlich früher."},
+    {"frage": "Woher bekommt die Harnblase den Urin?",
+     "antworten": ["Direkt aus dem Magen", "Von den Nieren über die Harnleiter", "Aus dem Dickdarm", "Aus der Leber"], "richtig": 1,
+     "erklaerung": "Die Nieren bilden den Urin, die Harnleiter transportieren ihn in die Blase."},
+    {"frage": "Was bestimmt hauptsächlich die gelbe Farbe des Urins?",
+     "antworten": ["Abbauprodukte des Blutfarbstoffs", "Vitamin C", "Magensäure", "Galle aus der Gallenblase"], "richtig": 0,
+     "erklaerung": "Der Farbstoff Urobilin stammt aus dem Abbau des roten Blutfarbstoffs. Je mehr man trinkt, desto heller."}
+   ]
+  }
+ ]
+}
