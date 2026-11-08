@@ -10,6 +10,7 @@ const CLUE_POINTS = [20, 16, 12, 8, 4];
 
 const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
 const article = organ => ARTICLE[organ.entry.id] || 'das';
+const accusative = organ => (article(organ) === 'der' ? 'den' : article(organ));   // „Finde den Magen“
 
 // n zufällige Organe mit unterschiedlichem Steckbrief (nicht beide Nieren in einer Runde)
 function pickDistinct(organs, n) {
@@ -307,7 +308,7 @@ async function magnifierHunt({ stage, ui, player }) {
     const edge = new THREE.Vector3();
 
     for (const [i, organ] of chosen.entries()) {
-        const base = `Finde ${article(organ)} ${organ.label} mit der Lupe! Lupe am roten Rand oder Griff ziehen. (${i + 1}/${chosen.length})`;
+        const base = `Finde ${accusative(organ)} ${organ.label} mit der Lupe! Lupe am roten Rand oder Griff ziehen. (${i + 1}/${chosen.length})`;
         ui.showRound({ player, title: '🔍 Lupen-Jagd', text: base });
         const gained = await new Promise(resolve => {
             let elapsed = 0;

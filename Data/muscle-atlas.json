@@ -1,0 +1,997 @@
+{
+ "schemaVersion": 1,
+ "description": "Muskel-Atlas: Regionen > Muskelgruppen > Übungen. 3D-Muskeln per Namensmuster aus BodyParts3D (isa = 4.0, v3 = Ergänzung 3.0).",
+ "imageCredit": "Übungsbilder und -auswahl: Free Exercise DB (github.com/yuhonas/free-exercise-db), Public Domain (Unlicense). Texte: eigene Kurzfassung, keine medizinische Beratung.",
+ "regions": [
+  {
+   "id": "oberkoerper",
+   "label": "Oberkörper",
+   "groups": [
+    {
+     "id": "brust",
+     "label": "Brust",
+     "color": "#1c7ed6",
+     "source": "isa",
+     "patterns": [
+      "pectoralis major",
+      "pectoralis minor"
+     ],
+     "view": "front",
+     "function": "Drückt die Arme nach vorn und zieht sie vor dem Körper zusammen – dein Druckmuskel.",
+     "main": {
+      "id": "Dumbbell_Bench_Press",
+      "name": "Kurzhantel-Bankdrücken",
+      "nameEn": "Dumbbell Bench Press",
+      "home": true,
+      "equipment": "dumbbell",
+      "steps": [
+       "Auf die Flachbank legen, Füße fest am Boden, Schulterblätter zusammen und nach unten ziehen.",
+       "Kurzhanteln über der Brust halten, Handflächen zeigen Richtung Füße.",
+       "Langsam absenken, bis die Ellbogen etwa auf Bankhöhe sind (ca. 45° zum Körper).",
+       "Kraftvoll nach oben drücken, oben nicht ganz durchstrecken."
+      ],
+      "mistake": "Ellbogen 90° seitlich abspreizen – belastet die Schulter. Lieber leicht anlegen.",
+      "images": [
+       "Data/exercises/Dumbbell_Bench_Press/0.jpg",
+       "Data/exercises/Dumbbell_Bench_Press/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Pushups",
+       "name": "Liegestütze",
+       "nameEn": "Pushups",
+       "home": true,
+       "equipment": "body only",
+       "tip": "Körper wie ein Brett, Brust bis knapp über den Boden.",
+       "images": [
+        "Data/exercises/Pushups/0.jpg"
+       ]
+      },
+      {
+       "id": "Dumbbell_Flyes",
+       "name": "Kurzhantel-Fliegende",
+       "nameEn": "Dumbbell Flyes",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Arme leicht gebeugt in einem Bogen öffnen und schließen.",
+       "images": [
+        "Data/exercises/Dumbbell_Flyes/0.jpg"
+       ]
+      },
+      {
+       "id": "Barbell_Bench_Press_-_Medium_Grip",
+       "name": "Langhantel-Bankdrücken",
+       "nameEn": "Barbell Bench Press - Medium Grip",
+       "home": false,
+       "equipment": "barbell",
+       "tip": "Klassiker mit mehr Gewicht – mit Sicherheitsablage.",
+       "images": [
+        "Data/exercises/Barbell_Bench_Press_-_Medium_Grip/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "schultern",
+     "label": "Schultern (Delta)",
+     "color": "#15aabf",
+     "source": "isa",
+     "patterns": [
+      "deltoid"
+     ],
+     "view": "front",
+     "function": "Hebt den Arm nach vorn, zur Seite und nach hinten – sorgt für breite Schultern.",
+     "main": {
+      "id": "Dumbbell_Shoulder_Press",
+      "name": "Kurzhantel-Schulterdrücken",
+      "nameEn": "Dumbbell Shoulder Press",
+      "home": true,
+      "equipment": "dumbbell",
+      "steps": [
+       "Aufrecht auf die Bank setzen (Lehne steil), Rücken anlehnen.",
+       "Kurzhanteln auf Schulterhöhe, Handflächen nach vorn.",
+       "Gerade nach oben drücken, bis die Arme fast gestreckt sind.",
+       "Kontrolliert zurück auf Ohrhöhe absenken."
+      ],
+      "mistake": "Hohlkreuz beim Drücken – Bauch anspannen, Rücken an der Lehne lassen.",
+      "images": [
+       "Data/exercises/Dumbbell_Shoulder_Press/0.jpg",
+       "Data/exercises/Dumbbell_Shoulder_Press/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Side_Lateral_Raise",
+       "name": "Seitheben",
+       "nameEn": "Side Lateral Raise",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Arme leicht gebeugt bis Schulterhöhe seitlich heben – seitlicher Delta.",
+       "images": [
+        "Data/exercises/Side_Lateral_Raise/0.jpg"
+       ]
+      },
+      {
+       "id": "Reverse_Flyes",
+       "name": "Reverse Flys",
+       "nameEn": "Reverse Flyes",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Vorgebeugt die Arme seitlich nach hinten öffnen – hinterer Delta.",
+       "images": [
+        "Data/exercises/Reverse_Flyes/0.jpg"
+       ]
+      },
+      {
+       "id": "Seated_Barbell_Military_Press",
+       "name": "Langhantel-Schulterdrücken",
+       "nameEn": "Seated Barbell Military Press",
+       "home": false,
+       "equipment": "barbell",
+       "tip": "Mehr Gewicht, gleiche Bewegung.",
+       "images": [
+        "Data/exercises/Seated_Barbell_Military_Press/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "latissimus",
+     "label": "Latissimus (breiter Rücken)",
+     "color": "#5f3dc4",
+     "source": "v3",
+     "patterns": [
+      "latissimus"
+     ],
+     "view": "back",
+     "function": "Zieht die Arme von oben und vorn an den Körper – macht das „V“ im Rücken.",
+     "main": {
+      "id": "Wide-Grip_Lat_Pulldown",
+      "name": "Latzug breit",
+      "nameEn": "Wide-Grip Lat Pulldown",
+      "home": false,
+      "equipment": "cable",
+      "steps": [
+       "Am Latzug Oberschenkel unter das Polster klemmen, Stange schulterbreit+ greifen.",
+       "Brust raus, leicht nach hinten lehnen.",
+       "Stange zur oberen Brust ziehen, Ellbogen nach unten und hinten führen.",
+       "Langsam nach oben lassen, bis die Arme gestreckt sind."
+      ],
+      "mistake": "Mit Schwung aus dem Oberkörper reißen – lieber weniger Gewicht, sauber ziehen.",
+      "images": [
+       "Data/exercises/Wide-Grip_Lat_Pulldown/0.jpg",
+       "Data/exercises/Wide-Grip_Lat_Pulldown/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "One-Arm_Dumbbell_Row",
+       "name": "Einarmiges Kurzhantelrudern",
+       "nameEn": "One-Arm Dumbbell Row",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Knie und Hand auf der Bank, Hantel Richtung Hüfte ziehen.",
+       "images": [
+        "Data/exercises/One-Arm_Dumbbell_Row/0.jpg"
+       ]
+      },
+      {
+       "id": "Pullups",
+       "name": "Klimmzüge",
+       "nameEn": "Pullups",
+       "home": false,
+       "equipment": "body only",
+       "tip": "Königsübung – zur Not mit Band oder Maschine unterstützen.",
+       "images": [
+        "Data/exercises/Pullups/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "obererruecken",
+     "label": "Oberer Rücken (Trapez, Rhomboiden)",
+     "color": "#3b5bdb",
+     "source": "isa",
+     "patterns": [
+      "trapezius",
+      "rhomboid",
+      "teres (major|minor)",
+      "infraspinatus",
+      "supraspinatus"
+     ],
+     "view": "back",
+     "function": "Zieht die Schulterblätter zusammen und hält sie stabil – wichtig für gute Haltung.",
+     "main": {
+      "id": "Bent_Over_Two-Dumbbell_Row",
+      "name": "Vorgebeugtes Kurzhantelrudern",
+      "nameEn": "Bent Over Two-Dumbbell Row",
+      "home": true,
+      "equipment": "dumbbell",
+      "steps": [
+       "Mit leicht gebeugten Knien und geradem Rücken nach vorn beugen (ca. 45°).",
+       "Kurzhanteln hängen unter den Schultern.",
+       "Hanteln Richtung Bauchnabel ziehen und oben die Schulterblätter zusammendrücken.",
+       "Kontrolliert ablassen."
+      ],
+      "mistake": "Runder Rücken – Brust raus, Blick leicht nach vorn-unten.",
+      "images": [
+       "Data/exercises/Bent_Over_Two-Dumbbell_Row/0.jpg",
+       "Data/exercises/Bent_Over_Two-Dumbbell_Row/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Dumbbell_Shrug",
+       "name": "Schulterheben",
+       "nameEn": "Dumbbell Shrug",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Schultern gerade Richtung Ohren ziehen – oberer Trapez.",
+       "images": [
+        "Data/exercises/Dumbbell_Shrug/0.jpg"
+       ]
+      },
+      {
+       "id": "Face_Pull",
+       "name": "Face Pulls",
+       "nameEn": "Face Pull",
+       "home": false,
+       "equipment": "cable",
+       "tip": "Seil am Kabelzug Richtung Stirn ziehen – Haltungs-Booster.",
+       "images": [
+        "Data/exercises/Face_Pull/0.jpg"
+       ]
+      },
+      {
+       "id": "Reverse_Flyes",
+       "name": "Reverse Flys",
+       "nameEn": "Reverse Flyes",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Vorgebeugt Arme seitlich öffnen, Schulterblätter zusammen.",
+       "images": [
+        "Data/exercises/Reverse_Flyes/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "saegezahn",
+     "label": "Sägezahnmuskel",
+     "color": "#4dabf7",
+     "source": "isa",
+     "patterns": [
+      "serratus anterior"
+     ],
+     "view": "front",
+     "function": "Zieht das Schulterblatt nach vorn an den Brustkorb – stabilisiert beim Drücken.",
+     "main": {
+      "id": "Bent-Arm_Dumbbell_Pullover",
+      "name": "Kurzhantel-Überzüge",
+      "nameEn": "Bent-Arm Dumbbell Pullover",
+      "home": true,
+      "equipment": "dumbbell",
+      "steps": [
+       "Quer oder längs auf der Bank liegen, eine Kurzhantel mit beiden Händen über der Brust.",
+       "Arme leicht gebeugt lassen.",
+       "Hantel in einem Bogen hinter den Kopf absenken, bis du eine Dehnung spürst.",
+       "Im gleichen Bogen zurück über die Brust führen."
+      ],
+      "mistake": "Zu tief absenken – nur so weit, wie die Schulter es ohne Schmerz erlaubt.",
+      "images": [
+       "Data/exercises/Bent-Arm_Dumbbell_Pullover/0.jpg",
+       "Data/exercises/Bent-Arm_Dumbbell_Pullover/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Push_Up_to_Side_Plank",
+       "name": "Liegestütz mit Seitstütz",
+       "nameEn": "Push Up to Side Plank",
+       "home": true,
+       "equipment": "body only",
+       "tip": "Nach jeder Liegestütze in den Seitstütz drehen.",
+       "images": [
+        "Data/exercises/Push_Up_to_Side_Plank/0.jpg"
+       ]
+      },
+      {
+       "id": "Incline_Push-Up",
+       "name": "Erhöhte Liegestütze",
+       "nameEn": "Incline Push-Up",
+       "home": true,
+       "equipment": "body only",
+       "tip": "Hände auf der Bank – oben das Schulterblatt aktiv nach vorn schieben.",
+       "images": [
+        "Data/exercises/Incline_Push-Up/0.jpg"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "arme",
+   "label": "Arme",
+   "groups": [
+    {
+     "id": "bizeps",
+     "label": "Bizeps",
+     "color": "#37b24d",
+     "source": "isa",
+     "patterns": [
+      "biceps brachii",
+      "brachialis$",
+      "coracobrachialis"
+     ],
+     "view": "front",
+     "function": "Beugt den Ellbogen und dreht den Unterarm nach außen.",
+     "main": {
+      "id": "Dumbbell_Bicep_Curl",
+      "name": "Kurzhantel-Curls",
+      "nameEn": "Dumbbell Bicep Curl",
+      "home": true,
+      "equipment": "dumbbell",
+      "steps": [
+       "Aufrecht stehen, Kurzhanteln seitlich, Handflächen nach vorn.",
+       "Ellbogen fest am Körper lassen.",
+       "Hanteln nach oben beugen, oben kurz anspannen.",
+       "Langsam absenken, bis die Arme fast gestreckt sind."
+      ],
+      "mistake": "Schwung aus dem Rücken holen – die Ellbogen bleiben ruhig neben dem Körper.",
+      "images": [
+       "Data/exercises/Dumbbell_Bicep_Curl/0.jpg",
+       "Data/exercises/Dumbbell_Bicep_Curl/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Hammer_Curls",
+       "name": "Hammer-Curls",
+       "nameEn": "Hammer Curls",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Handflächen zeigen zueinander – trifft auch den Oberarmmuskel.",
+       "images": [
+        "Data/exercises/Hammer_Curls/0.jpg"
+       ]
+      },
+      {
+       "id": "Barbell_Curl",
+       "name": "Langhantel-Curls",
+       "nameEn": "Barbell Curl",
+       "home": false,
+       "equipment": "barbell",
+       "tip": "Beide Arme gleichzeitig, mehr Gewicht möglich.",
+       "images": [
+        "Data/exercises/Barbell_Curl/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "trizeps",
+     "label": "Trizeps",
+     "color": "#0ca678",
+     "source": "isa",
+     "patterns": [
+      "triceps brachii",
+      "anconeus"
+     ],
+     "view": "back",
+     "function": "Streckt den Ellbogen – macht rund zwei Drittel des Oberarms aus.",
+     "main": {
+      "id": "Seated_Triceps_Press",
+      "name": "Trizepsdrücken über Kopf",
+      "nameEn": "Seated Triceps Press",
+      "home": true,
+      "equipment": "dumbbell",
+      "steps": [
+       "Aufrecht auf die Bank setzen, eine Kurzhantel mit beiden Händen über dem Kopf.",
+       "Oberarme bleiben senkrecht neben den Ohren.",
+       "Hantel hinter dem Kopf absenken, bis die Unterarme die Bizeps berühren.",
+       "Nur im Ellbogen wieder nach oben strecken."
+      ],
+      "mistake": "Ellbogen gehen weit auseinander – eng neben dem Kopf halten.",
+      "images": [
+       "Data/exercises/Seated_Triceps_Press/0.jpg",
+       "Data/exercises/Seated_Triceps_Press/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Bench_Dips",
+       "name": "Dips an der Bank",
+       "nameEn": "Bench Dips",
+       "home": true,
+       "equipment": "body only",
+       "tip": "Hände auf der Bankkante, Körper nah an der Bank absenken.",
+       "images": [
+        "Data/exercises/Bench_Dips/0.jpg"
+       ]
+      },
+      {
+       "id": "Triceps_Pushdown",
+       "name": "Trizepsdrücken am Kabel",
+       "nameEn": "Triceps Pushdown",
+       "home": false,
+       "equipment": "cable",
+       "tip": "Ellbogen am Körper, nur die Unterarme bewegen.",
+       "images": [
+        "Data/exercises/Triceps_Pushdown/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "unterarme",
+     "label": "Unterarme & Griff",
+     "color": "#74b816",
+     "source": "isa",
+     "patterns": [
+      "brachioradialis",
+      "flexor carpi",
+      "extensor carpi",
+      "flexor digitorum (superficialis|profundus)",
+      "extensor digitorum$"
+     ],
+     "view": "front",
+     "function": "Beugen und strecken Handgelenk und Finger – deine Griffkraft.",
+     "main": {
+      "id": "Farmers_Walk",
+      "name": "Farmer’s Walk",
+      "nameEn": "Farmer's Walk",
+      "home": true,
+      "equipment": "other",
+      "steps": [
+       "Zwei schwere Kurzhanteln aufnehmen, Arme hängen gestreckt.",
+       "Aufrecht stehen, Schultern nach hinten-unten.",
+       "Mit kurzen, kontrollierten Schritten 20–30 m gehen.",
+       "Hanteln kontrolliert absetzen."
+      ],
+      "mistake": "Schultern hängen lassen oder nach vorn rollen – aktiv aufrecht bleiben.",
+      "images": [
+       "Data/exercises/Farmers_Walk/0.jpg",
+       "Data/exercises/Farmers_Walk/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench",
+       "name": "Handgelenk-Curls",
+       "nameEn": "Palms-Up Dumbbell Wrist Curl Over A Bench",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Unterarm auf der Bank, nur das Handgelenk beugen.",
+       "images": [
+        "Data/exercises/Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench/0.jpg"
+       ]
+      },
+      {
+       "id": "Hammer_Curls",
+       "name": "Hammer-Curls",
+       "nameEn": "Hammer Curls",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Trainiert auch den Oberarmspeichenmuskel am Unterarm.",
+       "images": [
+        "Data/exercises/Hammer_Curls/0.jpg"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rumpf",
+   "label": "Rumpf",
+   "groups": [
+    {
+     "id": "geraderbauch",
+     "label": "Gerader Bauchmuskel",
+     "color": "#9c36b5",
+     "source": "v3",
+     "patterns": [
+      "rectus abdominis"
+     ],
+     "view": "front",
+     "function": "Rollt den Oberkörper ein und stabilisiert den Rumpf – das „Sixpack“.",
+     "main": {
+      "id": "Crunches",
+      "name": "Crunches",
+      "nameEn": "Crunches",
+      "home": true,
+      "equipment": "body only",
+      "steps": [
+       "Auf den Rücken legen, Knie gebeugt, Füße am Boden.",
+       "Hände locker an die Schläfen, nicht am Nacken ziehen.",
+       "Schultern einige Zentimeter einrollen, unterer Rücken bleibt am Boden.",
+       "Langsam zurück, Spannung halten."
+      ],
+      "mistake": "Am Kopf ziehen – der Nacken bleibt locker, die Kraft kommt aus dem Bauch.",
+      "images": [
+       "Data/exercises/Crunches/0.jpg",
+       "Data/exercises/Crunches/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Plank",
+       "name": "Unterarmstütz (Plank)",
+       "nameEn": "Plank",
+       "home": true,
+       "equipment": "body only",
+       "tip": "30–60 s halten, Körper gerade wie ein Brett.",
+       "images": [
+        "Data/exercises/Plank/0.jpg"
+       ]
+      },
+      {
+       "id": "Hanging_Leg_Raise",
+       "name": "Hängendes Beinheben",
+       "nameEn": "Hanging Leg Raise",
+       "home": false,
+       "equipment": "body only",
+       "tip": "An der Stange hängen und die Beine kontrolliert anheben.",
+       "images": [
+        "Data/exercises/Hanging_Leg_Raise/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "bauchschraeg",
+     "label": "Schräge Bauchmuskeln",
+     "color": "#be4bdb",
+     "source": "isa",
+     "patterns": [
+      "external oblique"
+     ],
+     "view": "front",
+     "function": "Dreht und neigt den Oberkörper zur Seite – die „Taille“.",
+     "main": {
+      "id": "Russian_Twist",
+      "name": "Russian Twist",
+      "nameEn": "Russian Twist",
+      "home": true,
+      "equipment": "body only",
+      "steps": [
+       "Sitzen, Knie gebeugt, Oberkörper leicht nach hinten lehnen.",
+       "Hände oder eine leichte Kurzhantel vor der Brust.",
+       "Oberkörper abwechselnd nach links und rechts drehen.",
+       "Rücken gerade halten, Bewegung aus der Taille."
+      ],
+      "mistake": "Nur die Arme schwingen – der ganze Oberkörper dreht mit.",
+      "images": [
+       "Data/exercises/Russian_Twist/0.jpg",
+       "Data/exercises/Russian_Twist/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Side_Bridge",
+       "name": "Seitstütz",
+       "nameEn": "Side Bridge",
+       "home": true,
+       "equipment": "body only",
+       "tip": "Auf Unterarm und Fußkante, Hüfte oben halten.",
+       "images": [
+        "Data/exercises/Side_Bridge/0.jpg"
+       ]
+      },
+      {
+       "id": "Oblique_Crunches",
+       "name": "Schräge Crunches",
+       "nameEn": "Oblique Crunches",
+       "home": true,
+       "equipment": "body only",
+       "tip": "Ellbogen Richtung gegenüberliegendes Knie führen.",
+       "images": [
+        "Data/exercises/Oblique_Crunches/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "rueckenstrecker",
+     "label": "Rückenstrecker (unterer Rücken)",
+     "color": "#6741d9",
+     "source": "isa",
+     "patterns": [
+      "iliocostalis",
+      "longissimus thoracis"
+     ],
+     "view": "back",
+     "function": "Richtet die Wirbelsäule auf und hält dich gerade.",
+     "main": {
+      "id": "Hyperextensions_Back_Extensions",
+      "name": "Rückenstrecken (Hyperextensions)",
+      "nameEn": "Hyperextensions (Back Extensions)",
+      "home": false,
+      "equipment": "other",
+      "steps": [
+       "Am Hyperextension-Gerät die Hüfte auf das Polster, Füße fixieren.",
+       "Arme vor der Brust kreuzen.",
+       "Oberkörper mit geradem Rücken absenken.",
+       "Bis zur geraden Linie wieder aufrichten – nicht überstrecken."
+      ],
+      "mistake": "Ins Hohlkreuz überstrecken – oben ist Schluss, wenn der Körper eine Linie bildet.",
+      "images": [
+       "Data/exercises/Hyperextensions_Back_Extensions/0.jpg",
+       "Data/exercises/Hyperextensions_Back_Extensions/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Superman",
+       "name": "Superman",
+       "nameEn": "Superman",
+       "home": true,
+       "equipment": "body only",
+       "tip": "In Bauchlage Arme und Beine gleichzeitig kurz anheben.",
+       "images": [
+        "Data/exercises/Superman/0.jpg"
+       ]
+      },
+      {
+       "id": "Romanian_Deadlift",
+       "name": "Rumänisches Kreuzheben",
+       "nameEn": "Romanian Deadlift",
+       "home": false,
+       "equipment": "barbell",
+       "tip": "Trainiert Rückenstrecker, Gesäß und Beinbeuger gemeinsam.",
+       "images": [
+        "Data/exercises/Romanian_Deadlift/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hueftbeuger",
+     "label": "Hüftbeuger",
+     "color": "#c2255c",
+     "source": "isa",
+     "patterns": [
+      "psoas",
+      "iliacus"
+     ],
+     "view": "front",
+     "function": "Hebt das Bein nach vorn und beugt die Hüfte – wichtig beim Laufen.",
+     "main": {
+      "id": "Flat_Bench_Lying_Leg_Raise",
+      "name": "Beinheben auf der Bank",
+      "nameEn": "Flat Bench Lying Leg Raise",
+      "home": true,
+      "equipment": "body only",
+      "steps": [
+       "Rücklings auf die Bank legen, Hände greifen die Bank hinter dem Kopf.",
+       "Beine fast gestreckt, leicht über der Bank.",
+       "Beine bis etwa senkrecht anheben.",
+       "Langsam absenken, ohne abzulegen."
+      ],
+      "mistake": "Hohlkreuz beim Absenken – unteren Rücken auf die Bank drücken.",
+      "images": [
+       "Data/exercises/Flat_Bench_Lying_Leg_Raise/0.jpg",
+       "Data/exercises/Flat_Bench_Lying_Leg_Raise/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Mountain_Climbers",
+       "name": "Mountain Climbers",
+       "nameEn": "Mountain Climbers",
+       "home": true,
+       "equipment": null,
+       "tip": "Im Liegestütz die Knie abwechselnd zur Brust ziehen.",
+       "images": [
+        "Data/exercises/Mountain_Climbers/0.jpg"
+       ]
+      },
+      {
+       "id": "Flutter_Kicks",
+       "name": "Flutter Kicks",
+       "nameEn": "Flutter Kicks",
+       "home": true,
+       "equipment": "body only",
+       "tip": "Gestreckte Beine knapp über dem Boden auf und ab schlagen.",
+       "images": [
+        "Data/exercises/Flutter_Kicks/0.jpg"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beine",
+   "label": "Beine",
+   "groups": [
+    {
+     "id": "gesaess",
+     "label": "Gesäß",
+     "color": "#e5484d",
+     "source": "isa",
+     "patterns": [
+      "gluteus"
+     ],
+     "view": "back",
+     "function": "Streckt die Hüfte und stabilisiert das Becken – größter Muskel des Körpers.",
+     "main": {
+      "id": "Barbell_Hip_Thrust",
+      "name": "Hip Thrust",
+      "nameEn": "Barbell Hip Thrust",
+      "home": false,
+      "equipment": "barbell",
+      "steps": [
+       "Schulterblätter an die Bankkante lehnen, Langhantel (gepolstert) auf der Hüfte.",
+       "Füße hüftbreit, Knie über den Fersen.",
+       "Hüfte nach oben drücken, bis Oberkörper und Oberschenkel eine Linie bilden.",
+       "Oben das Gesäß kurz fest anspannen, dann absenken."
+      ],
+      "mistake": "Ins Hohlkreuz drücken – Kinn leicht zur Brust, Becken oben leicht einrollen.",
+      "images": [
+       "Data/exercises/Barbell_Hip_Thrust/0.jpg",
+       "Data/exercises/Barbell_Hip_Thrust/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Butt_Lift_Bridge",
+       "name": "Glute Bridge",
+       "nameEn": "Butt Lift (Bridge)",
+       "home": true,
+       "equipment": "body only",
+       "tip": "Wie Hip Thrust, aber am Boden liegend – zuhause mit Kurzhantel auf der Hüfte.",
+       "images": [
+        "Data/exercises/Butt_Lift_Bridge/0.jpg"
+       ]
+      },
+      {
+       "id": "Dumbbell_Lunges",
+       "name": "Kurzhantel-Ausfallschritte",
+       "nameEn": "Dumbbell Lunges",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Großer Schritt nach vorn, hinteres Knie Richtung Boden.",
+       "images": [
+        "Data/exercises/Dumbbell_Lunges/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "quadrizeps",
+     "label": "Quadrizeps (Oberschenkel vorne)",
+     "color": "#f08c00",
+     "source": "isa",
+     "patterns": [
+      "rectus femoris",
+      "vastus"
+     ],
+     "view": "front",
+     "function": "Streckt das Knie – der Hauptmuskel beim Aufstehen, Springen und Treppensteigen.",
+     "main": {
+      "id": "Barbell_Squat",
+      "name": "Kniebeuge",
+      "nameEn": "Barbell Squat",
+      "home": false,
+      "equipment": "barbell",
+      "steps": [
+       "Langhantel auf dem oberen Rücken, Füße etwas breiter als schulterbreit.",
+       "Brust raus, Bauch fest.",
+       "Hüfte nach hinten-unten, Knie zeigen in Richtung Zehen.",
+       "Mindestens bis die Oberschenkel parallel sind, dann kraftvoll hochdrücken."
+      ],
+      "mistake": "Knie fallen nach innen – aktiv nach außen drücken.",
+      "images": [
+       "Data/exercises/Barbell_Squat/0.jpg",
+       "Data/exercises/Barbell_Squat/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Goblet_Squat",
+       "name": "Goblet Squat",
+       "nameEn": "Goblet Squat",
+       "home": true,
+       "equipment": "kettlebells",
+       "tip": "Eine Kurzhantel senkrecht vor der Brust halten – ideal für zuhause.",
+       "images": [
+        "Data/exercises/Goblet_Squat/0.jpg"
+       ]
+      },
+      {
+       "id": "Leg_Press",
+       "name": "Beinpresse",
+       "nameEn": "Leg Press",
+       "home": false,
+       "equipment": "machine",
+       "tip": "Rücken bleibt am Polster, Knie nicht ganz durchstrecken.",
+       "images": [
+        "Data/exercises/Leg_Press/0.jpg"
+       ]
+      },
+      {
+       "id": "Leg_Extensions",
+       "name": "Beinstrecker",
+       "nameEn": "Leg Extensions",
+       "home": false,
+       "equipment": "machine",
+       "tip": "Isoliert den Quadrizeps an der Maschine.",
+       "images": [
+        "Data/exercises/Leg_Extensions/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "beinbeuger",
+     "label": "Beinbeuger (Oberschenkel hinten)",
+     "color": "#d9480f",
+     "source": "isa",
+     "patterns": [
+      "biceps femoris",
+      "semitendinosus",
+      "semimembranosus"
+     ],
+     "view": "back",
+     "function": "Beugt das Knie und streckt die Hüfte – Gegenspieler des Quadrizeps.",
+     "main": {
+      "id": "Romanian_Deadlift",
+      "name": "Rumänisches Kreuzheben",
+      "nameEn": "Romanian Deadlift",
+      "home": false,
+      "equipment": "barbell",
+      "steps": [
+       "Langhantel schulterbreit greifen, Knie leicht gebeugt.",
+       "Hüfte nach hinten schieben, Stange nah an den Beinen nach unten führen.",
+       "Absenken, bis du eine deutliche Dehnung hinten im Oberschenkel spürst.",
+       "Hüfte nach vorn schieben und aufrichten."
+      ],
+      "mistake": "Runder Rücken – der Rücken bleibt die ganze Zeit gerade.",
+      "images": [
+       "Data/exercises/Romanian_Deadlift/0.jpg",
+       "Data/exercises/Romanian_Deadlift/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Stiff-Legged_Dumbbell_Deadlift",
+       "name": "Kreuzheben mit Kurzhanteln",
+       "nameEn": "Stiff-Legged Dumbbell Deadlift",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Gleiche Bewegung mit Kurzhanteln – gut für zuhause.",
+       "images": [
+        "Data/exercises/Stiff-Legged_Dumbbell_Deadlift/0.jpg"
+       ]
+      },
+      {
+       "id": "Lying_Leg_Curls",
+       "name": "Beinbeuger liegend",
+       "nameEn": "Lying Leg Curls",
+       "home": false,
+       "equipment": "machine",
+       "tip": "Isoliert die Beinbeuger an der Maschine.",
+       "images": [
+        "Data/exercises/Lying_Leg_Curls/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "adduktoren",
+     "label": "Adduktoren (Innenschenkel)",
+     "color": "#fab005",
+     "source": "isa",
+     "patterns": [
+      "adductor (longus|brevis|magnus|minimus)",
+      "gracilis",
+      "pectineus"
+     ],
+     "view": "front",
+     "function": "Ziehen die Beine zusammen und stabilisieren Hüfte und Knie.",
+     "main": {
+      "id": "Plie_Dumbbell_Squat",
+      "name": "Sumo-Kniebeuge mit Kurzhantel",
+      "nameEn": "Plie Dumbbell Squat",
+      "home": true,
+      "equipment": "dumbbell",
+      "steps": [
+       "Sehr breiter Stand, Zehen nach außen gedreht.",
+       "Eine Kurzhantel mit beiden Händen zwischen den Beinen halten.",
+       "Gerade nach unten beugen, Knie zeigen über die Zehen.",
+       "Aus den Innenschenkeln wieder hochdrücken."
+      ],
+      "mistake": "Knie fallen nach innen – sie bleiben über den Füßen.",
+      "images": [
+       "Data/exercises/Plie_Dumbbell_Squat/0.jpg",
+       "Data/exercises/Plie_Dumbbell_Squat/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Thigh_Adductor",
+       "name": "Adduktorenmaschine",
+       "nameEn": "Thigh Adductor",
+       "home": false,
+       "equipment": "machine",
+       "tip": "Beine gegen den Widerstand zusammenführen.",
+       "images": [
+        "Data/exercises/Thigh_Adductor/0.jpg"
+       ]
+      },
+      {
+       "id": "Cable_Hip_Adduction",
+       "name": "Adduktion am Kabelzug",
+       "nameEn": "Cable Hip Adduction",
+       "home": false,
+       "equipment": "cable",
+       "tip": "Bein vor dem Standbein vorbei nach innen ziehen.",
+       "images": [
+        "Data/exercises/Cable_Hip_Adduction/0.jpg"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "waden",
+     "label": "Waden",
+     "color": "#e8590c",
+     "source": "isa",
+     "patterns": [
+      "gastrocnemius",
+      "soleus",
+      "plantaris"
+     ],
+     "view": "back",
+     "function": "Hebt die Ferse – dein Absprungmuskel beim Gehen, Laufen und Springen.",
+     "main": {
+      "id": "Standing_Calf_Raises",
+      "name": "Wadenheben stehend",
+      "nameEn": "Standing Calf Raises",
+      "home": false,
+      "equipment": "machine",
+      "steps": [
+       "An der Wadenmaschine die Fußballen auf die Kante stellen.",
+       "Fersen langsam unter die Kante absenken (Dehnung).",
+       "So hoch wie möglich auf die Zehenspitzen drücken.",
+       "Oben kurz halten, langsam zurück."
+      ],
+      "mistake": "Zu schnell wippen – voller Bewegungsumfang bringt mehr.",
+      "images": [
+       "Data/exercises/Standing_Calf_Raises/0.jpg",
+       "Data/exercises/Standing_Calf_Raises/1.jpg"
+      ]
+     },
+     "alternatives": [
+      {
+       "id": "Calf_Raise_On_A_Dumbbell",
+       "name": "Wadenheben auf einer Hantel",
+       "nameEn": "Calf Raise On A Dumbbell",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Fußballen auf einer Hantelscheibe oder Stufe, Kurzhantel in der Hand.",
+       "images": [
+        "Data/exercises/Calf_Raise_On_A_Dumbbell/0.jpg"
+       ]
+      },
+      {
+       "id": "Dumbbell_Seated_One-Leg_Calf_Raise",
+       "name": "Wadenheben sitzend",
+       "nameEn": "Dumbbell Seated One-Leg Calf Raise",
+       "home": true,
+       "equipment": "dumbbell",
+       "tip": "Kurzhantel auf dem Knie – trainiert den tieferen Schollenmuskel.",
+       "images": [
+        "Data/exercises/Dumbbell_Seated_One-Leg_Calf_Raise/0.jpg"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

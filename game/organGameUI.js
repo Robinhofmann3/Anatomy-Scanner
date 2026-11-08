@@ -51,15 +51,20 @@ function actions(...buttons) {
     return row;
 }
 
-export function createGameUI({ onStart, onExit, onModalChange }) {
+export function createGameUI({ onStart, onExit, onModalChange, onAtlas }) {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = new URL('./organGame.css', import.meta.url).href;
     document.head.append(link);
 
-    const startButton = shield(el('button', 'game-start', '🎮 Neues Spiel'));
+    const launcher = shield(el('div', 'game-launch'));
+    const startButton = el('button', 'game-start', '🎮 Neues Spiel');
     startButton.type = 'button';
     startButton.addEventListener('click', onStart);
+    const atlasButton = el('button', 'game-start secondary', '💪 Muskel-Atlas');
+    atlasButton.type = 'button';
+    atlasButton.addEventListener('click', () => onAtlas?.());
+    launcher.append(startButton, atlasButton);
 
     const hud = shield(el('div', 'game-hud'));
     const scoreboard = el('div', 'game-scoreboard');
@@ -80,7 +85,7 @@ export function createGameUI({ onStart, onExit, onModalChange }) {
 
     const credit = el('div', 'game-credit');
     credit.innerHTML = '3D-Modelle: <a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/" target="_blank" rel="noopener">BodyParts3D</a>, © The Database Center for Life Science, <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en" target="_blank" rel="noopener">CC BY-SA 2.1 Japan</a>';
-    document.body.append(startButton, hud, roundCard, tooltip, toast, backdrop, credit);
+    document.body.append(launcher, hud, roundCard, tooltip, toast, backdrop, credit);
 
     let toastTimer;
     function openModal(build) {
@@ -349,7 +354,9 @@ function wheelSvg(games) {
         const x0 = r + r * Math.cos(a0), y0 = r + r * Math.sin(a0);
         const x1 = r + r * Math.cos(a1), y1 = r + r * Math.sin(a1);
         const tx = r + r * 0.62 * Math.cos(mid), ty = r + r * 0.62 * Math.sin(mid);
-        const rot = (mid * 180) / Math.PI + 90;
+        // Text radial ausrichten; in der unteren Hälfte um 180° drehen, damit er lesbar bleibt
+        let rot = (mid * 180) / Math.PI + 90;
+        if (rot > 90 && rot < 270) rot += 180;
         return `<path d="M${r} ${r}L${x0} ${y0}A${r} ${r} 0 0 1 ${x1} ${y1}Z" fill="${g.color}" stroke="#fff" stroke-width="2"/>
             <g transform="translate(${tx} ${ty}) rotate(${rot})">
               <text y="-4" text-anchor="middle" font-size="18">${g.icon}</text>

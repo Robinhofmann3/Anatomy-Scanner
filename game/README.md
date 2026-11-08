@@ -43,11 +43,27 @@ Start über **„🎮 Neues Spiel“** oben links in `Anatomy.html`.
 - `game/modes.js` – die 5 Minispiele
 - `game/organGameUI.js` – HTML-Oberfläche (HUD, Rad, Freundebuch, Quiz, Siegerehrung)
 - `game/organArt.js` – eigene Comic-Organe als SVG
+- `game/muscleAtlas.js` – Muskel-Atlas
 - `game/organGame.css` – Styles
 
 Eingebunden in `Main_all_obj.js` mit einem Import und einem Aufruf von `createOrganGame(...)`.
 In der Browser-Konsole steht alles als `window.organGame` zur Verfügung.
 
+## 💪 Muskel-Atlas
+Zweiter Button oben links. Muskeln nach **Oberkörper · Arme · Rumpf · Beine**, darin 17 Gruppen
+(Brust, Delta, Latissimus, Bizeps, Adduktoren …). Gruppe in der Liste wählen oder direkt einen
+Muskel im 3D-Körper anklicken → Kurzanleitung zur Hauptübung (Start-/Endbild, Schritte,
+typischer Fehler) und Alternativen, jeweils markiert mit 🏠 Zuhause oder 🏋️ Gym. Die Kamera
+dreht automatisch auf die Seite, auf der der Muskel liegt.
+Inhalte: `Data/muscle-atlas.json` · Bilder: `Data/exercises/` aus der
+[Free Exercise DB](https://github.com/yuhonas/free-exercise-db) (Public Domain).
+
+## Ergänzung aus BodyParts3D 3.0
+BodyParts3D 4.0 fehlen Lungengewebe, Latissimus und gerader Bauchmuskel. Diese 9 Teile liegen
+vereinfacht in `Data/bp3d_v3_ergaenzung/` (gleicher Körper, gleiches Koordinatensystem;
+erzeugt mit `python tools/build_v3_supplement.py`). Lilys Katalog bleibt unverändert.
+
 ## Lizenz der 3D-Modelle
 BodyParts3D, © The Database Center for Life Science, CC BY-SA 2.1 Japan – der Hinweis
-steht unten links in der App.
+steht unten links in der App. Übungsbilder: Free Exercise DB, Public Domain (Unlicense).
+

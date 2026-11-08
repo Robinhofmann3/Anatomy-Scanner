@@ -104,12 +104,23 @@ export function createStage({ scene, camera, controls, canvas, catalog, viewerGr
         });
     }
 
+    // Ergänzung aus BodyParts3D 3.0 (Lungenlappen, Latissimus, gerader Bauchmuskel)
+    let supplementPromise = null;
+    function loadSupplement() {
+        supplementPromise ||= fetch(new URL('../Data/bp3d_v3_ergaenzung/ergaenzung.json', import.meta.url))
+            .then(r => (r.ok ? r.json() : { models: [] }))
+            .then(data => data.models)
+            .catch(() => []);
+        return supplementPromise;
+    }
+
     async function build(onProgress) {
-        const [hierarchy, portfolio] = await Promise.all([
+        const [hierarchy, portfolio, supplement] = await Promise.all([
             fetch(new URL('../Data/organ-hierarchy.json', import.meta.url)).then(r => r.json()),
             fetch(new URL('../Data/organ-portfolio.json', import.meta.url)).then(r => r.json()),
+            loadSupplement(),
         ]);
-        const records = new Map(catalog.models.map(m => [m.key, m]));
+        const records = new Map([...catalog.models, ...supplement].map(m => [m.key, m]));
         const portfolioByLod3 = new Map();
         for (const entry of portfolio.organs) for (const id of entry.lod3Ids) portfolioByLod3.set(id, entry);
         const gameNodes = hierarchy.nodes.filter(n => n.level === 3 && n.game && portfolioByLod3.has(n.id));
@@ -174,7 +185,7 @@ export function createStage({ scene, camera, controls, canvas, catalog, viewerGr
             const placeholder = new THREE.Mesh(placeholderGeo, new THREE.MeshStandardMaterial({
                 color: 0x7fd3ff, emissive: 0x2a8fd0, emissiveIntensity: 0.6,
                 transparent: true, opacity: 0.55, depthWrite: false }));
-            const radius = THREE.MathUtils.clamp(Math.max(size.x, size.y, size.z) * 0.22, 0.35, 1.0);
+            const radius = THREE.MathUtils.clamp(Math.max(size.x, size.y, size.z) * 0.22, 0.5, 1.0);
             placeholder.userData.baseScale = radius;
             placeholder.position.copy(target);
             placeholder.renderOrder = 3;
@@ -330,7 +341,7 @@ export function createStage({ scene, camera, controls, canvas, catalog, viewerGr
     const stage = {
         active: false,
         blocked: false,         // true, solange ein Dialog offen ist
-        organs, root, camera, controls, canvas, magnifier,
+        organs, root, camera, controls, canvas, magnifier, catalog,
         ensureLoaded(onProgress) {
             if (!loading) loading = build(onProgress).catch(error => { loading = null; throw error; });
             return loading;
@@ -371,6 +382,7 @@ export function createStage({ scene, camera, controls, canvas, catalog, viewerGr
             hideAll();
         },
         tween, screenPos, pick, pointOnPlane, setPointer, hideAll, placeInBody, putInTray, frontView, setView,
+        loadParts, modelSpace, loadSupplement,
     };
     return stage;
 }

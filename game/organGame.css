@@ -4,14 +4,17 @@
 body.game-active .category-panel,
 body.game-active #magnifier-controls { display: none !important; }
 
+.game-launch { position: fixed; top: 12px; left: 12px; z-index: 30; display: flex; gap: 8px; }
+body.game-active .game-launch { display: none; }
 .game-start {
-    position: fixed; top: 12px; left: 12px; z-index: 30;
     padding: 10px 16px; border: 0; border-radius: 12px; cursor: pointer;
     background: #2462c5; color: #fff; font: 600 15px/1.2 system-ui, sans-serif;
     box-shadow: 0 6px 24px #0003;
 }
 .game-start:hover { background: #1b4f9f; }
-body.game-active .game-start { display: none; }
+.game-start.secondary { background: #fff; color: #18212d; border: 1px solid #c3cbd6; }
+.game-start.secondary:hover { background: #eef2f7; }
+body.atlas-active .game-hud { display: none; }
 
 .game-hud {
     position: fixed; top: 12px; left: 12px; z-index: 30; display: none; flex-wrap: wrap;
@@ -164,3 +167,44 @@ body.game-active .game-hud { display: flex; }
 }
 .game-credit a { color: inherit; }
 @media (max-width: 650px) { .game-credit { bottom: 62px; } }
+
+/* 💪 Muskel-Atlas */
+.atlas-panel {
+    position: fixed; top: 12px; right: 12px; z-index: 30; display: none;
+    box-sizing: border-box; width: min(400px, calc(100vw - 24px)); max-height: calc(100dvh - 90px); overflow: auto;
+    padding: 14px 16px; background: rgba(255,255,255,.98); color: #18212d; border: 1px solid #d7dce3;
+    border-radius: 12px; box-shadow: 0 6px 24px #0002; font: 14px/1.45 system-ui, sans-serif;
+}
+body.atlas-active .atlas-panel { display: block; }
+.atlas-panel button {
+    padding: 6px 10px; border: 1px solid #c3cbd6; border-radius: 8px; background: #f2f5f8;
+    color: inherit; cursor: pointer; font: inherit;
+}
+.atlas-head { display: flex; align-items: center; justify-content: space-between; }
+.atlas-head h2 { margin: 0; font-size: 18px; }
+.atlas-tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin: 10px 0 8px; }
+.atlas-tabs button[aria-pressed="true"] { background: #18212d; border-color: #18212d; color: #fff; }
+.atlas-groups { display: flex; flex-wrap: wrap; gap: 6px; }
+.atlas-groups button { border-left: 5px solid var(--group); }
+.atlas-groups button[aria-pressed="true"] { background: var(--group); border-color: var(--group); color: #fff; font-weight: 600; }
+.atlas-hint { color: #596779; margin: 12px 0 4px; }
+.atlas-card { margin-top: 12px; padding-top: 10px; border-top: 4px solid var(--group); }
+.atlas-card h3 { margin: 0; font-size: 18px; }
+.atlas-card h4 { margin: 14px 0 6px; font-size: 15px; }
+.atlas-function { margin: 4px 0 10px; color: #3c4a5c; }
+.atlas-ex-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.atlas-badge { font-size: 12px; padding: 1px 8px; border-radius: 999px; white-space: nowrap; }
+.atlas-badge.home { background: #e6f6ec; color: #1d6b3f; }
+.atlas-badge.gym { background: #e8eefc; color: #23468f; }
+.atlas-pics { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin: 8px 0; }
+.atlas-pics img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; background: #f2f5f8; }
+.atlas-steps { margin: 6px 0; padding-left: 20px; }
+.atlas-steps li + li { margin-top: 3px; }
+.atlas-mistake { margin: 8px 0 0; padding: 8px 10px; border-radius: 8px; background: #fff4e5; color: #7a4a00; }
+.atlas-alts { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.atlas-alts li { display: grid; grid-template-columns: 72px 1fr; gap: 10px; align-items: center; }
+.atlas-alts img { width: 72px; height: 54px; object-fit: cover; border-radius: 6px; background: #f2f5f8; }
+.atlas-alt-name { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.atlas-view { display: flex; gap: 6px; margin: 14px 0 8px; }
+.atlas-credit { display: block; color: #596779; font-size: 11px; }
+@media (max-width: 650px) { .atlas-panel { top: auto; bottom: 70px; max-height: 50dvh; } }

@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / 'Data' / 'anatomy-catalog.json'
+SUPPLEMENT = ROOT / 'Data' / 'bp3d_v3_ergaenzung' / 'ergaenzung.json'   # Lungenlappen aus BP3D 3.0
 OUT = ROOT / 'Data' / 'organ-hierarchy.json'
 
 LOD1 = [
@@ -80,8 +81,8 @@ ORGANS = {
     ],
     'organe.atmung': [
         ('luftroehre', 'Luftröhre', r'^trachea$', False),
-        ('lunge_links', 'Linke Lunge (Bronchialbaum)', r'^left .*bronch|lingular', True),
-        ('lunge_rechts', 'Rechte Lunge (Bronchialbaum)', r'^right .*bronch|^(medial|lateral) segmental bronchial', True),
+        ('lunge_links', 'Linke Lunge', r'^left .*bronch|lingular|lobe of left lung', True),
+        ('lunge_rechts', 'Rechte Lunge', r'^right .*bronch|^(medial|lateral) segmental bronchial|lobe of right lung', True),
         ('nase', 'Nase (Knorpel)', r'alar cartilage|nasal cartilage', False),
     ],
     'organe.verdauung': [
@@ -147,6 +148,10 @@ def lod2_for(model):
 def build():
     catalog = json.loads(CATALOG.read_text(encoding='utf-8'))
     models = [m for m in catalog['models'] if m['source'] == catalog['defaultSource']]
+    # Ergänzung aus BP3D 3.0: nur Organe (Lungenlappen); die Muskeln nutzt der Muskel-Atlas direkt
+    if SUPPLEMENT.exists():
+        extra = json.loads(SUPPLEMENT.read_text(encoding='utf-8'))['models']
+        models += [m for m in extra if m['categoryId'].startswith('organs')]
 
     lod3 = OrderedDict()   # id -> node
     for model in models:

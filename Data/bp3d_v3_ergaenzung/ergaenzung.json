@@ -1,0 +1,87 @@
+{
+ "description": "Ergänzung aus BodyParts3D 3.0 (fehlt in 4.0): Lungenlappen, Latissimus, gerader Bauchmuskel. Gleiches Koordinatensystem wie BodyParts3D 4.0.",
+ "license": "BodyParts3D, (c) The Database Center for Life Science, CC BY-SA 2.1 Japan",
+ "models": [
+  {
+   "key": "v3:FMA7333",
+   "source": "v3",
+   "fileId": "FMA7333",
+   "conceptId": "FMA7333",
+   "nameEn": "Upper lobe of right lung",
+   "path": "./Data/bp3d_v3_ergaenzung/FMA7333.obj",
+   "categoryId": "organs.respiratory"
+  },
+  {
+   "key": "v3:FMA7383",
+   "source": "v3",
+   "fileId": "FMA7383",
+   "conceptId": "FMA7383",
+   "nameEn": "Middle lobe of right lung",
+   "path": "./Data/bp3d_v3_ergaenzung/FMA7383.obj",
+   "categoryId": "organs.respiratory"
+  },
+  {
+   "key": "v3:FMA7337",
+   "source": "v3",
+   "fileId": "FMA7337",
+   "conceptId": "FMA7337",
+   "nameEn": "Lower lobe of right lung",
+   "path": "./Data/bp3d_v3_ergaenzung/FMA7337.obj",
+   "categoryId": "organs.respiratory"
+  },
+  {
+   "key": "v3:FMA7370",
+   "source": "v3",
+   "fileId": "FMA7370",
+   "conceptId": "FMA7370",
+   "nameEn": "Upper lobe of left lung",
+   "path": "./Data/bp3d_v3_ergaenzung/FMA7370.obj",
+   "categoryId": "organs.respiratory"
+  },
+  {
+   "key": "v3:FMA7371",
+   "source": "v3",
+   "fileId": "FMA7371",
+   "conceptId": "FMA7371",
+   "nameEn": "Lower lobe of left lung",
+   "path": "./Data/bp3d_v3_ergaenzung/FMA7371.obj",
+   "categoryId": "organs.respiratory"
+  },
+  {
+   "key": "v3:FMA13358",
+   "source": "v3",
+   "fileId": "FMA13358",
+   "conceptId": "FMA13358",
+   "nameEn": "Right latissimus dorsi",
+   "path": "./Data/bp3d_v3_ergaenzung/FMA13358.obj",
+   "categoryId": "muscles"
+  },
+  {
+   "key": "v3:FMA13359",
+   "source": "v3",
+   "fileId": "FMA13359",
+   "conceptId": "FMA13359",
+   "nameEn": "Left latissimus dorsi",
+   "path": "./Data/bp3d_v3_ergaenzung/FMA13359.obj",
+   "categoryId": "muscles"
+  },
+  {
+   "key": "v3:FMA13377",
+   "source": "v3",
+   "fileId": "FMA13377",
+   "conceptId": "FMA13377",
+   "nameEn": "Right rectus abdominis",
+   "path": "./Data/bp3d_v3_ergaenzung/FMA13377.obj",
+   "categoryId": "muscles"
+  },
+  {
+   "key": "v3:FMA13378",
+   "source": "v3",
+   "fileId": "FMA13378",
+   "conceptId": "FMA13378",
+   "nameEn": "Left rectus abdominis",
+   "path": "./Data/bp3d_v3_ergaenzung/FMA13378.obj",
+   "categoryId": "muscles"
+  }
+ ]
+}

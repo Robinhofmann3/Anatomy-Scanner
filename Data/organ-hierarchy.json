@@ -2995,7 +2995,7 @@
    "id": "organe.atmung.lunge_links",
    "level": 3,
    "parentId": "organe.atmung",
-   "label": "Linke Lunge (Bronchialbaum)",
+   "label": "Linke Lunge",
    "curated": true,
    "game": true,
    "modelKeys": [
@@ -3044,14 +3044,16 @@
     "partof:FJ2536",
     "partof:FJ2537",
     "partof:FJ2538",
-    "partof:FJ2540"
+    "partof:FJ2540",
+    "v3:FMA7370",
+    "v3:FMA7371"
    ]
   },
   {
    "id": "organe.atmung.lunge_rechts",
    "level": 3,
    "parentId": "organe.atmung",
-   "label": "Rechte Lunge (Bronchialbaum)",
+   "label": "Rechte Lunge",
    "curated": true,
    "game": true,
    "modelKeys": [
@@ -3108,7 +3110,10 @@
     "partof:FJ2524",
     "partof:FJ2525",
     "partof:FJ2526",
-    "partof:FJ2539"
+    "partof:FJ2539",
+    "v3:FMA7333",
+    "v3:FMA7383",
+    "v3:FMA7337"
    ]
   },
   {

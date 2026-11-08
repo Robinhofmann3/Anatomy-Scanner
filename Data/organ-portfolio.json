@@ -113,7 +113,7 @@
     "organe.atmung.lunge_rechts"
    ],
    "name": "Lunge",
-   "hinweisModell": "Im 3D-Modell ist die Lunge als Bronchialbaum (Atemwege) dargestellt.",
+   "hinweisModell": "Die Lungenlappen stammen aus BodyParts3D 3.0, die Atemwege (Bronchialbaum) aus Version 4.0.",
    "freundebuch": {
     "spitzname": "Die Zwillinge Links & Rechts",
     "wohnort": "Brustkorb, rechts und links vom Herzen",

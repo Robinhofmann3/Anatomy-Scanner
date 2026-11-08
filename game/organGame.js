@@ -6,6 +6,7 @@
 import { createStage } from './stage.js';
 import { GAMES } from './modes.js';
 import { createGameUI } from './organGameUI.js';
+import { createMuscleAtlas } from './muscleAtlas.js';
 
 export function createOrganGame({ scene, camera, controls, canvas, catalog, viewerGroup, magnifier, hideDuringGame = [] }) {
     const stage = createStage({
@@ -16,7 +17,9 @@ export function createOrganGame({ scene, camera, controls, canvas, catalog, view
         onStart: () => newGame(),
         onExit: () => exitGame(),
         onModalChange: open => { stage.blocked = open; },
+        onAtlas: () => atlas.open(),
     });
+    const atlas = createMuscleAtlas({ stage, ui });
     let session = null;
     let progress = null;
 
