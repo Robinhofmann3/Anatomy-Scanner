@@ -11,6 +11,7 @@ import {
 } from './objects_all_obj_organs.js';
 import { loadAnatomyCatalog } from './anatomyCatalog.js';
 import { createCategoryPanel } from './categoryPanel.js';
+import { createOrganGame } from './game/organGame.js';
 
 
 // ========================================
@@ -160,6 +161,14 @@ const cutout = {
         // Refresh once the panel reference exists (initial selection is synchronous).
         panel.setProgress(latestProgress);
         loadingLabel.remove();
+
+        // Organ-Puzzle (eigener Spielmodus, siehe game/organGame.js)
+        window.organGame = createOrganGame({
+            scene, camera, controls, catalog,
+            canvas: renderer.domElement,
+            viewerGroup: models.group,
+            hideDuringGame: [ring],
+        });
     }).catch(error => {
         loadingLabel.textContent = 'Kategorien konnten nicht geladen werden. Bitte Seite neu laden.';
         console.error(error);

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* Während des Spiels die Scanner-Bedienelemente ausblenden */
+body.game-active .category-panel,
+body.game-active #magnifier-controls { display: none !important; }
+
+.game-start {
+    position: fixed; top: 12px; left: 12px; z-index: 30;
+    padding: 10px 16px; border: 0; border-radius: 12px; cursor: pointer;
+    background: #2462c5; color: #fff; font: 600 15px/1.2 system-ui, sans-serif;
+    box-shadow: 0 6px 24px #0003;
+}
+.game-start:hover { background: #1b4f9f; }
+body.game-active .game-start { display: none; }
+
+.game-hud {
+    position: fixed; top: 12px; left: 12px; z-index: 30; display: none;
+    align-items: center; gap: 14px; padding: 8px 10px 8px 16px;
+    background: rgba(255,255,255,.96); color: #18212d; border: 1px solid #d7dce3;
+    border-radius: 12px; box-shadow: 0 6px 24px #0002; font: 14px/1.4 system-ui, sans-serif;
+}
+body.game-active .game-hud { display: flex; }
+.game-hud strong { font-size: 15px; }
+.game-hud .game-stat { font-variant-numeric: tabular-nums; color: #3c4a5c; }
+.game-hud button, .game-modal button {
+    padding: 7px 14px; border: 1px solid #b4bdc9; border-radius: 8px;
+    background: #f2f5f8; color: inherit; cursor: pointer; font: inherit;
+}
+.game-hud button:hover, .game-modal button:hover { background: #e4eaf1; }
+
+.game-tooltip {
+    position: fixed; z-index: 35; pointer-events: none; display: none;
+    padding: 4px 10px; border-radius: 8px; background: #18212d; color: #fff;
+    font: 600 13px/1.4 system-ui, sans-serif; transform: translate(14px, 14px);
+}
+
+.game-toast {
+    position: fixed; left: 50%; bottom: 70px; z-index: 40; transform: translateX(-50%);
+    padding: 10px 18px; border-radius: 10px; background: #18212d; color: #fff;
+    font: 15px/1.4 system-ui, sans-serif; opacity: 0; transition: opacity .25s;
+    pointer-events: none; max-width: min(520px, calc(100vw - 32px)); text-align: center;
+}
+.game-toast.show { opacity: 1; }
+.game-toast.good { background: #1d7a46; }
+.game-toast.bad { background: #b3343a; }
+
+.game-backdrop {
+    position: fixed; inset: 0; z-index: 50; display: none; place-items: center;
+    background: rgba(16, 24, 36, .45); padding: 16px;
+}
+.game-backdrop.open { display: grid; }
+.game-modal {
+    box-sizing: border-box; width: min(560px, 100%); max-height: calc(100dvh - 32px); overflow: auto;
+    background: #fff; color: #18212d; border-radius: 16px; padding: 22px 24px;
+    box-shadow: 0 20px 60px #0005; font: 15px/1.5 system-ui, sans-serif;
+}
+.game-modal h2 { margin: 0 0 8px; font-size: 22px; }
+.game-modal p { margin: 6px 0; }
+.game-modal .game-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 16px; flex-wrap: wrap; }
+.game-modal .primary { background: #2462c5; border-color: #2462c5; color: #fff; }
+.game-modal .primary:hover { background: #1b4f9f; }
+
+/* Freundebuch-Seite */
+.friendbook {
+    font-family: 'Patrick Hand', 'Comic Sans MS', cursive; font-size: 19px; line-height: 1.35;
+    background: repeating-linear-gradient(#fffdf6 0 31px, #d9e6f5 31px 32px);
+    border: 2px solid #f0dfb0; border-radius: 12px; padding: 14px 18px;
+}
+.friendbook-head { display: flex; gap: 14px; align-items: center; margin-bottom: 8px; }
+.friendbook-head .organ-art { width: 104px; height: 104px; flex: none; filter: drop-shadow(0 3px 4px #0002); }
+.friendbook-head h2 { font-family: inherit; font-size: 32px; margin: 0; }
+.friendbook-head small { display: block; font-size: 17px; color: #6b5a2e; }
+.friendbook dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; margin: 0; }
+.friendbook dt { color: #8a6d1f; }
+.friendbook dd { margin: 0; }
+.friendbook .model-note { font-size: 15px; color: #6b7684; margin-top: 8px; }
+@media (max-width: 520px) {
+    .friendbook dl { grid-template-columns: 1fr; }
+    .friendbook dt { margin-top: 6px; }
+}
+
+/* Quiz */
+.quiz-progress { font-size: 13px; color: #596779; text-transform: uppercase; letter-spacing: .04em; }
+.quiz-question { font-size: 18px; font-weight: 600; margin: 6px 0 12px; }
+.quiz-answers { display: grid; gap: 8px; }
+.quiz-answers button { text-align: left; padding: 10px 14px; font-size: 15px; }
+.quiz-answers button.correct { background: #dff3e6; border-color: #2f9a5b; color: #135c33; }
+.quiz-answers button.wrong { background: #fbe3e4; border-color: #c2414a; color: #8a1f26; }
+.quiz-answers button:disabled { cursor: default; }
+.quiz-explain { margin-top: 12px; padding: 10px 12px; border-radius: 10px; background: #f2f5f8; }
+.score-big { font-size: 40px; font-weight: 700; color: #2462c5; margin: 4px 0; }
